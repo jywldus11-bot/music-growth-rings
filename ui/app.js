@@ -20,7 +20,7 @@ const state = {
   calendar: null
 };
 
-const DATA_BASE = '../data'; // 相对 src/index.html 解析
+const DATA_BASE = new URL('../data', import.meta.url).pathname; // 按脚本位置动态解析，兼容本地根目录与 GitHub Pages 子路径
 
 // ---------- 数据加载 ----------
 async function loadJson(path) {
