@@ -1,0 +1,139 @@
+{
+  "artist_id": "bigbang",
+  "artist_name": "BIGBANG",
+  "type": "group",
+  "version": "0.3.0-demo",
+  "note": "Demo预核对版：公开硬事实已置verified=true（供体验），演唱会条目待官方核实仍为false。正式提交前团队须按TASKS.md Phase 0复核。",
+  "milestones": [
+    {
+      "year": 2006,
+      "month": 8,
+      "event": "BIGBANG 正式出道",
+      "detail": "2006年8月19日于首尔奥林匹克体操竞技场 YG Family 十周年演唱会正式出道",
+      "song": null,
+      "weight": "high",
+      "verified": true
+    },
+    {
+      "year": 2007,
+      "month": 8,
+      "event": "《谎言》发行",
+      "detail": "2007年8月16日随迷你专辑《Always》发行，成为组合突破性单曲",
+      "song": "Lies",
+      "weight": "high",
+      "verified": true,
+      "lyric": "I'm so sorry but I love you"
+    },
+    {
+      "year": 2008,
+      "month": 8,
+      "event": "《一天一天》发行",
+      "detail": "2008年8月8日随迷你专辑《Stand Up》发行（韩文曲名 하루하루）",
+      "song": "Haru Haru",
+      "weight": "medium",
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "month": 8,
+      "event": "G-Dragon 个人专辑《Heartbreaker》",
+      "detail": "成员个人作品，按附录B不进入生成白名单",
+      "song": "Heartbreaker",
+      "weight": "low",
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "month": 2,
+      "event": "迷你专辑《Tonight》发行",
+      "detail": "2011年2月24日发行；同年11月6日获 MTV EMA Best Worldwide Act",
+      "song": "Tonight",
+      "weight": "high",
+      "verified": true
+    },
+    {
+      "year": 2012,
+      "month": 2,
+      "event": "专辑《Alive》发行·Alive Galaxy Tour",
+      "detail": "韩国版2012年2月29日发行，收录《Fantastic Baby》；同年展开大型世界巡演 Alive Galaxy Tour",
+      "song": "Fantastic Baby",
+      "weight": "high",
+      "verified": true,
+      "lyric": "Wow, Fantastic Baby"
+    },
+    {
+      "year": 2013,
+      "month": 9,
+      "event": "G-Dragon 个人专辑《COUP D'ETAT》",
+      "detail": "成员个人作品，按附录B不进入生成白名单",
+      "song": "Crooked",
+      "weight": "low",
+      "verified": true
+    },
+    {
+      "year": 2014,
+      "month": 6,
+      "event": "太阳个人主打《Eyes, Nose, Lips》",
+      "detail": "成员个人作品，按附录B不进入生成白名单",
+      "song": "Eyes, Nose, Lips",
+      "weight": "low",
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "month": 5,
+      "event": "MADE 系列单曲企划·世界巡演",
+      "detail": "2015年4–7月按 M/A/D/E 逐月发行单曲，《BANG BANG BANG》随 A 系列于5月发行；同年启动 MADE World Tour",
+      "song": "BANG BANG BANG",
+      "weight": "high",
+      "verified": true
+    },
+    {
+      "year": 2016,
+      "month": 12,
+      "event": "出道十周年·正规专辑《MADE》发行",
+      "detail": "完整版专辑于2016年12月发行，收录《FXXK IT》等",
+      "song": "FXXK IT",
+      "weight": "medium",
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "month": 1,
+      "event": "空白期开始",
+      "detail": "叙事留白：禁止解释原因，只用留白模板",
+      "song": null,
+      "weight": "medium",
+      "type": "gap",
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "month": 12,
+      "event": "空白期结束",
+      "detail": "叙事留白处理",
+      "song": null,
+      "weight": "medium",
+      "type": "gap",
+      "verified": true
+    },
+    {
+      "year": 2022,
+      "month": 4,
+      "event": "单曲《Still Life》发行",
+      "detail": "2022年4月5日发行。不作「完整体」表述",
+      "song": "Still Life",
+      "weight": "high",
+      "verified": true
+    },
+    {
+      "year": 2026,
+      "month": 11,
+      "event": "世界巡演〈XX : COSMOS〉香港站",
+      "detail": "YG Entertainment 公告：2026年11月13–15日启德体育园，后加场11月17日",
+      "song": null,
+      "weight": "medium",
+      "verified": false
+    }
+  ]
+}
