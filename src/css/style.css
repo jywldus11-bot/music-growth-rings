@@ -1,0 +1,186 @@
+/* 音乐年轮 · 原型样式（浅色，评审环境友好） */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #F7F5F0;
+  color: #2C2C2A;
+  min-height: 100vh;
+}
+.screen { display: none; max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+.screen.active { display: block; }
+
+/* ---- 输入页 ---- */
+.hero { text-align: center; padding: 24px 0 8px; }
+.hero h1 { font-size: 34px; font-weight: 600; letter-spacing: 4px; }
+.subtitle { color: #888780; margin-top: 8px; font-size: 14px; }
+.hero-badge {
+  display: inline-block; font-size: 11px; color: #854F0B; background: #FAEEDA;
+  border: 1px solid #FAC775; border-radius: 20px; padding: 3px 12px; margin-bottom: 14px;
+}
+.panel {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 16px;
+  padding: 28px 24px; margin-top: 24px;
+}
+.label { font-size: 14px; font-weight: 500; color: #444441; display: block; margin-bottom: 10px; }
+.year-select {
+  width: 100%; padding: 12px; font-size: 16px; border: 1px solid #D3D1C7;
+  border-radius: 10px; background: #fff; color: #2C2C2A;
+}
+.birth-row { display: flex; gap: 10px; }
+.date-select {
+  flex: 1; min-width: 0; padding: 12px 10px; font-size: 16px;
+  border: 1px solid #D3D1C7; border-radius: 10px; background: #fff; color: #2C2C2A;
+}
+.date-note { font-size: 12px; color: #888780; margin-top: 8px; }
+.artist-row { display: flex; gap: 12px; }
+.artist-card {
+  flex: 1; border: 2px solid #E5E2D8; border-radius: 12px; padding: 18px 12px;
+  text-align: center; cursor: pointer; transition: all .15s; background: #fff;
+}
+.artist-card.selected { border-color: #BA7517; background: #FAEEDA; }
+.artist-name { font-size: 18px; font-weight: 600; }
+.artist-desc { font-size: 12px; color: #888780; margin-top: 6px; }
+.btn-primary {
+  width: 100%; margin-top: 28px; padding: 15px; font-size: 16px; border: none;
+  border-radius: 12px; background: #2C2C2A; color: #F7F5F0; cursor: pointer; font-weight: 500;
+}
+.btn-primary:active { opacity: .85; }
+.btn-ghost {
+  width: 100%; margin-top: 12px; padding: 10px; font-size: 13px; border: 1px solid #D3D1C7;
+  border-radius: 10px; background: transparent; color: #888780; cursor: pointer;
+}
+.demo-note { font-size: 11px; color: #B4B2A9; margin-top: 16px; line-height: 1.6; }
+
+/* ---- 等待页 ---- */
+.loading-wrap { text-align: center; padding-top: 30vh; }
+.loading-ring {
+  width: 120px; height: 120px; margin: 0 auto; border-radius: 50%;
+  border: 3px solid #E5E2D8; border-top-color: #BA7517;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { margin-top: 24px; color: #888780; }
+
+/* ---- 叙事页（v3）基础 ---- */
+.ring-box { background: #fff; border: 1px solid #E5E2D8; border-radius: 16px; padding: 8px; }
+.ring-svg { width: 100%; height: auto; display: block; }
+/* ---- 年轮生长动画（v2） ---- */
+.ring-yr { opacity: 0; transition: opacity .55s ease; }
+.ring-yr.grown { opacity: 1; }
+.ring-node circle { transition: r .15s; }
+.ring-node:hover circle { fill: #854F0B; }
+
+/* ---- 黑胶唱片 ---- */
+.album-disc { width: 96px; height: 96px; display: block; filter: drop-shadow(0 2px 4px rgba(44,44,42,.18)); }
+.album-disc.spin { animation: discspin 9s linear infinite; }
+@keyframes discspin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .album-disc.spin { animation: none; } }
+
+/* ---- 叙事页（v3 布局：双轨时间轴 · 我的音乐人生 × 他的音乐人生） ---- */
+.link-ghost {
+  display: block; width: 100%; margin-top: 10px; padding: 0; font-size: 12px;
+  border: none; background: none; color: #888780; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.tl-header {
+  display: flex; align-items: center; gap: 18px;
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 16px; padding: 14px 18px;
+}
+.tl-header-ring { width: 132px; flex-shrink: 0; }
+.tl-header-side { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.tl-badge {
+  font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 8px;
+}
+.tl-badge.me { background: #FAEEDA; color: #854F0B; border: 1px solid #FAC775; }
+.tl-badge.him { background: #E8F0FA; color: #185FA5; border: 1px solid #B7D3F0; }
+.tl-hint { font-size: 11px; color: #B4B2A9; }
+
+.timeline { margin-top: 16px; display: flex; flex-direction: column; }
+.tl-row {
+  display: grid; grid-template-columns: 56px 1fr 1fr; gap: 10px;
+  padding: 14px 0; border-bottom: 1px dashed #E5E2D8;
+  opacity: 0; transform: translateY(14px); transition: all .45s ease;
+}
+.tl-row.vis { opacity: 1; transform: none; }
+.tl-row.now .tl-spine .tl-year { color: #BA7517; }
+.tl-spine { text-align: center; padding-top: 4px; }
+.tl-year { font-weight: 700; color: #5F5E5A; font-size: 15px; line-height: 1.2; }
+.tl-age { font-size: 11px; color: #888780; margin-top: 2px; }
+.tl-cell {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 12px;
+  padding: 12px 14px; font-size: 14px; line-height: 1.7; min-width: 0;
+}
+.tl-cell.me { border-top: 3px solid #BA7517; background: #FFFDF6; }
+.tl-cell.him { border-top: 3px solid #185FA5; background: #F8FAFD; }
+.tl-cell.him.gap { border-top-color: #9AA0A6; background: #F7F7F5; }
+.tl-cell.only { grid-column: 2 / -1; }
+.tl-cell.band { grid-column: 2 / -1; background: #F1EFE8; border-style: dashed; }
+.tl-chip {
+  display: inline-block; font-size: 10px; font-weight: 600; border-radius: 5px;
+  padding: 2px 7px; margin-bottom: 8px; background: rgba(0,0,0,.05); color: #888780;
+}
+.tl-cell.me .tl-chip { background: #FAEEDA; color: #854F0B; }
+.tl-cell.him .tl-chip { background: #E8F0FA; color: #185FA5; }
+.tl-join-flag {
+  font-size: 11px; color: #993C1D; background: #FBEDE6; border-radius: 6px;
+  padding: 3px 8px; display: inline-block; margin-bottom: 6px;
+}
+.tl-song { font-size: 16px; font-weight: 700; color: #2C2C2A; }
+.tl-plays { font-size: 12px; color: #888780; font-weight: 400; margin-left: 8px; }
+.tl-lyric { color: #993C1D; font-size: 13px; margin-top: 6px; line-height: 1.6; }
+.tl-insight {
+  color: #5F5E5A; font-size: 13px; margin-top: 8px; line-height: 1.65;
+  border-top: 1px dashed #EDEBE4; padding-top: 8px;
+}
+.tl-him-text { color: #2C2C2A; }
+.tl-me-text { color: #2C2C2A; }
+#btn-tl-done { margin-top: 24px; }
+
+@media (max-width: 560px) {
+  .tl-row { grid-template-columns: 46px 1fr; }
+  .tl-cell.only, .tl-cell.band { grid-column: 2 / -1; }
+  .tl-cell:not(.only):not(.band) { grid-column: 2; }
+  .tl-header { flex-direction: column; text-align: center; }
+  .tl-header-side { align-items: center; }
+}
+
+/* ---- 结尾页 ---- */
+.ending-wrap { text-align: center; }
+.ending-title { font-size: 24px; margin-top: 12px; }
+.ending-sub { font-size: 12px; color: #888780; margin-top: 8px; }
+.ending-quote {
+  font-size: 20px; line-height: 1.8; margin: 28px auto; max-width: 480px; color: #2C2C2A;
+}
+.ring-box.small { max-width: 420px; margin: 0 auto; }
+.ending-cards { display: flex; flex-direction: column; gap: 12px; max-width: 480px; margin: 24px auto; }
+.card {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 12px;
+  padding: 16px 18px; text-align: left;
+}
+.card-title { font-size: 15px; font-weight: 600; color: #185FA5; }
+.card-body { font-size: 13px; color: #5F5E5A; margin-top: 6px; line-height: 1.6; }
+.ending-actions { max-width: 480px; margin: 8px auto 0; }
+.ai-label { font-size: 11px; color: #B4B2A9; margin-top: 20px; }
+
+/* ---- 弹窗 ---- */
+.modal {
+  display: none; position: fixed; inset: 0; background: rgba(44,44,42,.4);
+  align-items: center; justify-content: center; z-index: 10; padding: 20px;
+}
+.modal.show { display: flex; }
+.modal-box {
+  background: #fff; border-radius: 16px; padding: 24px; width: 100%; max-width: 420px;
+}
+.modal-box h3 { font-size: 16px; margin-bottom: 6px; }
+.modal-note { font-size: 12px; color: #888780; margin-bottom: 16px; }
+.modal-box label { display: block; font-size: 12px; color: #5F5E5A; margin-bottom: 12px; }
+.modal-box input {
+  display: block; width: 100%; margin-top: 6px; padding: 10px; font-size: 14px;
+  border: 1px solid #D3D1C7; border-radius: 8px;
+}
+.modal-actions { display: flex; gap: 12px; margin-top: 8px; }
+.modal-actions .btn-primary, .modal-actions .btn-ghost { margin-top: 0; width: auto; flex: 1; }
+
+@media (min-width: 768px) {
+  .screen { padding: 32px 28px 60px; }
+}
