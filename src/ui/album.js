@@ -1,18 +1,1 @@
-// 黑胶唱片视觉（Demo 阶段的专辑视觉替身）
-// 正式产品：替换为平台 CDN 专辑封面图 URL（QQ音乐曲库资源），此处用 SVG 黑胶规避版权依赖
-export function albumDisc(name, year, hue = '#BA7517', spin = true) {
-  const safe = String(name || '').slice(0, 7);
-  const cls = spin ? 'album-disc spin' : 'album-disc';
-  return `<svg viewBox="0 0 120 120" class="${cls}" role="img" aria-label="${name || ''}">
-    <circle cx="60" cy="60" r="58" fill="#26221B"/>
-    <circle cx="60" cy="60" r="53" fill="none" stroke="#3A342A" stroke-width="0.8"/>
-    <circle cx="60" cy="60" r="46" fill="none" stroke="#3A342A" stroke-width="0.6"/>
-    <circle cx="60" cy="60" r="40" fill="none" stroke="#312B22" stroke-width="0.5"/>
-    <circle cx="60" cy="60" r="30" fill="${hue}"/>
-    <circle cx="60" cy="60" r="30" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1"/>
-    <text x="60" y="55" text-anchor="middle" font-size="9.5" fill="#FFF8E7" font-weight="500">${safe}</text>
-    <text x="60" y="69" text-anchor="middle" font-size="8" fill="#F5EBD8">${year}</text>
-    <circle cx="60" cy="60" r="3.2" fill="#26221B"/>
-    <circle cx="60" cy="60" r="3.2" fill="none" stroke="#F5EBD8" stroke-width="0.6"/>
-  </svg>`;
-}
+Ly8g6buR6IO25ZSx54mH6KeG6KeJ77yIRGVtbyDpmLbmrrXnmoTkuJPovpHop4bop4nmm7/ouqvvvIkKLy8g5q2j5byP5Lqn5ZOB77ya5pu/5o2i5Li65bmz5Y+wIENETiDkuJPovpHlsIHpnaLlm74gVVJM77yIUVHpn7PkuZDmm7LlupPotYTmupDvvInvvIzmraTlpITnlKggU1ZHIOm7keiDtuinhOmBv+eJiOadg+S+nei1lgpleHBvcnQgZnVuY3Rpb24gYWxidW1EaXNjKG5hbWUsIHllYXIsIGh1ZSA9ICcjQkE3NTE3Jywgc3BpbiA9IHRydWUpIHsKICBjb25zdCBzYWZlID0gU3RyaW5nKG5hbWUgfHwgJycpLnNsaWNlKDAsIDcpOwogIGNvbnN0IGNscyA9IHNwaW4gPyAnYWxidW0tZGlzYyBzcGluJyA6ICdhbGJ1bS1kaXNjJzsKICByZXR1cm4gYDxzdmcgdmlld0JveD0iMCAwIDEyMCAxMjAiIGNsYXNzPSIke2Nsc30iIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iJHtuYW1lIHx8ICcnfSI+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI1OCIgZmlsbD0iIzI2MjIxQiIvPgogICAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iNTMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNBMzQyQSIgc3Ryb2tlLXdpZHRoPSIwLjgiLz4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjQ2IiBmaWxsPSJub25lIiBzdHJva2U9IiMzQTM0MkEiIHN0cm9rZS13aWR0aD0iMC42Ii8+CiAgICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSI0MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMzEyQjIyIiBzdHJva2Utd2lkdGg9IjAuNSIvPgogICAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iMzAiIGZpbGw9IiR7aHVlfSIvPgogICAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwuMjUpIiBzdHJva2Utd2lkdGg9IjEiLz4KICAgIDx0ZXh0IHg9IjYwIiB5PSI1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSI5LjUiIGZpbGw9IiNGRkY4RTciIGZvbnQtd2VpZ2h0PSI1MDAiPiR7c2FmZX08L3RleHQ+CiAgICA8dGV4dCB4PSI2MCIgeT0iNjkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iOCIgZmlsbD0iI0Y1RUJEOCI+JHt5ZWFyfTwvdGV4dD4KICAgIDxjaXJjbGUgY3g9IjYwIiBjeT0iNjAiIHI9IjMuMiIgZmlsbD0iIzI2MjIxQiIvPgogICAgPGNpcmNsZSBjeD0iNjAiIGN5PSI2MCIgcj0iMy4yIiBmaWxsPSJub25lIiBzdHJva2U9IiNGNUVCRDgiIHN0cm9rZS13aWR0aD0iMC42Ii8+CiAgPC9zdmc+YDsKfQo=
