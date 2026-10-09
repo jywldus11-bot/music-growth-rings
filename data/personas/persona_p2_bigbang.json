@@ -1,0 +1,63 @@
+{
+  "persona_id": "p2_bigbang",
+  "persona_name": "1999年生·K-pop粉丝·BIGBANG听众",
+  "level": "L1",
+  "birth_year": 1999,
+  "platform_join_year": 2012,
+  "favorite_artist": "bigbang",
+  "platform_join_date": "2012年3月17日",
+  "note": "lyric仅收录有把握的英文短句；韩文歌词不硬凑（正式产品由版权歌词库提供+人工选句）。insight为人工精修的认知留白句。milestones为个人线里程碑（第一次们）：事实型画像数据，模板文案消费，不进LLM生成。",
+  "milestones": [
+    { "type": "join_date", "date": "2012年3月17日" },
+    { "type": "style_explore", "year": 2012, "genres": ["K-pop", "华语流行", "动漫原声"] },
+    { "type": "first_follow", "year": 2012, "artist": "BIGBANG", "song": "Fantastic Baby" },
+    { "type": "first_foreign", "year": 2012, "artist": "BIGBANG", "song": "Fantastic Baby" },
+    { "type": "first_loop", "year": 2012, "song": "Fantastic Baby", "plays": 350 },
+    { "type": "first_chart_top", "year": 2012, "artist": "BIGBANG" },
+    { "type": "first_wechat_share", "year": 2015, "song": "BANG BANG BANG" },
+    { "type": "first_new_genre", "year": 2016, "genre": "电子", "song": "FXXK IT" },
+    { "type": "adult_18", "year": 2017, "song": "Lies" },
+    { "type": "variety_show", "year": 2018, "show": "《偶像练习生》", "song": "EiEi" },
+    { "type": "all_time_top", "year": 2024, "song": "Fantastic Baby", "plays": 1960 },
+    { "type": "zodiac", "year": 2023, "song": "Still Life" }
+  ],
+  "stats": [
+    {
+      "year": 2012, "top_artist": "BIGBANG", "top_song": "Fantastic Baby", "plays": 350,
+      "lyric": "Wow, Fantastic Baby",
+      "insight": "十三岁，同学把耳机分你一只——那是你第一次认识他们。",
+      "note": "小学高年级，同学安利入坑"
+    },
+    {
+      "year": 2015, "top_artist": "BIGBANG", "top_song": "BANG BANG BANG", "plays": 520,
+      "insight": "中考前夕，MADE每个月的新歌混在试卷和模拟题里传过来。",
+      "note": "MADE年，中考前夕"
+    },
+    {
+      "year": 2016, "top_artist": "BIGBANG", "top_song": "FXXK IT", "plays": 300,
+      "insight": "十周年那年你高二，他们的歌还是课间走廊的背景音。",
+      "note": "十周年"
+    },
+    {
+      "year": 2018, "top_artist": "BIGBANG", "top_song": "Lies", "plays": 210,
+      "lyric": "I'm so sorry but I love you",
+      "insight": "他们不在的这段日子，你把老歌翻出来考古——考古这个动作，本身就是喜欢。",
+      "note": "空白期，考古老歌"
+    },
+    {
+      "year": 2020, "top_artist": "BIGBANG", "top_song": "Haru Haru", "plays": 180,
+      "insight": "网课的大学时光，韩语歌词听不懂，也不妨碍单曲循环。",
+      "note": "空白期第二年，大学网课"
+    },
+    {
+      "year": 2022, "top_artist": "BIGBANG", "top_song": "Still Life", "plays": 480,
+      "insight": "大四那年他们回来了。毕业和回归撞在同一年，青春像被按下了收尾键。",
+      "note": "回归，大四毕业年"
+    },
+    {
+      "year": 2024, "top_artist": "BIGBANG", "top_song": "Still Life", "plays": 130,
+      "insight": "工作以后，列表里他们排得靠后了——但随机播放一碰到，还是会听完。",
+      "note": "工作后"
+    }
+  ]
+}
