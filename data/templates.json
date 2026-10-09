@@ -1,0 +1,58 @@
+{
+  "version": "3.0",
+  "note": "模板兜底库 v3：主句（本文件）+ 歌词引用层 + 认知留白层（fallback.js 组装）。占位符：{year}{age}{song}{plays}{artistEvent}{joinYear}{lyric}{insight}。歌词为极短引用（≤1句），正式产品须接入平台版权歌词库。",
+  "cross": [
+    "{age}岁那年，《{song}》你循环了{plays}次。{lyric}同一年，{artistEvent}。",
+    "{year}年你听得最多的是《{song}》。{lyric}而他的那一年，{artistEvent}。",
+    "《{song}》陪你度过了{age}岁。{lyric}那一年，{artistEvent}。"
+  ],
+  "personal_only": [
+    "{year}年，《{song}》你听了{plays}次。{lyric}有些歌单，只有自己懂。",
+    "那年你{age}岁，单曲循环最多的是《{song}》。{lyric}",
+    "{year}年你的耳机里，住着《{song}》。{lyric}"
+  ],
+  "artist_only": [
+    "{year}年，{artistEvent}。{lyric}那年你{age}岁。",
+    "你{age}岁那年，{artistEvent}。{lyric}"
+  ],
+  "artist_only_known": [
+    "{year}年，{artistEvent}。{lyric}那年你{age}岁——你的年度歌单里他排第几，只有你自己知道。",
+    "你{age}岁那年，{artistEvent}。{lyric}歌单里见不见得到他，你比谁都清楚。"
+  ],
+  "gap_suffix": "——那些年，他们恰好不在。",
+  "gap_event": [
+    "{year}年起，他们不在的日子里，你的歌单还在。",
+    "那几年，你一个人听着老歌，长大了一些。",
+    "{year}年前后，世界安静了一阵。你也是。"
+  ],
+  "return_event": [
+    "{year}年他们回来的时候，你{age}岁。"
+  ],
+  "join": [
+    "{age}岁那年，你遇见了QQ音乐。那一年，{artistEvent}。",
+    "{joinYear}年，你和QQ音乐的故事开始了。那年，{artistEvent}。"
+  ],
+  "join_solo": [
+    "{age}岁那年，你遇见了QQ音乐——后面的事，数据都记得。"
+  ],
+  "prologue_closer": "这些歌写好了，就等你戴上耳机的那天。",
+  "milestones": {
+    "join_date": ["{date}，你注册了QQ音乐——从这一天起，故事开始计数。"],
+    "style_explore": ["加入后的第一年，你在{genres}之间来回试探——口味这件事，是听出来的。"],
+    "first_follow": ["你关注的第一位歌手，是{artist}。起点这个词，有时比终点重要。"],
+    "first_foreign": ["你听到的第一首外语歌是《{song}》。听不懂的那部分，旋律替它说了。"],
+    "first_wechat_share": ["你第一次分享到微信状态的那首歌，是《{song}》。有些心情，从第一次公开。"],
+    "all_time_top": ["这些年你听得最多的歌，是《{song}》——累计{plays}次。每一遍，都有当时的理由。"],
+    "adult_18": ["18岁那年，代表你的歌是《{song}》。成年这件事，有时是一首歌先替你说了。"],
+    "zodiac": ["{age}岁本命年，陪你过这一年的是《{song}》。十二年一轮回，歌单也长出一圈年轮。"],
+    "first_new_genre": ["你第一次点开的新风格是{genre}——从《{song}》起，歌单多了一个抽屉。"],
+    "variety_show": ["你在{show}里收藏了《{song}》。节目会收官，收藏会留下。"],
+    "first_loop": ["你的第一支单曲循环是《{song}》，那年循环了{plays}次。循环，是最诚实的喜欢。"],
+    "first_chart_top": ["{year}年，{artist}第一次登上你的年度歌手榜第一。第一名这个词，从此有了名字。"]
+  },
+  "ending_pool": [
+    "这些年，歌单换了一轮又一轮，有些声音一直在。",
+    "你的年轮里，长着他的歌。",
+    "每一个循环过的夜晚，都算数。"
+  ]
+}
