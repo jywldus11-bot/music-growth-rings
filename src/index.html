@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>音乐年轮 · QQ音乐</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Screen 1: 输入 -->
+<section class="screen active" id="screen-input">
+  <header class="hero">
+    <div class="hero-badge" id="llm-badge">模板模式</div>
+    <h1 id="app_title">音乐年轮</h1>
+    <p class="subtitle" id="app_subtitle">你的这些年 × 他的这些年</p>
+  </header>
+
+  <div class="panel">
+    <label class="label">我的音乐人生 · 你出生在哪一天？</label>
+    <div class="birth-row">
+      <select id="year-select" class="year-select"></select>
+      <select id="month-select" class="date-select"><option value="">月</option></select>
+      <select id="day-select" class="date-select"><option value="">日</option></select>
+    </div>
+    <p class="date-note">出生那天的歌，是你年轮的第一圈。月日可留空。</p>
+
+    <div class="label" style="margin-top:24px">他的音乐人生 · 你的本命歌手（可不选）</div>
+    <div class="artist-row">
+      <div class="artist-card" data-artist="jay_chou">
+        <div class="artist-name">周杰伦</div>
+        <div class="artist-desc">2000年出道 · 华语</div>
+      </div>
+      <div class="artist-card" data-artist="bigbang">
+        <div class="artist-name">BIGBANG</div>
+        <div class="artist-desc">2006年出道 · K-pop</div>
+      </div>
+    </div>
+    <button class="link-ghost" id="btn-no-artist">不选了，只看我的音乐人生</button>
+
+    <button class="btn-primary" id="btn-start">生成我的音乐年轮</button>
+    <p class="demo-note">Demo 说明：本演示使用预置听歌画像模拟个人线数据；正式产品中由QQ音乐站内听歌数据驱动。</p>
+    <button class="btn-ghost" id="btn-llm">LLM 设置（可选）</button>
+  </div>
+</section>
+
+<!-- Screen 2: 生成等待 -->
+<section class="screen" id="screen-loading">
+  <div class="loading-wrap">
+    <div class="loading-ring"></div>
+    <p class="loading-text">年轮生长中……</p>
+  </div>
+</section>
+
+<!-- Screen 3: 双轨叙事（我的音乐人生 × 他的音乐人生） -->
+<section class="screen" id="screen-narrative">
+  <div class="tl-header">
+    <div class="tl-header-ring" id="narrative-ring"></div>
+    <div class="tl-header-side">
+      <div class="tl-badge me">我的音乐人生</div>
+      <div class="tl-badge him" id="tl-badge-him">他的音乐人生</div>
+      <div class="tl-hint">往下滚动，年轮随你长大</div>
+    </div>
+  </div>
+  <div class="timeline" id="timeline"></div>
+  <button class="btn-primary" id="btn-tl-done">看完这些年，看看谁与我同频 ›</button>
+</section>
+
+<!-- Screen 4: 结尾 -->
+<section class="screen" id="screen-ending">
+  <div class="ending-wrap">
+    <h2 class="ending-title">你的音乐年轮</h2>
+    <div class="ending-sub" id="ending-sub"></div>
+    <div class="ending-quote" id="ending-quote"></div>
+    <div class="ring-box small" id="ending-ring"></div>
+
+    <div class="ending-cards" id="ending-group-card"></div>
+
+    <div class="ending-actions">
+      <button class="btn-primary" id="btn-share">保存分享卡片</button>
+      <button class="btn-ghost" id="btn-restart">重新生成</button>
+    </div>
+    <p class="ai-label">内容由 AI 生成</p>
+  </div>
+</section>
+
+<!-- LLM 设置弹窗 -->
+<div class="modal" id="llm-modal">
+  <div class="modal-box">
+    <h3>LLM 设置（可选）</h3>
+    <p class="modal-note">不配置则使用模板文案模式。配置后走 LLM 生成 + 事实校验。</p>
+    <label>API Base URL<input type="text" id="llm-baseurl" placeholder="https://api.example.com/v1"></label>
+    <label>模型名<input type="text" id="llm-model" placeholder="gpt-4o-mini 等"></label>
+    <label>API Key（仅存本地）<input type="password" id="llm-apikey" placeholder="sk-..."></label>
+    <div class="modal-actions">
+      <button class="btn-ghost" id="btn-llm-close">取消</button>
+      <button class="btn-primary" id="btn-llm-save">保存</button>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="ui/app.js"></script>
+</body>
+</html>
