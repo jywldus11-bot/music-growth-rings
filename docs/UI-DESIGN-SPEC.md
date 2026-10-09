@@ -1,1 +1,368 @@
-IyDpn7PkuZDlubTova4gwrcg5LuOMeW8gOWniyDigJQgV2ViIEFydCBEaXJlY3Rpb24gJiBVSSBEZXNpZ24gU3BlYyAodjIpCgo+IFFR6Z+z5LmQIEFJIOmfs+S5kOS6uueUn+WPmeS6i+W8leaTjiDCtyAyMDI2LTEwLTA4Cj4gdjI6IEVkaXRvcmlhbCDslYTtirgg65SU66CJ7IWYKOy9mOyFie2KuC9IRVJPL+yduO2EsOuemeyFmC8xMOyEueyFmCDsiqTtgazroaQp7J2EIOq4sOyhtCDrjbDrqqgg7IKs7JaRKOyeheugpeKGkuyDneyEseKGkuuTgOyWvO2KuOuemSAxMyDrp4jsnbzsiqTthqQp7JeQIO2Gte2VqQo+IOq3nOy5mTog7J20IOusuOyEnOydmCDsubTtlLzripQg7KCE67aAIOyLpOygnCDstpzroKUv7ZmV7KCVIOusuOq1rC4g66qp7JeF7JeQIOq3uOuMgOuhnCDsgqzsmqkg6rCA64qlLgoKLS0tCgojIyAxLiDsoITssrQg7JWE7Yq4IOuUlOugieyFmAoKIyMjIOy9mOyFie2KuAoqKuOAjOmfs+S5kOW5tOi9riDCtyDku44x5byA5aeL44CNKioKCuuUlOyekOyduCDtgqTsm4zrk5w6ICoqRWRpdG9yaWFsIMOXIE1pbmltYWwgw5cgTXVzaWMgw5cgVGltZSoqCgotIOuLqOyInO2eiCDsmIjsgZwg7J2M7JWFIOyCrOydtO2KuOqwgCDslYTri4jrnbwsICoqIuyLnOqwhOydtCDsp4DrgpjrqbTshJwg7J2M7JWF7J20IOyWtOuWu+qyjCDquLDroZ3rkJjqs6AsIOy2leyggeuQmOqzoCwg64uk7IucIOqyve2XmOuQmOuKlOqwgCIqKiDrpbwg67O07Jes7KO864qUIOybueyCrOydtO2KuAotIOq4sOuhneydmCDsp4TtmZTstpUg4oCUIOe7k+e7s+iusOS6iyDihpIg5paH5a2XIOKGkiDnhafniYcg4oaSIOW9seWDjyDihpIg6Z+z5LmQIOKAlCDrpbwg7Ju57J2YIOyKpO2BrOuhpCDqtazsobDroZwg7KCE7ZmYCi0g7Jew66WcKOuPmeyLrOybkCnsnYAg7J6l7Iud7J20IOyVhOuLiOudvCAqKm5hdmlnYXRpb24gLyB0cmFuc2l0aW9uIC8gZGF0YSB2aXN1YWxpemF0aW9uIC8gaW50ZXJhY3Rpb27snYQg64+Z7Iuc7JeQIOuLtOuLue2VmOuKlCDtlZjrgpjsnZgg65SU7J6Q7J24IOyWuOyWtCoqCiAgLSBQUFTsl5DshJzripQg6re4656Y7ZS97J207JeI642YIOyXsOulnCDihpIg7Ju57JeQ7ISc64qUICoq7JuA7KeB7J2064qUIOq3uOuemO2UvSoqCgotLS0KCiMjIDIuIOyyqyDtmZTrqbQg4oCUIEhFUk8KCuybueyCrOydtO2KuOyXkOyEnCDqsIDsnqUg7KSR7JqU7ZWcIO2ZlOuptC4gKirqsbDrjIDtlZwgMSArIOyXsOulnCArIFFR57u/Kiog7J2EIOq3uOuMgOuhnCDrsJzsoIQuCgojIyMg66CI7J207JWE7JuDCi0g67Cw6rK9OiBgI0Y3RjNFQ2AKLSDspJHslZko65iQ64qUIOyVveqwhCDsmrDsuKEpOiAqKuyXhOyyreuCmOqyjCDtgbAgMSoqIChEaXNwbGF5IDEyMOKAkzE4MHB4IOydtOyDgSwg7Iir7J6QIOyekOyytOqwgCDqt7jrnpjtlL0pCi0g6re4IOuSpOuhnCDsl6zrn6wg6rCc7J2YIOyWh+ydgCDsm5DsnbQg7LKc7LKc7Z6IIO2NvOyguOuCmOqwkAoKYGBgCiAgICAgICAgICAgICDila3ilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDila4KICAgICAgICDila3ilIDilIDilIDilIDila8gICAgICAgICAgICAgICAgIOKVsOKUgOKUgOKUgOKUgOKVrgogICAgICDila3ilIDila8gICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKVsOKUgOKVrwoKICAgICAgICAgICAgICAgICAgICAxCgogICAgICDilbDilIDila4gICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKVreKUgOKVrwogICAgICAgIOKVsOKUgOKUgOKUgOKUgOKVriAgICAgICAgICAgICAgICAg4pWt4pSA4pSA4pSA4pSA4pWvCiAgICAgICAgICAgICDilbDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDila8KYGBgCgojIyMg7Jew66WcIOq3uOuemO2UvSDqt5zsuZkKLSAqKuuqqOuToCDsm5DsnYQg7JmE7ISx7ZWY7KeAIOyViuydjCoqIOKAlCDsnbzrtoDripQg7ZmU66m0IOuwluycvOuhnCDrgpjqsIDqs6AsIOydvOu2gOuKlCDrgYrqsqgg7J6I7J2MICjrtojsmYTsoITtlZwg64+Z7Ius7JuQKQotICoq7LKrIOuyiOynuCDsm5Drp4wgYCMzMUMyN0NgIChRUee7vykqKiwg64KY66i47KeAIOybkOydgCDsnontgazsg4kg7JaH7J2AIOudvOyduAotIOybkOuTpOydgCDslYTso7wg64qQ66as6rKMIO2ZleyCsO2VmOuKlCDslaDri4jrqZTsnbTshZggKO2YuO2doe2VmOuKlCDsoJXrj4TsnZgg66+47IS47ZWcIOybgOyngeyehCkKCiMjIyDthY3siqTtirgKYGBgCuyekeqyjDogICDpn7PkuZDlubTova4K7YGs6rKMOiAgIOS7jjHlvIDlp4sK7JWE7KO8IOyekeqyjDog5q+P5LiA6aaW5q2M77yM6YO955WZ5LiL5pe26Ze055qE55eV6L+544CCCmBgYAoK4oaSIOyyqyDtmZTrqbTrtoDthLAg7ZW17IusIOuplOyLnOyngCAqKiLssqsg67KI7Ke4IOybkCA9IDEgPSDsi5zsnpEiKiog7J20IOymieyLnCDsoITri6wuCgotLS0KCiMjIDMuIOyXsOulnCA9IOyduO2EsOuemeyFmCAoUFBU6rO8IOybueydmCDqsIDsnqUg7YGwIOywqOydtCkKCi0g7IKs7Jqp7J6Q6rCAIOyKpO2BrOuhpO2VmOuptDog7LKrIOuyiOynuCDsm5Ag7IOd7ISxIOKGkiDrkZAg67KI7Ke4IOybkCDihpIg7IS4IOuyiOynuCDsm5DigKYgKOyIq+yekCAx4oaSMuKGkjPsnYQg7KeB7KCRIOuztOyXrOyjvOyngCDslYrqs6AgKirsm5DsnbQg7ZWY64KY7JSpIOyDneq4sOuKlCDrsKnsi50qKikKLSAqKuyKpO2BrOuhpCA9IOyLnOqwhOydmCDtnZDrpoQqKi4g7Ju5IOyghOyytOqwgCDtlZjrgpjsnZgg6rGw64yA7ZWcIOyXsOulnOydtCDrkJjripQg6rWs7KGwCi0g7Iqk7YGs66GkIOynhO2WieyXkCDrlLDrnbwg7IS57IWYIOuyiO2YuCgwMS8wMi8wM+KApinrj4Qg7JuQ7J2YIOuIhOyggeqzvCAxOjHroZwg64+Z6riw7ZmUCgotLS0KCiMjIDQuIOy7rOufrCDsi5zsiqTthZwKCiMjIyA0LTEuIDTsg4kg6riw67O4IOyLnOyKpO2FnAp8IOyaqeuPhCB8IOyDieyDgSB8CnwtLS18LS0tfAp8IEJhY2tncm91bmQgfCBgI0Y3RjNFQ2AgKOyVhOydtOuztOumrCkgfAp8IE1haW4gSW5rIHwgYCMyQjI2MjBgICjqsoDsoJUpIHwKfCBTZWNvbmRhcnkgfCBgIzhDNjIzOWAgKOu4jOudvOyatCkgfAp8IEFjY2VudCAoUVHnu78pIHwgYCMzMUMyN0NgIHwKCiMjIyA0LTIuIOyCrOyaqSDruYTsnKgg4oCUIOyXhOqyqe2eiCDsp4Dtgqwg6rKDCmBgYArslYTsnbTrs7TrpqwgNzAlIC8g6rKA7KCVIDIwJSAvIOu4jOudvOyatCA4JSAvIOy0iOuhnSAyJQpgYGAKKirstIjroZ3snYAg7KCV66eQIOykkeyalO2VnCDqs7Psl5Drp4wqKjogSG92ZXIgwrcg7ZiE7J6sIOyEoO2DnSDsg4Htg5wgwrcg7ZW17IusIOyIq+yekCDCtyBDVEEgwrcg7LKrIOuyiOynuCDsl7DrpZwgwrcg7J247YSw656Z7IWYIO2ZnOyEsSDsg4Htg5wKCiMjIyA0LTMuIOq4sOyhtCDrjbDrqqgg7Yq4656Z7IOJIOKGkiB2MiDrp4jsnbTqt7jroIjsnbTshZgg66ek7ZWRCnwg6rWsIOyXre2VoCB8IOq1rCDqsJIgfCB2MiDrjIDsnZEgfAp8LS0tfC0tLXwtLS18Cnwg67Cw6rK9KO2BrOumvCkgfCBgI0Y1RjNFQ2Ag6rOE7Je0IHwgYCNGN0YzRUNgIHwKfCDrs7jrrLggfCBgIzJDMkMyQWAgfCBgIzJCMjYyMGAgfAp8IOqwnOyduOyEoCBUcmFjay1NZSAo6rOo65OcKSB8IGAjQkE3NTE3YCB8IGAjOEM2MjM5YCAo67iM65287Jq0KSDigJQg7LSI66Gd7J2AIOyyqyDsm5AvQ1RBIOyghOyaqeydtOuvgOuhnCB8Cnwg6rCA7IiY7ISgIFRyYWNrLUhpbSAo67iU66OoKSB8IGAjMTg1RkE1YCB8IGAjMkIyNjIwYCAo7J6J7YGsKSDrnbzsnbgg6rCV64+E66Gc66eMIOq1rOu2hCB8Cnwg66eI7J287Iqk7YakICjsgrDtmLgpIHwgYCM5OTNDMURgIHwg7LmpIO2FjeyKpO2KuCDruIzrnbzsmrQgKyAqKuyyqyDrk7HsnqUg66eI7J287Iqk7Yak7JeQ66eMIOy0iOuhnSDsoJAgMeqwnCoqIHwKfCBBY2NlbnQgfCDigJQgfCBgIzMxQzI3Q2AgKOyLoOyEpC4g7LKrIOybkMK3Q1RBwrdob3ZlcuunjCkgfAoKPiDsm5DsuZk6IOqzqOuTnC/ruJTro6gv7IKw7Zi4IDPsg4kg67OR7ZaJ7J2EIOyXhuyVoOqzoCAqKuyEoCDqtbXquLDCt+2DgOyehSjsi6TshKAv7KCQ7ISgKSArIOu4jOudvOyatCDrho3rj4QqKuuhnCDtirjrnpnsnYQg6rWs67aELiDsg4kg7IiY66W8IOykhOyXrOyVvCDsl5DrlJTthqDrpqzslrwg7Yak7J20IOyCsOuLpC4KCi0tLQoKIyMgNS4g7YOA7J207Y+s6re4656Y7ZS8CgotIOyhsO2VqSDsnKDsp4A6ICoqTm90byBTZXJpZiBTQyAo7KCc66qpwrfshJzsgqwpICsgTm90byBTYW5zIFNDICjrs7jrrLjCt1VJKSoqCi0g7Ju57JeQ7ISc64qUICoq7YGs6riwIOuMgOu5hOulvCDqt7nri6jsoIHsnLzroZwqKjoKCnwg66CI67KoIHwg7YGs6riwIHwg7Jqp64+EIHwKfC0tLXwtLS18LS0tfAp8IERpc3BsYXkgfCAxMjDigJMxODBweCB8IOqxsOuMgO2VnCAxLCDshLnshZgg64SY67KEIHwKfCBTZWN0aW9uIHRpdGxlIHwgNDjigJM3MnB4IHwg5LuOMeW8gOWniywg7IS57IWYIOygnOuqqSB8CnwgQm9keSB8IDE24oCTMjBweCB8IOyEnOyCrCDrs7jrrLggfAp8IENhcHRpb24gfCAxMeKAkzEzcHggfCDsuaksIOy6oeyFmCwg7Lac7LKYIHwKCi0gKiowMSAvIDAyIC8gMDMg6rCZ7J2AIOyIq+yekOuKlCDsl4Tssq0g7YGs6rKMKiog4oCUIOyIq+yekCDsnpDssrTqsIAg6re4656Y7ZS97J20IOuQmOqyjC4KCi0tLQoKIyMgNi4g7Lm065OcIOuUlOyekOyduOydgCDrsoTrprDri6QKCjIwMjDrhYTrjIAg7Ju57J20IOyVhOuLiOudvCDquLDsl4UgUFBUIOybue2OmOydtOyngOyymOufvCDrs7TsnbTripQg7KO867KULiDsubTrk5wg64yA7IugOgoKYGBgCuq4sOyhtCAgICAgICAgICAgICAgICAgICAgICAgICAg67OA6rK9CuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIg5qCH6aKYICAgICAgICDilIIgICAgICAwMQrilIIg5YaF5a65ICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgICAg5pyA5pep55qE6K6w5b2VCiAgICAgICAgICAgICAgICAgICAgICAg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgICAgICAgICAgICAgICAgICAgICDmloflrZflvIDlp4vkv53lrZgKICAgICAgICAgICAgICAgICAgICAgIOaIkeS7rOaXoOazleS/neWtmOWjsOmfs++8jAogICAgICAgICAgICAgICAgICAgICAg5LqO5piv5byA5aeL5L+d5a2Y5YWz5LqO5aOw6Z+z55qE6K6w5b+G44CCCmBgYAoKKirshKAgKyDtg4DsnbTtj6wgKyDsl6zrsLEqKiAz7JqU7IaM66GcIOq1rOyEsS4g67CV7IqkwrfthYzrkZDrpqzCt+q3uOumvOyekCDsl4bsnYwuCgotLS0KCiMjIDcuIOyyqyDrsojsp7gg7L2Y7YWQ7LigIOyEueyFmCDigJQg6riw66Gd7J2YIOynhO2ZlCAo7IS466GcIOyKpO2BrOuhpCkKCuqwgOuhnCDtg4DsnoTrnbzsnbjsnYAg66eM65Ok7KeAIOyViuydjC4g7IS466GcIOyKpO2BrOuhpCDrsKnsi506CgotIOyZvOyqveyXkCAqKuyVhOyjvCDtgbAgMDEqKgotIOykkeyVmeyXkCDtlZjrgpjsnZgg7IS466GcIOudvOyduAotIOyKpO2BrOuhpO2VmOupsCDrk7HsnqU6IOe7k+e7syDihpMg5paH5a2XIOKGkyDnhafniYcg4oaTIOW9seWDjyDihpMg6Z+z5LmQCi0gKirqsIEg64uo6rOE66eI64ukIOyekeydgCDsm5DsnbQg7ZWY64KY7JSpIOyDneq4sOqzoCoqLCDqt7gg7JuQ7J20IOuLpOydjCDshLnshZjsnZgg7Jew66Wc6rO8IOyXsOqysAoKLS0tCgojIyA4LiDkuInkuKoi5pyAIiDshLnshZgg4oCUIOqyuey5mOuKlCAz7JuQIOyduO2EsOueme2LsOu4jCDqt7jrnpjtlL0KCuy5tOuTnCAz6rCcIOq4iOyngC4gKirshLgg6rCc7J2YIOybkOydtCDshJzroZwg6rK57LmY64qUKiog7J247YSw656Z7Yuw67iMIOq3uOuemO2UvToKCmBgYAogICAgICAgICAg5pyA5pepCiAgICAgICAgICAgIOKXiwogICAgICAgICDilbEgICAgIOKVsgogICAgICAg4peL4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4peLCiAgICAgIOacgOeyvuehriAgICAgIOacgOa1kwpgYGAKCi0g66eI7Jqw7Iqk66W8IOyYrOumrOuptCDtlbTri7kg7JuQ7J20IOy7pOyngOqzoCDso7zrs4Ag7L2Y7YWQ7Lig6rCAIOyghO2ZmAotIOybkCDsnpDssrTqsIAgbmF2aWdhdGlvbiDsl63tlaAKCnwg7JuQIHwg7J2Y66+4IHwg7ISc67iMIOy5tO2UvCB8CnwtLS18LS0tfC0tLXwKfCDmnIDml6kgfCDquLDroZ3snZgg7Iuc7J6RIHwg4oCUIHwKfCDmnIDnsr7noa4gfCDquLDsiKAg6riw66GdIHwg4oCUIHwKfCDmnIDmtZMgfCDqsJDsoJUg6riw66GdIHwg4oCUIHwKCi0tLQoKIyMgOS4gIjEiIOyEueyFmCDigJQgU2lnbmF0dXJlIE1vbWVudAoK6rGw64yA7ZWcIDHsnYQg7Jyg7KeA7ZWY65CYLCAqKuyKpO2BrOuhpOyXkCDrlLDrnbwg67OA7ZmUKirsi5ztgqjri6Q6CgpgYGAKMSAg4oaTICAwMSAg4oaTICDnrKzkuIDlnIggIOKGkyAg5LuOMeW8gOWniwpgYGAKCuuniOyngOunieyXkCDrsLDsuZjrkJjripQg66mU7Iuc7KeAOgoKPiDmr4/kuIDkuKrml7bku6PvvIzpg73mnInlsZ7kuo7lroPnmoTnrKzkuIDpppbmrYzjgIIKCuydtCDshLnshZjsnbQg7Ju57IKs7J207Yq47J2YICoqc2lnbmF0dXJlIG1vbWVudCoqLgoKLS0tCgojIyAxMC4g6rK97J+BIO2UjOueq+2PvCDruYTqtZAg4oCUIOybkO2YlSDsooztkZzqs4QKCuu5hOq1kO2RnChYKSDrjIDsi6AgKirtlZjrgpjsnZgg6rGw64yA7ZWcIOybkO2YlSDsooztkZzqs4QqKjoKCi0g6rCBIOydjOyVhSDtlIzrnqvtj7wgPSDtlZjrgpjsnZgg7KCQCi0gaG92ZXIg7IucIOyYhuyXkOyEnCDrk7HsnqU6IO2UjOueq+2PvCDsnbTrpoQgwrcg55So5oi36KeE5qihIMK3IOWGheWuueeJueW+gSDCtyDpn7PkuZDlhbPns7sKLSAqKlFR6Z+z5LmQ7J2YIOygkOunjCBgIzMxQzI3Q2AqKiDihpIg642w7J207YSwIOyLnOqwge2ZlCDsnpDssrTqsIAg67iM656c65OcIOq3uOuemO2UveydtCDrkKgKCi0tLQoKIyMgMTEuIOyCrOynhCDsgqzsmqkg67Cp7IudCgotIO2ZlOuptCDsoITssrTsl5Ag6rmU7KeAIOyViuqzoCAqKu2ZlOuptOydmCA0MH42MCXrp4wg7LCo7KeA7ZWY64+E66GdIO2BrOuhrSoqCi0gKirsl7DrpZwg6re4656Y7ZS9KOyWh+ydgCDsm5Ap7J20IOyCrOynhCDsnITrpbwg7KeA64KY6rCA6rKMKioKLSDsvZjshJztirgg7IKs7KeEID0g7IKs7KeEICsg7JaH7J2AIOybkCArIO2BsCDtg4DsnbTtj6wsIOydtCDshLgg6rCA7KeA66m0IOy2qeu2hAoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgICBNVVNJQyAgICAgICAgICAgICAgICAgIOKUggrilIIgICAgICAgICAgIOKVreKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCAgICAgICDilIIK4pSCICAgICAgIOKVreKUgOKUgOKUgOKVryAgICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICDilIIgICAgUEhPVE8gICAgICAgICAgICDilIIK4pSCICAgICAgIOKVsOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKYGBgCgotLS0KCiMjIDEyLiDsoITssrQg7Iqk7YGs66GkIO2UjOuhnOyasCAoMTAg7IS57IWYKQoKfCAjIHwg7IS57IWYIHwg64K07JqpIHwg7Jew66WcIO2RnO2YhCB8CnwtLS18LS0tfC0tLXwtLS18CnwgMDEgfCBPUEVOSU5HIHwg6Z+z5LmQ5bm06L2uIC8g5LuOMeW8gOWniyAvIOavj+S4gOmmluatjO+8jOmDveeVmeS4i+aXtumXtOeahOeXlei/ueOAgiB8IOyyqyDrsojsp7gg7JuQICjstIjroZ0pIHwKfCAwMiB8IFRJTUUgfCDkurrnsbvlpoLkvZXorrDlvZXlo7Dpn7PvvJ8g4oCUIOe7k+e7s+KGkuaWh+Wtl+KGkueFp+eJh+KGkuW9seWDj+KGkumfs+S5kCB8IOuLqOqzhOuniOuLpCDsm5AgKzEgfAp8IDAzIHwgTUVNT1JZIHwg6Z+z5LmQ5Li65LuA5LmI5YC85b6X6KKr6K6w5b2V77yfIOKAlCDqsrnsuZjripQgM+ybkCAo5pyA5pepL+acgOeyvuehri/mnIDmtZMpIHwgM+ybkCDqt7jrnpjtlL0gfAp8IDA0IHwgT05FIHwg6rGw64yA7ZWcIDEg4oaSIDAxIOKGkiDnrKzkuIDlnIgg4oaSIOS7jjHlvIDlp4sgfCAxPeybkOydmCDrk7HqsIAg6rWQ7ZmYIHwKfCAwNSB8IE5PVyB8IO2YhOyerCDsnYzslYUg7IaM67mE7JmAIOyCrOyaqeyekCB8IOKAlCB8CnwgMDYgfCBDT01QRVRJVElPTiB8IOydjOyVhSDtlIzrnqvtj7zsnZgg7JyE7LmYIOKAlCDsm5DtmJUg7KKM7ZGc6rOELCBRUemfs+S5kOunjCDstIjroZ0gfCDsooztkZzqs4QgPSDqsbDrjIDtlZwg7JuQIHwKfCAwNyB8IElOU0lHSFQgfCDmiJHku6znnJ/mraPopoHorrDlvZXnmoTvvIzkuI3mmK/pn7PkuZDvvIzogIzmmK/kurrkuI7pn7PkuZDnmoTlhbPns7vjgIIgfCDigJQgfAp8IDA4IHwgU09MVVRJT04gfCDsl7DrpZwg6re4656Y7ZS9IOyerOuTseyepSArIOyEnOu5hOyKpC/suqDtjpjsnbgg7KCc7JWIIHwg7JuQ7J20IOuLpOyLnCDsnpDrnbzrgqggfAp8IDA5IHwgRVhQRVJJRU5DRSB8ICoq7IKs7Jqp7J6Q6rCAIOyngeygkSDssLjsl6ztlZjripQg7J247YSw656Z7IWYID0g642w66qoIOyVsSoqKOyVhOuemCDCpzE0IOyDgeyEuCkgfCDqsJzsnbgg7Jew66WcIOyDneyEsSB8CnwgMTAgfCBFTkRJTkcgfCDssqsg67KI7Ke4IOybkOydtCDri6Tsi5wg64KY7YOA64KoICsgKirku44x5byA5aeLKiogfCDssqsg7JuQIO2ajOq3gCjsiJjrr7jsg4HqtIApIHwKCi0tLQoKIyMgMTMuIDPrjIAg7Ju5IOyduO2EsOuemeyFmCAo7J20IDPqsJzrp4wg6rCV7ZWY6rKMKQoKfCDsnbjthLDrnpnshZggfCDrj5nsnpEgfCDsnZjrr7ggfCDqtaztmIQg64W47Yq4IHwKfC0tLXwtLS18LS0tfC0tLXwKfCAqKuKRoCBTY3JvbGwg4oaSIFJpbmcqKiB8IOyKpO2BrOuhpO2VoCDrlYzrp4jri6Qg7JuQ7J20IO2VmOuCmOyUqSDsg53quYAgfCDsi5zqsITsnZgg7LaV7KCBIHwg7Iqk7YGs66GkIOynhO2WieuPhCDihpIg7JuQIOqwnOyImC/rsJjqsr0g66ek7ZWRLiByZXF1ZXN0QW5pbWF0aW9uRnJhbWUgKyBzdHJva2UtZGFzaG9mZnNldCB8CnwgKirikaEgSG92ZXIg4oaSIE1lbW9yeSoqIHwg7IKs7KeEL+2FjeyKpO2KuCBob3ZlciDsi5wg7J6R7J2AIOybkOydtCDtmZXsnqXrkJjrqbAg6rSA66CoIOygleuztCDrk7HsnqUgfCDquLDslrXsnZgg7Zi47LacIHwg7JuQIO2ZleyepSDtirjrpqzqsbDroZwg7YWN7Iqk7Yq4IGZhZGUtaW4gfAp8ICoq4pGiIEN1cnNvciDihpIgRmlyc3QgUmluZyoqIHwg7Luk7ISc7JeQIOybkOydtCDrr7jshLjtlZjqsowg65Sw65287Ji0IHwg7LKrIOuyiOynuCDsm5Dqs7zsnZgg64+Z7ZaJIHwgKiowLjF+MC4y7LSIIOyngOyXsCBsZXJwKiouIOqzvO2VnCDrp4jsmrDsiqQg7Yq4656Y7YK5IOq4iOyngCDigJQg66+47IS47ZW07JW8IOqzoOq4ieyKpOufrOybgCB8CgotLS0KCiMjIDE0LiAwOSBFWFBFUklFTkNFIOyEueyFmCDigJQg642w66qoIOyVsSDsg4HshLgg7IKs7JaRCgrsiqTtgazroaQg64K065+s7Yuw67iMIDEw7IS57IWYIOykkSDsi6TsoJwg7LC47JesIOq1rOqwhC4g7JWxIO2UjOuhnOyasOuKlCA064uo6rOEOgoKYGBgClsxXSDovpPlhaUgICAgICAgIOKGkiAgWzJdIOeUn+aIkOS4rSAgICAgICAgIOKGkiAgWzNdIOWPjOi9qOaXtumXtOe6vyAgICAgICAgICAgIOKGkiAgWzRdIOe7k+WwvgrnlJ/ml6Ur5q2M5omL5pCc57SiICAgICAgICLlubTova7mraPlnKjnlJ/plb8iICAgICAgICDsiqTtgazroaQg7IucIOungSDshLHsnqUgICAgICAgICAgICAg6YeR5Y+lK+Wwj+e7hOWNoSvliIbkuqvljaEKYGBgCgojIyMgMTQtMS4gU2NyZWVuIDEg4oCUIOi+k+WFpQp8IOyalOyGjCB8IOyCrOyWkSB8CnwtLS18LS0tfAp8IO2DgOydtO2LgCB8IOmfs+S5kOW5tOi9riAvIOS9oOeahOi/meS6m+W5tCDDlyDku5bnmoTov5nkupvlubQgfAp8IOyDneuFhOyblOydvCB8IOyXsDrsm5Q67J28ID0gMS4zIDogMSA6IDEgZmxleCDruYTsnKggM+uLqCDshYDroIntirggKOyXsOuPhCDtj60g7LWc7Jqw7ISgKSB8Cnwg6rCA7IiYIOqygOyDiSB8IOqygOyDiSDsnbjtkosgKyDrpqzsiqTtirgsIEHigJNaIOygleugrC4gKirlkajmnbDkvKbCt0JJR0JBTkcqKiDsg4Hri6gg6rOg7KCVIOOAjOW3suaUtuW9leOAjeyEoO2DnSDqsIDriqUsIOuCmOuouOyngCAxOOuqhSDjgIzljbPlsIbkuIrnur/jgI3ruYTtmZzshLEgfAp8IOqygOyDiSDsnbjthLDrnpnshZggfCDshKDtg50g7IucIOKGkiDsnbTrpoTsnbQg6rKA7IOJ7LC97JeQIOyekOuPmSDsnoXroKUgKyDrpqzsiqTtirgg7KaJ7IucIOygke2emC4g7J6s7J6F66ClIOyLnCDsnqzsoITqsJzCt+yLpOyLnOqwhCDtlYTthLAgfAp8IENUQSB8IOeUn+aIkOaIkeeahOmfs+S5kOW5tOi9riAoUHJpbWFyeSwgKirstIjroZ3snYAg7Jes6riw7JeQ66eMKiopIC8g5LiN6YCJ5LqG77yM5Y+q55yL5oiR55qE6Z+z5LmQ5Lq655SfICjrp4HtgaztmJUpIHwKCj4g7Lm065OcIOq4iOyngCDsm5DsuZkg7KCB7JqpOiDquLDsobQg6rCA7IiYIOy5tOuTnCAy7J6l64+EIOqygOyDiSDrpqzsiqTtirjroZwg7J2066+4IOyghO2ZmCDsmYTro4wuIOyeheugpSDtj7zrj4Qg67CV7IqkIOuMgOyLoCAqKuuwkeykhO2YlSDtlYTrk5wgKyDsl6zrsLEqKiDqtozsnqUuCgojIyMgMTQtMi4gU2NyZWVuIDIg4oCUIOeUn+aIkOS4rQotICLlubTova7mraPlnKjnlJ/plb8iIOKAlCDsm5DsnbQg7ZWY64KY7JSpIOq3uOugpOyngOuKlCDslaDri4jrqZTsnbTshZggKOyduO2EsOuemeyFmCDikaDqs7wg64+Z7J28IOyWuOyWtCkKCiMjIyAxNC0zLiBTY3JlZW4gMyDigJQg5Y+M6L2o5pe26Ze057q/ICjtlbXsi6wpCi0gKirsoozsl7QqKjog5oiR55qE6Z+z5LmQ5Lq655SfICjqsJzsnbjshKApIC8gKirsmrDsl7QqKjog5LuW55qE6Z+z5LmQ5Lq655SfICjqsIDsiJjshKAsIOuvuOyEoO2DnSDsi5wg7KKM7Je066eMKQotIOqwgSDtlokgPSAx6rCcIOyXsOuPhCwg7Iqk7YGs66GkIOyXsOuPme2VtCDsl7DrpZwg66eB7J20IOyekOuejCAo7J247YSw656Z7IWYIOKRoCkKLSDtlokg7Jyg7ZiVIDTsooU6IGBtZWAo6rCc7J24KSAvIGBoaW1gKOqwgOyImCkgLyBgYmlydGhgKOeUn+i+sOatjCkgLyBgbWlsZXN0b25lYCjsiJzqsIQg7Lm065OcKQotICoq7ZaJIOyKpO2DgOydvCDigJQgdjIg7J6s7KCV7J2YKio6CgpgYGBjc3MKLyog7Lm065OcIOygnOqxsDog67Cw6rK9IOyxhOybgCDsl4bsnYwuIOyDgeuLqCDqtazrtoTshKAgKyDtg4DsnbTtj6zroZwg7JyE6rOEIOq1rOyEsSAqLwoudGwtcm93ICAgIHsgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHJnYmEoNDMsMzgsMzIsLjI1KTsgcGFkZGluZzogMjhweCAwOyB9Ci50bC1yb3cubWUgICAgICAgIHsgYm9yZGVyLXRvcDogMnB4IHNvbGlkICM4QzYyMzk7IH0gICAvKiDqsJzsnbg6IOu4jOudvOyatCDsi6TshKAgKi8KLnRsLXJvdy5oaW0gICAgICAgeyBib3JkZXItdG9wOiAxcHggc29saWQgIzJCMjYyMDsgfSAgIC8qIOqwgOyImDog7J6J7YGsIOyLpOyEoCAqLwoudGwtcm93LmhpbS5nYXAgICB7IGJvcmRlci10b3Atc3R5bGU6IGRhc2hlZDsgfSAgICAgICAgLyog6rO167Cx7Jew64+EOiDsoJDshKAgKi8KLnRsLXJvdy5taWxlc3RvbmUgeyBib3JkZXItdG9wOiAycHggc29saWQgIzhDNjIzOTsgfSAgIC8qIOuniOydvOyKpO2GpDog7Lmp7Jy866GcIOq1rOu2hCAqLwoudGwtY2hpcCAgICAgICAgICB7IGZvbnQtc2l6ZToxMXB4OyBsZXR0ZXItc3BhY2luZzouMWVtOyBjb2xvcjojOEM2MjM5OyB9CmBgYAoKLSDsl7Drj4Qg7ZGc6riwOiBgMjAxNCDCtyAxM+WygWAgKOyIq+yekOuKlCBTZWN0aW9uIHRpdGxl6riJ7Jy866GcIO2BrOqyjCDqsIDriqUpCgojIyMgMTQtNC4gU2NyZWVuIDQg4oCUIOe7k+WwvgoxLiDrp4jrrLTrpqwg66qF64yA7IKsIChTZXJpZiwg7YGs6rKMKQoyLiDlsI/nu4TljLnphY0gKyDkuIDotbflkKwg7Jyg64+EICjshKAr7YOA7J207Y+sIOq1rOyEsSkKMy4gUE5HIOWIhuS6q+WNoSDsoIDsnqUgKENUQSDstIjroZ0g4oCUIOyCrOydtO2KuCDsoITssrTsl5DshJwg7LSI66GdIDIlIOyYiOyCsOydmCDtlbXsi6wg7KeA7Lac7LKYKQo0LiBFTkRJTkcg7IS57IWYKDEwKeqzvCDsnpDsl7Ag7Jew6rKwOiDssqsg67KI7Ke4IOybkOydtCDri6Tsi5wg65Ox7J6l7ZWY66mwIOS7jjHlvIDlp4sKCi0tLQoKIyMgMTUuIDEz6rCcIOyEnOyCrCDrp4jsnbzsiqTthqQgKEVYUEVSSUVOQ0Ug7Lac66Cl66y8IOyDgeyEuCkKCj4g7YOA7J6E65287J247JeQIOyXsOuPhOyInCDsgr3snoXrkJjripQgIuyInOqwhCIg7ZaJLiDsuakgKyAxfjLrrLjsnqUg7Lm07ZS8LiDrqqjrk6Ag7IKs7Iuk7J2AIOuNsOydtO2EsOyXkOyEnOunjCDrgpjsmLQo7KGw7J6RIOybkOyynCDssKjri6gpLgoKfCAjIHwgdHlwZSAo7JeU7KeEIElEKSB8IOy5qSDrnbzrsqggfCDtlYTsmpQg642w7J207YSwIHwg7Iuk7KCcIOy2nOugpSDsubTtlLwgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAxIHwgKihiaXJ0aCkqIHwg55Sf5pel6YKj5aSp55qE5q2MIHwg7Lac7IOdIOyblC/snbwgKyDrhbjrnpgg7LqY66aw642UIHwg64u57J286rOhIOKGkiDri7nsm5Tqs6Eg4oaSIOyLnOuMgCDrsLDqsr3qs6EgM+uLqOqzhCDrp6Tsua0gfAp8IDIgfCBgam9pbl9kYXRlYCB8IOazqOWGjOmCo+S4gOWkqSB8IGBwbGF0Zm9ybV9qb2luX2RhdGVgIHwge2RhdGV977yM5L2g5rOo5YaM5LqGUVHpn7PkuZDigJTigJTku47ov5nkuIDlpKnotbfvvIzmlYXkuovlvIDlp4vorqHmlbDjgIIgfAp8IDMgfCBgc3R5bGVfZXhwbG9yZWAgfCDpo47moLzmkbjntKIgfCDssqvtlbQg7J6l66W0IOuqqeuhnSB8IOWKoOWFpeWQjueahOesrOS4gOW5tO+8jOS9oOWcqHtnZW5yZXN95LmL6Ze05p2l5Zue6K+V5o6i4oCU4oCU5Y+j5ZGz6L+Z5Lu25LqL77yM5piv5ZCs5Ye65p2l55qE44CCIHwKfCA0IHwgYGZpcnN0X2ZvbGxvd2AgfCDnrKzkuIDkvY3lhbPms6ggfCDqsIDsiJjrqoUgfCDkvaDlhbPms6jnmoTnrKzkuIDkvY3mrYzmiYvvvIzmmK97YXJ0aXN0feOAgui1t+eCuei/meS4quivje+8jOacieaXtuavlOe7iOeCuemHjeimgeOAgiB8CnwgNSB8IGBmaXJzdF9mb3JlaWduYCB8IOesrOS4gOmmluWkluivreatjCB8IOqzoeuqhSB8IOS9oOWQrOWIsOeahOesrOS4gOmmluWkluivreatjOaYr+OAintzb25nfeOAi+OAguWQrOS4jeaHgueahOmCo+mDqOWIhu+8jOaXi+W+i+abv+Wug+ivtOS6huOAgiB8CnwgNiB8IGBmaXJzdF93ZWNoYXRfc2hhcmVgIHwg56ys5LiA5qyh5YiG5LqrIHwg6rOh66qFIHwg5L2g56ys5LiA5qyh5YiG5Lqr5Yiw5b6u5L+h54q25oCB55qE6YKj6aaW5q2M77yM5piv44CKe3Nvbmd944CL44CC5pyJ5Lqb5b+D5oOF77yM5LuO56ys5LiA5qyh5YWs5byA44CCIHwKfCA3IHwgYGFsbF90aW1lX3RvcGAgfCDmkq3mlL7mnIDlpJrnmoTmrYwgfCDqs6HrqoUr7J6s7IOd7IiYIHwg6L+Z5Lqb5bm05L2g5ZCs5b6X5pyA5aSa55qE5q2M77yM5piv44CKe3Nvbmd944CL4oCU4oCU57Sv6K6he3BsYXlzfeasoeOAguavj+S4gOmBje+8jOmDveacieW9k+aXtueahOeQhueUseOAgiB8CnwgOCB8IGBhZHVsdF8xOGAgfCAxOOWygeeahOatjCB8IOqzoeuqhSB8IDE45bKB6YKj5bm077yM5Luj6KGo5L2g55qE5q2M5piv44CKe3Nvbmd944CL44CC5oiQ5bm06L+Z5Lu25LqL77yM5pyJ5pe25piv5LiA6aaW5q2M5YWI5pu/5L2g6K+05LqG44CCIHwKfCA5IHwgYHpvZGlhY2AgfCDmnKzlkb3lubQgfCDqs6HrqoUr64KY7J20IHwge2FnZX3lsoHmnKzlkb3lubTvvIzpmarkvaDov4fov5nkuIDlubTnmoTmmK/jgIp7c29uZ33jgIvjgILljYHkuozlubTkuIDova7lm57vvIzmrYzljZXkuZ/plb/lh7rkuIDlnIjlubTova7jgIIgfAp8IDEwIHwgYGZpcnN0X25ld19nZW5yZWAgfCDmlrDpo47moLzliJ3pgYcgfCDsnqXrpbQr6rOh66qFIHwg5L2g56ys5LiA5qyh54K55byA55qE5paw6aOO5qC85pive2dlbnJlfeKAlOKAlOS7juOAintzb25nfeOAi+i1t++8jOatjOWNleWkmuS6huS4gOS4quaKveWxieOAgiB8CnwgMTEgfCBgdmFyaWV0eV9zaG93YCB8IOmfs+S5kOe7vOiJuiB8IOyYiOuKpSvqs6HrqoUgfCDkvaDlnKh7c2hvd33ph4zmlLbol4/kuobjgIp7c29uZ33jgIvjgILoioLnm67kvJrmlLblrpjvvIzmlLbol4/kvJrnlZnkuIvjgIIgfAp8IDEyIHwgYGZpcnN0X2xvb3BgIHwg56ys5LiA5pSv5Y2V5puy5b6q546vIHwg6rOh66qFK+yerOyDneyImCB8IOS9oOeahOesrOS4gOaUr+WNleabsuW+queOr+aYr+OAintzb25nfeOAi++8jOmCo+W5tOW+queOr+S6hntwbGF5c33mrKHjgILlvqrnjq/vvIzmmK/mnIDor5rlrp7nmoTllpzmrKLjgIIgfAp8IDEzIHwgYGZpcnN0X2NoYXJ0X3RvcGAgfCDmrYzmiYvmppznrKzkuIDmrKHnrKzkuIAgfCDsl7Drj4Qr6rCA7IiY66qFIHwge3llYXJ95bm077yMe2FydGlzdH3nrKzkuIDmrKHnmbvkuIrkvaDnmoTlubTluqbmrYzmiYvmppznrKzkuIDjgILnrKzkuIDlkI3ov5nkuKror43vvIzku47mraTmnInkuoblkI3lrZfjgIIgfAoKIyMjIDE1LTEuIOuNsOydtO2EsCDsiqTtgqTrp4ggKHBlcnNvbmEgSlNPTikKYGBganNvbgp7CiAgInBsYXRmb3JtX2pvaW5fZGF0ZSI6ICIyMDE0LTA2LTA4IiwKICAibWlsZXN0b25lcyI6IFsKICAgIHsgInR5cGUiOiAiZmlyc3RfZm9sbG93IiwgICAgInllYXIiOiAyMDE0LCAiYXJ0aXN0IjogIuWRqOadsOS8piIgfSwKICAgIHsgInR5cGUiOiAiZmlyc3RfZm9yZWlnbiIsICAgInllYXIiOiAyMDE1LCAic29uZyI6ICJUaXRsZSIsICJsYW5ndWFnZSI6ICLml6Xor60iIH0sCiAgICB7ICJ0eXBlIjogImZpcnN0X2xvb3AiLCAgICAgICJ5ZWFyIjogMjAxNiwgInNvbmciOiAiVGl0bGUiLCAicGxheXMiOiAyMTQgfSwKICAgIHsgInR5cGUiOiAiZmlyc3RfY2hhcnRfdG9wIiwgInllYXIiOiAyMDE3LCAiYXJ0aXN0IjogIuWRqOadsOS8piIgfQogIF0KfQpgYGAKCiMjIyAxNS0yLiDroIzrjZTrp4Eg6rec7LmZCi0g7IK97J6FIOyInOyEnDog7Jew64+EIOyYpOumhOywqOyInC4g64+Z7J28IOyXsOuPhCDspJHrs7Ug7IucIOuNsOydtO2EsCDtlokg4oaSIOuniOydvOyKpO2GpCDtlokg7IicCi0g7KCc7Jm4IOyhsOqxtDogYHllYXIgPCDstpzsg53rhYRgIOuYkOuKlCBgeWVhciA+IOyYrO2VtGAg7J6Q64+ZIOyKpO2CtSAo7JiIOiAyMDIz64WEIOqwgOyehSDsi6Dqt5wg7Jyg7KCAIOKGkiAxOOyEuMK35pys5ZG95bm0IOygnOyZuCwgMTPqsJwg7KSRIDEw6rCcIOy2nOugpSkKLSDrp4jsnbzsiqTthqQg7ZaJ7J2AIGhvdmVyIOyLnCDsm5DsnbQg7ZmV7J6l65CY64qUICoq7J247YSw656Z7IWYIOKRoSBIb3ZlciDihpIgTWVtb3J5Kiog7J2YIOyggeyaqSDrjIDsg4EgKOy5qSDsmIYg7J6R7J2AIOybkCDtmZXsnqUgKyDqs6Eg7Lm065OcIOuTseyepSkKCi0tLQoKIyMgMTYuIOqygOymnSDsi5zrgpjrpqzsmKQgKOuNsOuqqCDsi6TsuKEpCgp8IOyLnOuCmOumrOyYpCB8IOuniOydvOyKpO2GpCDsiJggfCDruYTqs6AgfAp8LS0tfC0tLXwtLS18Cnwg5ZGo5p2w5LymIO2MrCAoMjAwMeuFhOyDnSkgfCAxMiB8IOyDneydvOqzoSDtj6ztlagg7IucIDEzIOyalOyGjCDsoITssrQgfAp8IEJJR0JBTkcg7YysICgxOTk564WE7IOdKSB8IDEyIHwg6rCA7IiY7ISgID0gQklHQkFORyDsl7DtkZwgfAp8IOyLoOq3nCDqsIDsnoXsnpAgKDIwMjMg6rCA7J6FKSB8IDEwIHwgMTjshLjCt+acrOWRveW5tCDqsIDsnoUg7KCE7J206528IOygnOyZuCB8CgotLS0KCiMjIDE3LiDstZzsooUg65SU7J6Q7J24IOyduOyDgSDigJQgRG8gLyBEb24ndAoKIyMjIOygiOuMgCDquIjsp4AgKERvbid0KQotIOKdjCBRUemfs+S5kCDtmYjtjpjsnbTsp4Ag6rCZ7J2AIFVJCi0g4p2MIOuRpeq3vCDsubTrk5wg7Jes65+sIOqwnAotIOKdjCDstIjroZ0g67KE7Yq8IOuCqOuwnAotIOKdjCDslYTsnbTsvZgg7J6U65ypCi0g4p2MIOq3uOumvOyekAotIOKdjCDqt7jrnbzrjbDsnbTshZgg64Ko67CcCi0g4p2MIOuCmOustCDsp4jqsJAg67Cw6rK9Ci0g4p2MIOyLpOygnCDrgpjsnbTthYwg7IKs7KeECgojIyMg7KeA7ZalIChEbykKLSDinIUgRWRpdG9yaWFsIMOXIEFydCBEaXJlY3Rpb24KLSDinIUg6rGw64yA7ZWcIO2DgOydtO2PrCAo7Iir7J6Q6rCAIOq3uOuemO2UvSkKLSDinIUg67aI7JmE7KCE7ZWcIOuPmeyLrOybkAotIOKchSDslYTsnbTrs7Trpqwg7Jes67CxIDcwJQotIOKchSDqsoDsoJUg7YWN7Iqk7Yq4IDIwJQotIOKchSAqKlFR57u/IO2VnCDsoJAqKiAoMiU6IOyyqyDsm5DCt2hvdmVywrdDVEHCt+2VteyLrCDsiKvsnpDrp4wpCi0g4pyFIOyCrOynhCDtgazroa0gKDQwfjYwJSkKLSDinIUg7Iqk7YGs66GkIOq4sOuwmCDsi5zqsITsnZgg7Z2Q66aECgo+IOqysOuhoDogIuydjOyVhSDshJzruYTsiqTrpbwg7ISk66qF7ZWY64qUIOybueyCrOydtO2KuCLqsIAg7JWE64uI6528ICoqIuyLnOqwhOqzvCDsnYzslYXsl5Ag6rSA7ZWcIO2VmOuCmOydmCDsnbjthLDrnpnti7DruIwg7JeQ65SU7Yag66as7Ja8IioqIOyymOufvCDrs7TsnbTqsowuIOyXsOulnOydgCBuYXZpZ2F0aW9uIMK3IHRyYW5zaXRpb24gwrcgZGF0YSB2aXogwrcgaW50ZXJhY3Rpb27snYQg64+Z7Iuc7JeQIOuLtOuLue2VmOuKlCDsgqzsnbTtirgg7KCE7LK07J2YIOuUlOyekOyduCDslrjslrQuCgotLS0KCiMjIOu2gOuhnTog642w66qoIOumrOyGjOyKpCDssLjsobAKCi0g642w66qoIOunge2BrDogaHR0cHM6Ly8wZmI4MGI0NGQ5OGY0ZDRhYjdkZDc0MGZmMTQ2MWMzOS5hcHAud29ya2J1ZGR5Lmhvc3QKLSDsl5Tsp4Q6IGBlbmdpbmUvbWlsZXN0b25lcy5qc2AgKOy5qSDsoJXsnZjCt+yCveyehSDroZzsp4EpIC8gYGRhdGEvdGVtcGxhdGVzLmpzb25gICgxMuyihSDsubTtlLwpIC8gYGRhdGEvcGVyc29uYXMvKi5qc29uYCAo66eI7J287Iqk7YakIOuNsOydtO2EsCkKLSDquLDsobQg7Iqk7YOA7J28OiBgY3NzL3N0eWxlLmNzc2Ag4oCUIHYyIOy7rOufrC/subTrk5zrpqzsiqQg6rec7LmZ7Jy866GcIOumrOuUlOyekOyduCDsi5wg7JyEIMKnNC0zLCDCpzE0LTMg66ek7ZWR7ZGcIOywuOyhsAo=
+# 音乐年轮 · 从1开始 — Web Art Direction & UI Design Spec (v2)
+
+> QQ音乐 AI 音乐人生叙事引擎 · 2026-10-08
+> v2: Editorial 아트 디렉션(콘셉트/HERO/인터랙션/10섹션 스크롤)을 기존 데모 사양(입력→생성→듀얼트랙 13 마일스톤)에 통합
+> 규칙: 이 문서의 카피는 전부 실제 출력/확정 문구. 목업에 그대로 사용 가능.
+
+---
+
+## 1. 전체 아트 디렉션
+
+### 콘셉트
+**「音乐年轮 · 从1开始」**
+
+디자인 키워드: **Editorial × Minimal × Music × Time**
+
+- 단순히 예쁜 음악 사이트가 아니라, **"시간이 지나면서 음악이 어떻게 기록되고, 축적되고, 다시 경험되는가"** 를 보여주는 웹사이트
+- 기록의 진화축 — 结绳记事 → 文字 → 照片 → 影像 → 音乐 — 를 웹의 스크롤 구조로 전환
+- 연륜(동심원)은 장식이 아니라 **navigation / transition / data visualization / interaction을 동시에 담당하는 하나의 디자인 언어**
+  - PPT에서는 그래픽이었던 연륜 → 웹에서는 **움직이는 그래픽**
+
+---
+
+## 2. 첫 화면 — HERO
+
+웹사이트에서 가장 중요한 화면. **거대한 1 + 연륜 + QQ绿** 을 그대로 발전.
+
+### 레이아웃
+- 배경: `#F7F3EC`
+- 중앙(또는 약간 우측): **엄청나게 큰 1** (Display 120–180px 이상, 숫자 자체가 그래픽)
+- 그 뒤로 여러 개의 얇은 원이 천천히 퍼져나감
+
+```
+             ╭───────────────╮
+        ╭────╯                 ╰────╮
+      ╭─╯                             ╰─╯
+
+                    1
+
+      ╰─╮                             ╭─╯
+        ╰────╮                 ╭────╯
+             ╰───────────────╯
+```
+
+### 연륜 그래픽 규칙
+- **모든 원을 완성하지 않음** — 일부는 화면 밖으로 나가고, 일부는 끊겨 있음 (불완전한 동심원)
+- **첫 번째 원만 `#31C27C` (QQ绿)**, 나머지 원은 잉크색 얇은 라인
+- 원들은 아주 느리게 확산하는 애니메이션 (호흡하는 정도의 미세한 움직임)
+
+### 텍스트
+```
+작게:   音乐年轮
+크게:   从1开始
+아주 작게: 每一首歌，都留下时间的痕迹。
+```
+
+→ 첫 화면부터 핵심 메시지 **"첫 번째 원 = 1 = 시작"** 이 즉시 전달.
+
+---
+
+## 3. 연륜 = 인터랙션 (PPT과 웹의 가장 큰 차이)
+
+- 사용자가 스크롤하면: 첫 번째 원 생성 → 두 번째 원 → 세 번째 원… (숫자 1→2→3을 직접 보여주지 않고 **원이 하나씩 생기는 방식**)
+- **스크롤 = 시간의 흐름**. 웹 전체가 하나의 거대한 연륜이 되는 구조
+- 스크롤 진행에 따라 섹션 번호(01/02/03…)도 원의 누적과 1:1로 동기화
+
+---
+
+## 4. 컬러 시스템
+
+### 4-1. 4색 기본 시스템
+| 용도 | 색상 |
+|---|---|
+| Background | `#F7F3EC` (아이보리) |
+| Main Ink | `#2B2620` (검정) |
+| Secondary | `#8C6239` (브라운) |
+| Accent (QQ绿) | `#31C27C` |
+
+### 4-2. 사용 비율 — 엄격히 지킬 것
+```
+아이보리 70% / 검정 20% / 브라운 8% / 초록 2%
+```
+**초록은 정말 중요한 곳에만**: Hover · 현재 선택 상태 · 핵심 숫자 · CTA · 첫 번째 연륜 · 인터랙션 활성 상태
+
+### 4-3. 기존 데모 트랙색 → v2 마이그레이션 매핑
+| 구 역할 | 구 값 | v2 대응 |
+|---|---|---|
+| 배경(크림) | `#F5F3EC` 계열 | `#F7F3EC` |
+| 본문 | `#2C2C2A` | `#2B2620` |
+| 개인선 Track-Me (골드) | `#BA7517` | `#8C6239` (브라운) — 초록은 첫 원/CTA 전용이므로 |
+| 가수선 Track-Him (블루) | `#185FA5` | `#2B2620` (잉크) 라인 강도로만 구분 |
+| 마일스톤 (산호) | `#993C1D` | 칩 텍스트 브라운 + **첫 등장 마일스톤에만 초록 점 1개** |
+| Accent | — | `#31C27C` (신설. 첫 원·CTA·hover만) |
+
+> 원칙: 골드/블루/산호 3색 병행을 없애고 **선 굵기·타입(실선/점선) + 브라운 농도**로 트랙을 구분. 색 수를 줄여야 에디토리얼 톤이 산다.
+
+---
+
+## 5. 타이포그래피
+
+- 조합 유지: **Noto Serif SC (제목·서사) + Noto Sans SC (본문·UI)**
+- 웹에서는 **크기 대비를 극단적으로**:
+
+| 레벨 | 크기 | 용도 |
+|---|---|---|
+| Display | 120–180px | 거대한 1, 섹션 넘버 |
+| Section title | 48–72px | 从1开始, 섹션 제목 |
+| Body | 16–20px | 서사 본문 |
+| Caption | 11–13px | 칩, 캡션, 출처 |
+
+- **01 / 02 / 03 같은 숫자는 엄청 크게** — 숫자 자체가 그래픽이 되게.
+
+---
+
+## 6. 카드 디자인은 버린다
+
+2020년대 웹이 아니라 기업 PPT 웹페이지처럼 보이는 주범. 카드 대신:
+
+```
+기존                          변경
+┌─────────────┐
+│ 标题        │      01
+│ 内容        │
+└─────────────┘      最早的记录
+                       ────────────────────
+                      文字开始保存
+                      我们无法保存声音，
+                      于是开始保存关于声音的记忆。
+```
+
+**선 + 타이포 + 여백** 3요소로 구성. 박스·테두리·그림자 없음.
+
+---
+
+## 7. 첫 번째 콘텐츠 섹션 — 기록의 진화 (세로 스크롤)
+
+가로 타임라인은 만들지 않음. 세로 스크롤 방식:
+
+- 왼쪽에 **아주 큰 01**
+- 중앙에 하나의 세로 라인
+- 스크롤하며 등장: 结绳 ↓ 文字 ↓ 照片 ↓ 影像 ↓ 音乐
+- **각 단계마다 작은 원이 하나씩 생기고**, 그 원이 다음 섹션의 연륜과 연결
+
+---
+
+## 8. 三个"最" 섹션 — 겹치는 3원 인터랙티브 그래픽
+
+카드 3개 금지. **세 개의 원이 서로 겹치는** 인터랙티브 그래픽:
+
+```
+          最早
+            ○
+         ╱     ╲
+       ○─────────○
+      最精确      最浓
+```
+
+- 마우스를 올리면 해당 원이 커지고 주변 콘텐츠가 전환
+- 원 자체가 navigation 역할
+
+| 원 | 의미 | 서브 카피 |
+|---|---|---|
+| 最早 | 기록의 시작 | — |
+| 最精确 | 기술 기록 | — |
+| 最浓 | 감정 기록 | — |
+
+---
+
+## 9. "1" 섹션 — Signature Moment
+
+거대한 1을 유지하되, **스크롤에 따라 변화**시킨다:
+
+```
+1  ↓  01  ↓  第一圈  ↓  从1开始
+```
+
+마지막에 배치되는 메시지:
+
+> 每一个时代，都有属于它的第一首歌。
+
+이 섹션이 웹사이트의 **signature moment**.
+
+---
+
+## 10. 경쟁 플랫폼 비교 — 원형 좌표계
+
+비교표(X) 대신 **하나의 거대한 원형 좌표계**:
+
+- 각 음악 플랫폼 = 하나의 점
+- hover 시 옆에서 등장: 플랫폼 이름 · 用户规模 · 内容特征 · 音乐关系
+- **QQ音乐의 점만 `#31C27C`** → 데이터 시각화 자체가 브랜드 그래픽이 됨
+
+---
+
+## 11. 사진 사용 방식
+
+- 화면 전체에 깔지 않고 **화면의 40~60%만 차지하도록 크롭**
+- **연륜 그래픽(얇은 원)이 사진 위를 지나가게**
+- 콘서트 사진 = 사진 + 얇은 원 + 큰 타이포, 이 세 가지면 충분
+
+```
+┌─────────────────────────────┐
+│      MUSIC                  │
+│           ╭──────────       │
+│       ╭───╯                 │
+│       │    PHOTO            │
+│       ╰───────────────      │
+└─────────────────────────────┘
+```
+
+---
+
+## 12. 전체 스크롤 플로우 (10 섹션)
+
+| # | 섹션 | 내용 | 연륜 표현 |
+|---|---|---|---|
+| 01 | OPENING | 音乐年轮 / 从1开始 / 每一首歌，都留下时间的痕迹。 | 첫 번째 원 (초록) |
+| 02 | TIME | 人类如何记录声音？ — 结绳→文字→照片→影像→音乐 | 단계마다 원 +1 |
+| 03 | MEMORY | 音乐为什么值得被记录？ — 겹치는 3원 (最早/最精确/最浓) | 3원 그래픽 |
+| 04 | ONE | 거대한 1 → 01 → 第一圈 → 从1开始 | 1=원의 등가 교환 |
+| 05 | NOW | 현재 음악 소비와 사용자 | — |
+| 06 | COMPETITION | 음악 플랫폼의 위치 — 원형 좌표계, QQ音乐만 초록 | 좌표계 = 거대한 원 |
+| 07 | INSIGHT | 我们真正要记录的，不是音乐，而是人与音乐的关系。 | — |
+| 08 | SOLUTION | 연륜 그래픽 재등장 + 서비스/캠페인 제안 | 원이 다시 자라남 |
+| 09 | EXPERIENCE | **사용자가 직접 참여하는 인터랙션 = 데모 앱**(아래 §14 상세) | 개인 연륜 생성 |
+| 10 | ENDING | 첫 번째 원이 다시 나타남 + **从1开始** | 첫 원 회귀(수미상관) |
+
+---
+
+## 13. 3대 웹 인터랙션 (이 3개만 강하게)
+
+| 인터랙션 | 동작 | 의미 | 구현 노트 |
+|---|---|---|---|
+| **① Scroll → Ring** | 스크롤할 때마다 원이 하나씩 생김 | 시간의 축적 | 스크롤 진행도 → 원 개수/반경 매핑. requestAnimationFrame + stroke-dashoffset |
+| **② Hover → Memory** | 사진/텍스트 hover 시 작은 원이 확장되며 관련 정보 등장 | 기억의 호출 | 원 확장 트리거로 텍스트 fade-in |
+| **③ Cursor → First Ring** | 커서에 원이 미세하게 따라옴 | 첫 번째 원과의 동행 | **0.1~0.2초 지연 lerp**. 과한 마우스 트래킹 금지 — 미세해야 고급스러움 |
+
+---
+
+## 14. 09 EXPERIENCE 섹션 — 데모 앱 상세 사양
+
+스크롤 내러티브 10섹션 중 실제 참여 구간. 앱 플로우는 4단계:
+
+```
+[1] 输入        →  [2] 生成中         →  [3] 双轨时间线            →  [4] 结尾
+生日+歌手搜索       "年轮正在生长"        스크롤 시 링 성장             金句+小组卡+分享卡
+```
+
+### 14-1. Screen 1 — 输入
+| 요소 | 사양 |
+|---|---|
+| 타이틀 | 音乐年轮 / 你的这些年 × 他的这些年 |
+| 생년월일 | 연:월:일 = 1.3 : 1 : 1 flex 비율 3단 셀렉트 (연도 폭 최우선) |
+| 가수 검색 | 검색 인풋 + 리스트, A–Z 정렬. **周杰伦·BIGBANG** 상단 고정 「已收录」선택 가능, 나머지 18명 「即将上线」비활성 |
+| 검색 인터랙션 | 선택 시 → 이름이 검색창에 자동 입력 + 리스트 즉시 접힘. 재입력 시 재전개·실시간 필터 |
+| CTA | 生成我的音乐年轮 (Primary, **초록은 여기에만**) / 不选了，只看我的音乐人生 (링크형) |
+
+> 카드 금지 원칙 적용: 기존 가수 카드 2장도 검색 리스트로 이미 전환 완료. 입력 폼도 박스 대신 **밑줄형 필드 + 여백** 권장.
+
+### 14-2. Screen 2 — 生成中
+- "年轮正在生长" — 원이 하나씩 그려지는 애니메이션 (인터랙션 ①과 동일 언어)
+
+### 14-3. Screen 3 — 双轨时间线 (핵심)
+- **좌열**: 我的音乐人生 (개인선) / **우열**: 他的音乐人生 (가수선, 미선택 시 좌열만)
+- 각 행 = 1개 연도, 스크롤 연동해 연륜 링이 자람 (인터랙션 ①)
+- 행 유형 4종: `me`(개인) / `him`(가수) / `birth`(生辰歌) / `milestone`(순간 카드)
+- **행 스타일 — v2 재정의**:
+
+```css
+/* 카드 제거: 배경 채움 없음. 상단 구분선 + 타이포로 위계 구성 */
+.tl-row    { border-top: 1px solid rgba(43,38,32,.25); padding: 28px 0; }
+.tl-row.me        { border-top: 2px solid #8C6239; }   /* 개인: 브라운 실선 */
+.tl-row.him       { border-top: 1px solid #2B2620; }   /* 가수: 잉크 실선 */
+.tl-row.him.gap   { border-top-style: dashed; }        /* 공백연도: 점선 */
+.tl-row.milestone { border-top: 2px solid #8C6239; }   /* 마일스톤: 칩으로 구분 */
+.tl-chip          { font-size:11px; letter-spacing:.1em; color:#8C6239; }
+```
+
+- 연도 표기: `2014 · 13岁` (숫자는 Section title급으로 크게 가능)
+
+### 14-4. Screen 4 — 结尾
+1. 마무리 명대사 (Serif, 크게)
+2. 小组匹配 + 一起听 유도 (선+타이포 구성)
+3. PNG 分享卡 저장 (CTA 초록 — 사이트 전체에서 초록 2% 예산의 핵심 지출처)
+4. ENDING 섹션(10)과 자연 연결: 첫 번째 원이 다시 등장하며 从1开始
+
+---
+
+## 15. 13개 서사 마일스톤 (EXPERIENCE 출력물 상세)
+
+> 타임라인에 연도순 삽입되는 "순간" 행. 칩 + 1~2문장 카피. 모든 사실은 데이터에서만 나옴(조작 원천 차단).
+
+| # | type (엔진 ID) | 칩 라벨 | 필요 데이터 | 실제 출력 카피 |
+|---|---|---|---|---|
+| 1 | *(birth)* | 生日那天的歌 | 출생 월/일 + 노래 캘린더 | 당일곡 → 당월곡 → 시대 배경곡 3단계 매칭 |
+| 2 | `join_date` | 注册那一天 | `platform_join_date` | {date}，你注册了QQ音乐——从这一天起，故事开始计数。 |
+| 3 | `style_explore` | 风格摸索 | 첫해 장르 목록 | 加入后的第一年，你在{genres}之间来回试探——口味这件事，是听出来的。 |
+| 4 | `first_follow` | 第一位关注 | 가수명 | 你关注的第一位歌手，是{artist}。起点这个词，有时比终点重要。 |
+| 5 | `first_foreign` | 第一首外语歌 | 곡명 | 你听到的第一首外语歌是《{song}》。听不懂的那部分，旋律替它说了。 |
+| 6 | `first_wechat_share` | 第一次分享 | 곡명 | 你第一次分享到微信状态的那首歌，是《{song}》。有些心情，从第一次公开。 |
+| 7 | `all_time_top` | 播放最多的歌 | 곡명+재생수 | 这些年你听得最多的歌，是《{song}》——累计{plays}次。每一遍，都有当时的理由。 |
+| 8 | `adult_18` | 18岁的歌 | 곡명 | 18岁那年，代表你的歌是《{song}》。成年这件事，有时是一首歌先替你说了。 |
+| 9 | `zodiac` | 本命年 | 곡명+나이 | {age}岁本命年，陪你过这一年的是《{song}》。十二年一轮回，歌单也长出一圈年轮。 |
+| 10 | `first_new_genre` | 新风格初遇 | 장르+곡명 | 你第一次点开的新风格是{genre}——从《{song}》起，歌单多了一个抽屉。 |
+| 11 | `variety_show` | 音乐综艺 | 예능+곡명 | 你在{show}里收藏了《{song}》。节目会收官，收藏会留下。 |
+| 12 | `first_loop` | 第一支单曲循环 | 곡명+재생수 | 你的第一支单曲循环是《{song}》，那年循环了{plays}次。循环，是最诚实的喜欢。 |
+| 13 | `first_chart_top` | 歌手榜第一次第一 | 연도+가수명 | {year}年，{artist}第一次登上你的年度歌手榜第一。第一名这个词，从此有了名字。 |
+
+### 15-1. 데이터 스키마 (persona JSON)
+```json
+{
+  "platform_join_date": "2014-06-08",
+  "milestones": [
+    { "type": "first_follow",    "year": 2014, "artist": "周杰伦" },
+    { "type": "first_foreign",   "year": 2015, "song": "Title", "language": "日语" },
+    { "type": "first_loop",      "year": 2016, "song": "Title", "plays": 214 },
+    { "type": "first_chart_top", "year": 2017, "artist": "周杰伦" }
+  ]
+}
+```
+
+### 15-2. 렌더링 규칙
+- 삽입 순서: 연도 오름차순. 동일 연도 중복 시 데이터 행 → 마일스톤 행 순
+- 제외 조건: `year < 출생년` 또는 `year > 올해` 자동 스킵 (예: 2023년 가입 신규 유저 → 18세·本命年 제외, 13개 중 10개 출력)
+- 마일스톤 행은 hover 시 원이 확장되는 **인터랙션 ② Hover → Memory** 의 적용 대상 (칩 옆 작은 원 확장 + 곡 카드 등장)
+
+---
+
+## 16. 검증 시나리오 (데모 실측)
+
+| 시나리오 | 마일스톤 수 | 비고 |
+|---|---|---|
+| 周杰伦 팬 (2001년생) | 12 | 생일곡 포함 시 13 요소 전체 |
+| BIGBANG 팬 (1999년생) | 12 | 가수선 = BIGBANG 연표 |
+| 신규 가입자 (2023 가입) | 10 | 18세·本命年 가입 전이라 제외 |
+
+---
+
+## 17. 최종 디자인 인상 — Do / Don't
+
+### 절대 금지 (Don't)
+- ❌ QQ音乐 홈페이지 같은 UI
+- ❌ 둥근 카드 여러 개
+- ❌ 초록 버튼 남발
+- ❌ 아이콘 잔뜩
+- ❌ 그림자
+- ❌ 그라데이션 남발
+- ❌ 나무 질감 배경
+- ❌ 실제 나이테 사진
+
+### 지향 (Do)
+- ✅ Editorial × Art Direction
+- ✅ 거대한 타이포 (숫자가 그래픽)
+- ✅ 불완전한 동심원
+- ✅ 아이보리 여백 70%
+- ✅ 검정 텍스트 20%
+- ✅ **QQ绿 한 점** (2%: 첫 원·hover·CTA·핵심 숫자만)
+- ✅ 사진 크롭 (40~60%)
+- ✅ 스크롤 기반 시간의 흐름
+
+> 결론: "음악 서비스를 설명하는 웹사이트"가 아니라 **"시간과 음악에 관한 하나의 인터랙티브 에디토리얼"** 처럼 보이게. 연륜은 navigation · transition · data viz · interaction을 동시에 담당하는 사이트 전체의 디자인 언어.
+
+---
+
+## 부록: 데모 리소스 참조
+
+- 데모 링크: https://0fb80b44d98f4d4ab7dd740ff1461c39.app.workbuddy.host
+- 엔진: `engine/milestones.js` (칩 정의·삽입 로직) / `data/templates.json` (12종 카피) / `data/personas/*.json` (마일스톤 데이터)
+- 기존 스타일: `css/style.css` — v2 컬러/카드리스 규칙으로 리디자인 시 위 §4-3, §14-3 매핑표 참조

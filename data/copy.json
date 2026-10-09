@@ -1,1 +1,35 @@
-ewogICJ2ZXJzaW9uIjogIjEuMCIsCiAgImFwcF90aXRsZSI6ICLpn7PkuZDlubTova4iLAogICJhcHBfc3VidGl0bGUiOiAi5L2g55qE6L+Z5Lqb5bm0IMOXIOS7lueahOi/meS6m+W5tCIsCiAgImlucHV0X3RpdGxlIjogIuS7juS4pOS4quaVsOWtl+W8gOWniyIsCiAgImlucHV0X2JpcnRoeWVhcl9sYWJlbCI6ICLkvaDlh7rnlJ/lnKjlk6rkuIDlubTvvJ8iLAogICJpbnB1dF9hcnRpc3RfbGFiZWwiOiAi6YCJ5LiA5L2N6Zmq5L2g6ZW/5aSn55qE5q2M5omLIiwKICAiaW5wdXRfc3RhcnQiOiAi55Sf5oiQ5oiR55qE6Z+z5LmQ5bm06L2uIiwKICAiaW5wdXRfZGVtb19ub3RlIjogIkRlbW8g6K+05piO77ya5pys5ryU56S65L2/55So6aKE572u5ZCs5q2M55S75YOP5qih5ouf5Liq5Lq657q/5pWw5o2u77yb5q2j5byP5Lqn5ZOB5Lit55SxUVHpn7PkuZDnq5nlhoXlkKzmrYzmlbDmja7pqbHliqjjgIIiLAogICJsb2FkaW5nX3RleHQiOiAi5bm06L2u55Sf6ZW/5Lit4oCm4oCmIiwKICAibmFycmF0aXZlX2hpbnQiOiAi54K55Ye75bm06L2u5LiK55qE6IqC54K577yM5oiW5bem5Y+z5ruR5YqoIiwKICAiZW5kaW5nX3RpdGxlIjogIuS9oOeahOmfs+S5kOW5tOi9riIsCiAgImVuZGluZ19zaGFyZSI6ICLkv53lrZjliIbkuqvljaHniYciLAogICJlbmRpbmdfZ3JvdXAiOiAi55yL55yL5ZKM5L2g55u45Ly855qE5Lq6IiwKICAiZW5kaW5nX3Jvb20iOiAi6L+b5YWl5YWx5ZCs5oi/6Ze0IiwKICAiZ3JvdXBfY2FyZF90aXRsZSI6ICLlkIznsbvkurrlsI/nu4QiLAogICJncm91cF9jYXJkX3JlYXNvbiI6ICLlkozkvaDlkIzlubTlhaXlnZHjgIHlkIzlubTlvqrnjq/ov4flkIzkuIDpppbmrYznmoTkurrvvIzlnKjov5nkuKrlsI/nu4Tph4zjgIIiLAogICJyb29tX2NhcmRfdGl0bGUiOiAi5Li76aKY5YWx5ZCs5oi/6Ze0IiwKICAicm9vbV9jYXJkX3JlYXNvbiI6ICLmiL/pl7Tph4znmoTkurrvvIzlubPlnYfkuI7kvaDnmoTlubTova7ph43lkIgge292ZXJsYXB9JeOAgiIsCiAgImJhY2tfcmVzdGFydCI6ICLph43mlrDnlJ/miJAiLAogICJsbG1fc2V0dGluZ3NfdGl0bGUiOiAiTExNIOiuvue9ru+8iOWPr+mAie+8iSIsCiAgImxsbV9zZXR0aW5nc19ub3RlIjogIuS4jemFjee9ruWImeS9v+eUqOaooeadv+aWh+ahiOaooeW8j+OAgumFjee9ruWQjui1sCBMTE0g55Sf5oiQICsg5LqL5a6e5qCh6aqM44CCIiwKICAibGxtX2Jhc2V1cmwiOiAiQVBJIEJhc2UgVVJMIiwKICAibGxtX21vZGVsIjogIuaooeWei+WQjSIsCiAgImxsbV9hcGlrZXkiOiAiQVBJIEtlee+8iOS7heWtmOacrOWcsO+8iSIsCiAgImxsbV9zYXZlIjogIuS/neWtmCIsCiAgImxsbV9tb2RlX3RlbXBsYXRlIjogIuaooeadv+aooeW8jyIsCiAgImxsbV9tb2RlX2xsbSI6ICJMTE0g5qih5byPIiwKICAibGV2ZWxfYmFkZ2UiOiB7CiAgICAiTDEiOiAi5a6M5pW05Lqk57uHIiwKICAgICJMMiI6ICLmrYzmiYvnur/ooaXkvY0iLAogICAgIkwzIjogIue6r+atjOaJi+e6vyIKICB9LAogICJhaV9sYWJlbCI6ICLlhoXlrrnnlLEgQUkg55Sf5oiQIgp9Cg==
+{
+  "version": "1.0",
+  "app_title": "音乐年轮",
+  "app_subtitle": "你的这些年 × 他的这些年",
+  "input_title": "从两个数字开始",
+  "input_birthyear_label": "你出生在哪一年？",
+  "input_artist_label": "选一位陪你长大的歌手",
+  "input_start": "生成我的音乐年轮",
+  "input_demo_note": "Demo 说明：本演示使用预置听歌画像模拟个人线数据；正式产品中由QQ音乐站内听歌数据驱动。",
+  "loading_text": "年轮生长中……",
+  "narrative_hint": "点击年轮上的节点，或左右滑动",
+  "ending_title": "你的音乐年轮",
+  "ending_share": "保存分享卡片",
+  "ending_group": "看看和你相似的人",
+  "ending_room": "进入共听房间",
+  "group_card_title": "同类人小组",
+  "group_card_reason": "和你同年入坑、同年循环过同一首歌的人，在这个小组里。",
+  "room_card_title": "主题共听房间",
+  "room_card_reason": "房间里的人，平均与你的年轮重合 {overlap}%。",
+  "back_restart": "重新生成",
+  "llm_settings_title": "LLM 设置（可选）",
+  "llm_settings_note": "不配置则使用模板文案模式。配置后走 LLM 生成 + 事实校验。",
+  "llm_baseurl": "API Base URL",
+  "llm_model": "模型名",
+  "llm_apikey": "API Key（仅存本地）",
+  "llm_save": "保存",
+  "llm_mode_template": "模板模式",
+  "llm_mode_llm": "LLM 模式",
+  "level_badge": {
+    "L1": "完整交织",
+    "L2": "歌手线补位",
+    "L3": "纯歌手线"
+  },
+  "ai_label": "内容由 AI 生成"
+}

@@ -1,1 +1,88 @@
-Ly8g5bm05Lu95a+56b2Q5Zmo77ya5oqK5Liq5Lq657q/6ZSa54K55LiO5q2M5omL57q/5LqL5Lu25a+56b2Q5oiQ5Y+Z5LqL6IqC54K5Ci8vIOe6r+WHveaVsO+8jOaXoOWJr+S9nOeUqO+8jOWPr+eLrOeri+mqjOivgeOAggoKLyoqCiAqIEBwYXJhbSB7b2JqZWN0fG51bGx9IHBlcnNvbmEgIGRhdGEvcGVyc29uYXMvKi5qc29u77yITDMg5pe25Li6IG51bGzvvIkKICogQHBhcmFtIHtvYmplY3R9IGFydGlzdCAgICAgICAgZGF0YS9hcnRpc3RzLyouanNvbgogKiBAcGFyYW0ge251bWJlcn0gYmlydGhZZWFyCiAqIEByZXR1cm5zIHtBcnJheTx7eWVhciwgYWdlLCBwZXJzb25hbCwgYXJ0aXN0RXZlbnQsIGtpbmR9Pn0KICogICBraW5kOiAnam9pbicgfCAnY3Jvc3MnIHwgJ3BlcnNvbmFsX29ubHknIHwgJ2FydGlzdF9vbmx5JyB8ICdnYXAnCiAqLwpleHBvcnQgZnVuY3Rpb24gYWxpZ24ocGVyc29uYSwgYXJ0aXN0LCBiaXJ0aFllYXIpIHsKICBjb25zdCBjdXJyZW50WWVhciA9IG5ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKTsKICAvLyDnmb3lkI3ljZXov4fmu6TvvJp2ZXJpZmllZCAhPT0gdHJ1ZSDnmoTkuovku7bkuIDlvovkuKLlvIPvvIjmlbDmja7nuqrlvosgIzHvvIkKICBjb25zdCBtaWxlc3RvbmVzID0gKGFydGlzdC5taWxlc3RvbmVzIHx8IFtdKS5maWx0ZXIobSA9PiBtLnZlcmlmaWVkID09PSB0cnVlKTsKCiAgY29uc3QgZ2FwUmFuZ2UgPSBmaW5kR2FwUmFuZ2UobWlsZXN0b25lcyk7CiAgY29uc3QgcGVyc29uYWxCeVllYXIgPSBuZXcgTWFwKCk7CiAgaWYgKHBlcnNvbmEgJiYgQXJyYXkuaXNBcnJheShwZXJzb25hLnN0YXRzKSkgewogICAgZm9yIChjb25zdCBzIG9mIHBlcnNvbmEuc3RhdHMpIHBlcnNvbmFsQnlZZWFyLnNldChzLnllYXIsIHMpOwogIH0KCiAgY29uc3Qgam9pblllYXIgPSBwZXJzb25hID8gcGVyc29uYS5wbGF0Zm9ybV9qb2luX3llYXIgOiBudWxsOwogIGNvbnN0IG5vZGVzID0gW107CgogIC8vIOW6j+eroOWQiOW5tu+8muebuOmBh+W5tOS5i+WJjeeahOatjOaJi+S6i+S7tuWQiOW5tuS4uuWNleS4gCBwcm9sb2d1ZSDoioLngrnvvIwKICAvLyDpgb/lhY3pgJDlubTovpPlh7oi5L2g6L+Y5rKh6YGH5Yiw5LuWIuW8j+Wkjeivu+aWh+ahiO+8iOaWh+ahiOi0qOmHj+e6oue6v++8iQogIGNvbnN0IHByb2xvZ3VlRXZlbnRzID0gam9pblllYXIKICAgID8gbWlsZXN0b25lcy5maWx0ZXIobSA9PiBtLnllYXIgPCBqb2luWWVhciAmJiBtLnllYXIgPj0gYmlydGhZZWFyKQogICAgOiBbXTsKICBjb25zdCBwcm9sb2d1ZVllYXJzID0gbmV3IFNldChwcm9sb2d1ZUV2ZW50cy5tYXAobSA9PiBtLnllYXIpKTsKCiAgLy8g5pS26ZuG5omA5pyJ5pyJ5oSP5LmJ55qE5bm05Lu977yI5bqP56ug5bm05Lu96Zmk5aSW77yM55SxIHByb2xvZ3VlIOiKgueCuee7n+S4gOaJv+i9ve+8iQogIGNvbnN0IHllYXJzID0gbmV3IFNldChbCiAgICAuLi5bLi4ucGVyc29uYWxCeVllYXIua2V5cygpXS5maWx0ZXIoeSA9PiAhcHJvbG9ndWVZZWFycy5oYXMoeSkpLAogICAgLi4ubWlsZXN0b25lcy5tYXAobSA9PiBtLnllYXIpLmZpbHRlcih5ID0+ICFwcm9sb2d1ZVllYXJzLmhhcyh5KSksCiAgICAuLi4oam9pblllYXIgPyBbam9pblllYXJdIDogW10pCiAgXSk7CgogIGZvciAoY29uc3QgeWVhciBvZiBbLi4ueWVhcnNdLnNvcnQoKGEsIGIpID0+IGEgLSBiKSkgewogICAgaWYgKHllYXIgPCBiaXJ0aFllYXIgfHwgeWVhciA+IGN1cnJlbnRZZWFyKSBjb250aW51ZTsKICAgIGNvbnN0IHBlcnNvbmFsID0gcGVyc29uYWxCeVllYXIuZ2V0KHllYXIpIHx8IG51bGw7CiAgICBjb25zdCBhcnRpc3RFdmVudCA9IG1pbGVzdG9uZXMuZmluZChtID0+IG0ueWVhciA9PT0geWVhcikgfHwgbnVsbDsKICAgIGNvbnN0IGluR2FwID0gZ2FwUmFuZ2UgJiYgeWVhciA+IGdhcFJhbmdlLnN0YXJ0ICYmIHllYXIgPCBnYXBSYW5nZS5lbmQ7CgogICAgbGV0IGtpbmQ7CiAgICBpZiAoYXJ0aXN0RXZlbnQgJiYgYXJ0aXN0RXZlbnQudHlwZSA9PT0gJ2dhcCcpIGtpbmQgPSAnZ2FwJzsKICAgIGVsc2UgaWYgKHBlcnNvbmFsICYmIGFydGlzdEV2ZW50KSBraW5kID0gJ2Nyb3NzJzsKICAgIC8vIOepuueZveacn+WGheacieS4quS6uuaVsOaNrueahOW5tOS7veS/neeVmeS4quS6uuWPmeS6i++8iCvnqbrnmb3mnJ/lkI7nvIDvvInvvIzkuI3nlKjpgJrnlKjnlZnnmb3lj6XlkJ7mjokKICAgIGVsc2UgaWYgKHBlcnNvbmFsKSBraW5kID0gJ3BlcnNvbmFsX29ubHknOwogICAgZWxzZSBpZiAoYXJ0aXN0RXZlbnQpIGtpbmQgPSAnYXJ0aXN0X29ubHknOwogICAgZWxzZSBraW5kID0gJ2pvaW4nOyAvLyBqb2luWWVhciDlkb3kuK3kvYblvZPlubTml6DmrYzmiYvkuovku7bml7bkuZ/otbAgcGVyc29uYWwg5qih5p2/CgogICAgaWYgKGtpbmQgPT09ICdqb2luJyAmJiAhcGVyc29uYWwgJiYgIWFydGlzdEV2ZW50KSBjb250aW51ZTsgLy8g5peg5YaF5a655bm05Lu95LiN55Sf5oiQ6IqC54K5CgogICAgbm9kZXMucHVzaCh7CiAgICAgIHllYXIsCiAgICAgIGFnZTogeWVhciAtIGJpcnRoWWVhciwKICAgICAgcGVyc29uYWwsCiAgICAgIGFydGlzdEV2ZW50LAogICAgICBraW5kLAogICAgICBpbkdhcAogICAgfSk7CiAgfQoKICAvLyDmj5LlhaXluo/nq6DoioLngrnvvIjmjpLlnKjnm7jpgYflubTkuYvliY3nmoTnrKzkuIDkuKrmnInlhoXlrrnoioLngrnkvY3nva7vvIkKICBpZiAocHJvbG9ndWVFdmVudHMubGVuZ3RoKSB7CiAgICBjb25zdCBmaXJzdCA9IHByb2xvZ3VlRXZlbnRzWzBdOwogICAgY29uc3QgcHJvbG9ndWVOb2RlID0gewogICAgICB5ZWFyOiBmaXJzdC55ZWFyLAogICAgICBhZ2U6IGZpcnN0LnllYXIgLSBiaXJ0aFllYXIsCiAgICAgIHBlcnNvbmFsOiBudWxsLAogICAgICBhcnRpc3RFdmVudDogZmlyc3QsCiAgICAgIHByb2xvZ3VlRXZlbnRzLAogICAgICBraW5kOiAncHJvbG9ndWUnLAogICAgICBpbkdhcDogZmFsc2UKICAgIH07CiAgICBjb25zdCBpbnNlcnRBdCA9IG5vZGVzLmZpbmRJbmRleChuID0+IG4ueWVhciA+IGZpcnN0LnllYXIpOwogICAgaWYgKGluc2VydEF0ID09PSAtMSkgbm9kZXMucHVzaChwcm9sb2d1ZU5vZGUpOwogICAgZWxzZSBub2Rlcy5zcGxpY2UoaW5zZXJ0QXQsIDAsIHByb2xvZ3VlTm9kZSk7CiAgfQogIHJldHVybiBub2RlczsKfQoKZnVuY3Rpb24gZmluZEdhcFJhbmdlKG1pbGVzdG9uZXMpIHsKICBjb25zdCBnYXBzID0gbWlsZXN0b25lcy5maWx0ZXIobSA9PiBtLnR5cGUgPT09ICdnYXAnKS5zb3J0KChhLCBiKSA9PiBhLnllYXIgLSBiLnllYXIpOwogIGlmIChnYXBzLmxlbmd0aCA8IDIpIHJldHVybiBudWxsOwogIHJldHVybiB7IHN0YXJ0OiBnYXBzWzBdLnllYXIsIGVuZDogZ2Fwc1tnYXBzLmxlbmd0aCAtIDFdLnllYXIgfTsKfQo=
+// 年份对齐器：把个人线锚点与歌手线事件对齐成叙事节点
+// 纯函数，无副作用，可独立验证。
+
+/**
+ * @param {object|null} persona  data/personas/*.json（L3 时为 null）
+ * @param {object} artist        data/artists/*.json
+ * @param {number} birthYear
+ * @returns {Array<{year, age, personal, artistEvent, kind}>}
+ *   kind: 'join' | 'cross' | 'personal_only' | 'artist_only' | 'gap'
+ */
+export function align(persona, artist, birthYear) {
+  const currentYear = new Date().getFullYear();
+  // 白名单过滤：verified !== true 的事件一律丢弃（数据纪律 #1）
+  const milestones = (artist.milestones || []).filter(m => m.verified === true);
+
+  const gapRange = findGapRange(milestones);
+  const personalByYear = new Map();
+  if (persona && Array.isArray(persona.stats)) {
+    for (const s of persona.stats) personalByYear.set(s.year, s);
+  }
+
+  const joinYear = persona ? persona.platform_join_year : null;
+  const nodes = [];
+
+  // 序章合并：相遇年之前的歌手事件合并为单一 prologue 节点，
+  // 避免逐年输出"你还没遇到他"式复读文案（文案质量红线）
+  const prologueEvents = joinYear
+    ? milestones.filter(m => m.year < joinYear && m.year >= birthYear)
+    : [];
+  const prologueYears = new Set(prologueEvents.map(m => m.year));
+
+  // 收集所有有意义的年份（序章年份除外，由 prologue 节点统一承载）
+  const years = new Set([
+    ...[...personalByYear.keys()].filter(y => !prologueYears.has(y)),
+    ...milestones.map(m => m.year).filter(y => !prologueYears.has(y)),
+    ...(joinYear ? [joinYear] : [])
+  ]);
+
+  for (const year of [...years].sort((a, b) => a - b)) {
+    if (year < birthYear || year > currentYear) continue;
+    const personal = personalByYear.get(year) || null;
+    const artistEvent = milestones.find(m => m.year === year) || null;
+    const inGap = gapRange && year > gapRange.start && year < gapRange.end;
+
+    let kind;
+    if (artistEvent && artistEvent.type === 'gap') kind = 'gap';
+    else if (personal && artistEvent) kind = 'cross';
+    // 空白期内有个人数据的年份保留个人叙事（+空白期后缀），不用通用留白句吞掉
+    else if (personal) kind = 'personal_only';
+    else if (artistEvent) kind = 'artist_only';
+    else kind = 'join'; // joinYear 命中但当年无歌手事件时也走 personal 模板
+
+    if (kind === 'join' && !personal && !artistEvent) continue; // 无内容年份不生成节点
+
+    nodes.push({
+      year,
+      age: year - birthYear,
+      personal,
+      artistEvent,
+      kind,
+      inGap
+    });
+  }
+
+  // 插入序章节点（排在相遇年之前的第一个有内容节点位置）
+  if (prologueEvents.length) {
+    const first = prologueEvents[0];
+    const prologueNode = {
+      year: first.year,
+      age: first.year - birthYear,
+      personal: null,
+      artistEvent: first,
+      prologueEvents,
+      kind: 'prologue',
+      inGap: false
+    };
+    const insertAt = nodes.findIndex(n => n.year > first.year);
+    if (insertAt === -1) nodes.push(prologueNode);
+    else nodes.splice(insertAt, 0, prologueNode);
+  }
+  return nodes;
+}
+
+function findGapRange(milestones) {
+  const gaps = milestones.filter(m => m.type === 'gap').sort((a, b) => a.year - b.year);
+  if (gaps.length < 2) return null;
+  return { start: gaps[0].year, end: gaps[gaps.length - 1].year };
+}

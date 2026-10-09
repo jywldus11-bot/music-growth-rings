@@ -1,1 +1,50 @@
-IyDpn7PkuZDlubTova7vvIhHcm93dGggUmluZ3PvvIkKCj4gUVHpn7PkuZDnq5nlhoUgQUkg6Z+z5LmQ5Lq655Sf5Y+Z5LqL5byV5pOOIMK3IEJ1aWxkIFdpdGggQUkg6IW+6K6v6Z+z5LmQ6auY5qChIEFJIEhhY2thdGhvbiDlj4LotZvpobnnm64KPiDmnKzmlofku7bmmK/mlbTkuKrku5PlupPnmoTlhaXlj6PjgIIqKuWmguaenOS9oOaYryBBSSDnvJbnqIvliqnmiYvvvIhDdXJzb3IvQ29waWxvdCDnrYnvvInvvIzor7flhYjlrozmlbTpmIXor7vmnKzmlofku7bvvIzlho3mjInpobrluo/pmIXor7vkuIvmlrki6ZiF6K+76aG65bqPIuOAgioqCgojIyDov5nkuKrpobnnm67mmK/lgZrku4DkuYjnmoQKCueUqOaIt+i+k+WFpSoq5Ye655Sf5bm05Lu9KirlubbpgInmi6kqKuS4gOS9jeWWnOeIseatjOaJiyoq77yI5ZGo5p2w5LymIC8gQklHQkFOR++8ie+8jOezu+e7n+WwhueUqOaIt+eahOWQrOatjOWOhuWPsu+8iOS4quS6uue6v++8ieS4juatjOaJi+eahOeUn+a2r+W5tOihqO+8iOatjOaJi+e6v++8ieS6pOe7h++8jOeUqCBMTE0g55Sf5oiQ6YCQ5bm05bGV5byA55qEIumfs+S5kOW5tOi9riLlj5nkuovvvIjkvovlpoLvvJoiMTPlsoHpgqPlubTkvaDms6jlhozkuoZRUemfs+S5kO+8jOOAiuS4g+mHjOmmmeOAi+S9oOWQrOS6hjY35qyh4oCU4oCU6YKj5bm05LuW5Yia5ou/6YeR5puy5aWWIu+8ie+8jOacgOe7iOWvvOWQke+8muWIhuS6q+WNoeeJh++8iOS8oOaSre+8iSsg5ZCM57G75Lq65bCP57uEL+WFseWQrOaIv+mXtOWFpeWPo++8iOaJv+aOpe+8ieOAggoKIyMg6ZiF6K+76aG65bqP77yIQUkg5Yqp5omL5b+F6K+777yJCgoxLiBgUkVBRE1FLm1kYCDigJTigJQg5pys5paH5Lu277yM5YWo5bGA5Zyw5Zu+CjIuIGBkb2NzL1BSRC5tZGAg4oCU4oCUIOWujOaVtOS6p+WTgemcgOaxguaWh+aho++8iOWKn+iDveWumuS5ieOAgemZjee6p+etlueVpeOAgemqjOaUtuagh+WHhueahOWUr+S4gOS6i+Wunua6kO+8iQozLiBgZG9jcy9uYXJyYXRpdmUtZW5naW5lLXByb21wdC5tZGAg4oCU4oCUIOWPmeS6i+W8leaTjueahCBMTE0gUHJvbXB0IOinhOiMg++8iOWunueOsOeUn+aIkOWxguaXtuW/heivu++8iQo0LiBgZGF0YS9hcnRpc3RzLyouanNvbmAg4oCU4oCUIOatjOaJi+W5tOihqOaVsOaNru+8iOeUn+aIkOW8leaTjueahOWUr+S4gOS6i+Wunui+k+WFpe+8iQo1LiBgZGF0YS9wZXJzb25hcy8qLmpzb25gIOKAlOKAlCBEZW1vIOmYtuauteeahOmihOe9rueUqOaIt+eUu+WDj++8iOaooeaLn+S4quS6uue6v+aVsOaNru+8iQo2LiBgLmN1cnNvci9ydWxlcy9ncm93dGgtcmluZ3MubWRjYCDigJTigJQg5pys6aG555uu55qE5byA5Y+R6KeE5YiZ77yI5oqA5pyv6YCJ5Z6L44CB5Luj56CB57qq5b6L77yJCjcuIGBUQVNLUy5tZGAg4oCU4oCUIOW9k+WJjeW8gOWPkeS7u+WKoea4heWNle+8iOWLvumAieW8j++8jOaMieatpOaOqOi/m++8iQoKIyMg55uu5b2V57uT5p6ECgpgYGAKZ3Jvd3RoLXJpbmdzLwrilJzilIDilIAgUkVBRE1FLm1kICAgICAgICAgICAgICAgICAjIOacrOaWh+S7tu+8iOWFpeWPo++8iQrilJzilIDilIAgVEFTS1MubWQgICAgICAgICAgICAgICAgICAjIOW8gOWPkeS7u+WKoea4heWNle+8iOW4piBjaGVja2JveO+8jOS+myBBSSDliqnmiYvpgJDpobnmiafooYzvvIkK4pSc4pSA4pSAIGRvY3MvCuKUgiAgIOKUnOKUgOKUgCBQUkQubWQgICAgICAgICAgICAgICAgIyDkuqflk4HpnIDmsYLmlofmoaPvvIjkuqflk4Hkuovlrp7mupDvvIkK4pSCICAg4pSU4pSA4pSAIG5hcnJhdGl2ZS1lbmdpbmUtcHJvbXB0Lm1kICAgIyBMTE0g5Y+Z5LqL55Sf5oiQIFByb21wdCDop4TojIMK4pSc4pSA4pSAIGRhdGEvCuKUgiAgIOKUnOKUgOKUgCBhcnRpc3RzLwrilIIgICDilIIgICDilJzilIDilIAgamF5X2Nob3UuanNvbiAgICAgIyDlkajmnbDkvKblubTooajvvIjnmb3lkI3ljZXkuovku7blupPvvIkK4pSCICAg4pSCICAg4pSU4pSA4pSAIGJpZ2JhbmcuanNvbiAgICAgICMgQklHQkFORyDlubTooajvvIjlkKvnqbrnmb3mnJ/kuovku7bnsbvlnovvvIkK4pSCICAg4pSU4pSA4pSAIHBlcnNvbmFzLwrilIIgICAgICAg4pSc4pSA4pSAIHBlcnNvbmFfcDFfamF5Lmpzb24gICAgICAjIOmihOe9rueUu+WDj++8muWRqOadsOS8puiAgeeUqOaItwrilIIgICAgICAg4pSc4pSA4pSAIHBlcnNvbmFfcDJfYmlnYmFuZy5qc29uICAjIOmihOe9rueUu+WDj++8mkJJR0JBTkcg57KJ5LidCuKUgiAgICAgICDilJTilIDilIAgcGVyc29uYV9wM19taWQuanNvbiAgICAgICMg6aKE572u55S75YOP77ya6L+RM+W5tOWFpempu+eahCBMMiDkuK3ph4/nlKjmiLcK4pSc4pSA4pSAIC5jdXJzb3IvcnVsZXMvCuKUgiAgIOKUlOKUgOKUgCBncm93dGgtcmluZ3MubWRjICAgICAgIyBDdXJzb3Ig6aG555uu6KeE5YiZCuKUlOKUgOKUgCBzcmMvICAgICAgICAgICAgICAgICAgICAgICMg5Luj56CB55uu5b2V77yI5b6F5Yib5bu677yM6KeBIFRBU0tTLm1k77yJCmBgYAoKIyMg5LiJ5p2h5LiN5Y+v6L+d5Y+N55qE57qq5b6L77yI5a+55Lq65ZKMIEFJIOWQjOagt+eUn+aViO+8iQoKMS4gKirlubTooajnmb3lkI3ljZXliLYqKu+8mmBkYXRhL2FydGlzdHMvKi5qc29uYCDkuK0gYHZlcmlmaWVkOiBmYWxzZWAg55qE5LqL5Lu2KirnpoHmraIqKui/m+WFpeeUn+aIkOa1geeoi+OAgkxMTSDnlJ/miJDmlofmoYjml7blj6rlh4bkvb/nlKjms6jlhaXnmoTkuovku7bmlbDmja7vvIznpoHmraLkvb/nlKjmqKHlnovoh6rouqvlr7nmrYzmiYvnlJ/lubPnmoTorrDlv4bjgIIKMi4gKirkuovlrp7moKHpqowqKu+8mueUn+aIkOeahOavj+WPpeaWh+ahiOS4reWHuueOsOeahOatjOWQjS/kuJPovpHlkI0v5bm05Lu9L+S6i+S7tuWQje+8jOW/hemhu+iDveWbnua6r+WIsOazqOWFpeeahOeZveWQjeWNleaVsOaNru+8jOWQpuWImemHjeeUn+aIkO+8iOacgOWkmjPmrKHvvInvvIzku43lpLHotKXliJnpmY3nuqfliLDmqKHmnb/mlofmoYjjgIIKMy4gKirmlofmoYjnuqrlvosqKu+8mueVmeeZveW8j+ivl+aEj++8jOemgeatouiviuaWreW8j+aWreiogOOAguS4jeW+l+i+k+WHuiLpgqPlubTkvaDlpLHmgYvkuoYv5L2g5b6I5a2k54usIuexu+aDhee7quWIpOaWre+8m+ato+ehruekuuS+i++8miLpgqPlubTov5npppbmrYzkvaDlvqrnjq/kuoYyMTfmrKHigJTigJTmnInkupvmrYzljZXvvIzlj6rmnInoh6rlt7Hmh4LjgIIiCgojIyDlvZPliY3pmLbmrrUKClYxLjAgRGVtb++8iOaIquatoiAyMDI2LTEwLTA5IOaPkOS6pO+8ieOAguS4quS6uue6v+eUqOmihOe9rueUu+WDj+aooeaLn++8jOatjOaJi+e6v+eUqOecn+WunuWFrOW8gOaVsOaNru+8jOaJv+aOpeWxguWBmuWPr+eCueWHu+WOn+Wei+OAguivpue7hui+ueeVjOingSBgZG9jcy9QUkQubWRgIOesrDEy56ug44CCCg==
+# 音乐年轮（Growth Rings）
+
+> QQ音乐站内 AI 音乐人生叙事引擎 · Build With AI 腾讯音乐高校 AI Hackathon 参赛项目
+> 本文件是整个仓库的入口。**如果你是 AI 编程助手（Cursor/Copilot 等），请先完整阅读本文件，再按顺序阅读下方"阅读顺序"。**
+
+## 这个项目是做什么的
+
+用户输入**出生年份**并选择**一位喜爱歌手**（周杰伦 / BIGBANG），系统将用户的听歌历史（个人线）与歌手的生涯年表（歌手线）交织，用 LLM 生成逐年展开的"音乐年轮"叙事（例如："13岁那年你注册了QQ音乐，《七里香》你听了67次——那年他刚拿金曲奖"），最终导向：分享卡片（传播）+ 同类人小组/共听房间入口（承接）。
+
+## 阅读顺序（AI 助手必读）
+
+1. `README.md` —— 本文件，全局地图
+2. `docs/PRD.md` —— 完整产品需求文档（功能定义、降级策略、验收标准的唯一事实源）
+3. `docs/narrative-engine-prompt.md` —— 叙事引擎的 LLM Prompt 规范（实现生成层时必读）
+4. `data/artists/*.json` —— 歌手年表数据（生成引擎的唯一事实输入）
+5. `data/personas/*.json` —— Demo 阶段的预置用户画像（模拟个人线数据）
+6. `.cursor/rules/growth-rings.mdc` —— 本项目的开发规则（技术选型、代码纪律）
+7. `TASKS.md` —— 当前开发任务清单（勾选式，按此推进）
+
+## 目录结构
+
+```
+growth-rings/
+├── README.md                 # 本文件（入口）
+├── TASKS.md                  # 开发任务清单（带 checkbox，供 AI 助手逐项执行）
+├── docs/
+│   ├── PRD.md                # 产品需求文档（产品事实源）
+│   └── narrative-engine-prompt.md   # LLM 叙事生成 Prompt 规范
+├── data/
+│   ├── artists/
+│   │   ├── jay_chou.json     # 周杰伦年表（白名单事件库）
+│   │   └── bigbang.json      # BIGBANG 年表（含空白期事件类型）
+│   └── personas/
+│       ├── persona_p1_jay.json      # 预置画像：周杰伦老用户
+│       ├── persona_p2_bigbang.json  # 预置画像：BIGBANG 粉丝
+│       └── persona_p3_mid.json      # 预置画像：近3年入驻的 L2 中量用户
+├── .cursor/rules/
+│   └── growth-rings.mdc      # Cursor 项目规则
+└── src/                      # 代码目录（待创建，见 TASKS.md）
+```
+
+## 三条不可违反的纪律（对人和 AI 同样生效）
+
+1. **年表白名单制**：`data/artists/*.json` 中 `verified: false` 的事件**禁止**进入生成流程。LLM 生成文案时只准使用注入的事件数据，禁止使用模型自身对歌手生平的记忆。
+2. **事实校验**：生成的每句文案中出现的歌名/专辑名/年份/事件名，必须能回溯到注入的白名单数据，否则重生成（最多3次），仍失败则降级到模板文案。
+3. **文案纪律**：留白式诗意，禁止诊断式断言。不得输出"那年你失恋了/你很孤独"类情绪判断；正确示例："那年这首歌你循环了217次——有些歌单，只有自己懂。"
+
+## 当前阶段
+
+V1.0 Demo（截止 2026-10-09 提交）。个人线用预置画像模拟，歌手线用真实公开数据，承接层做可点击原型。详细边界见 `docs/PRD.md` 第12章。

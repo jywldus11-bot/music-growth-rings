@@ -1,1 +1,309 @@
-Ly8gUVHpn7PkuZDnnJ/lrp7mrYzljZXmjqXlhaXvvJrlhazlvIDmjqXlj6PvvIjml6DpnIDnmbvlvZXvvInmi4nlj5bnlKjmiLfliIbkuqvnmoTmrYzljZUKLy8g6ZO+6Lev77yadS55LnFxLmNvbS9jZ2ktYmluL211c2ljdS5mY2cgKEpTT05QIOi3qOWfnykgKyB6emIg562+5ZCNCi8vIOaOpeWPo++8mm11c2ljLnNyZkRpc3NJbmZvLmFpRGlzc0luZm8gLyB1bmlmb3JtX2dldF9EaXNzaW5mbwovLyDmlbDmja7vvJrmr4/pppbmrYzlkKsgdGltZV9wdWJsaWPvvIjlj5HooYzml6XmnJ/vvInihpIg5oyJ5Y+R6KGM5bm05Lu95pig5bCE5Yiw55So5oi35bm06b6E6L2077yM5p6E5oiQIumfs+S5kOW5tOi9riIKCi8vIC0tLS0tLS0tLS0gTUQ177yI5qCH5YeG5a6e546w77yMVVRGLTgg6L6T5YWlIOKGkiAzMiDkvY3lsI/lhpkgaGV477yJIC0tLS0tLS0tLS0KZnVuY3Rpb24gbWQ1KGlucHV0KSB7CiAgY29uc3QgYnl0ZXMgPSB1dGY4Qnl0ZXMoaW5wdXQpOwogIGNvbnN0IGxlbiA9IGJ5dGVzLmxlbmd0aDsKICBjb25zdCBwYWRkZWQgPSAobGVuICsgOCkgPj4gNjsKICBjb25zdCB0b3RhbCA9IChwYWRkZWQgKyAxKSA8PCA0OwogIGNvbnN0IHdvcmRzID0gbmV3IEFycmF5KHRvdGFsKS5maWxsKDApOwogIGZvciAobGV0IGkgPSAwOyBpIDwgbGVuOyBpKyspIHdvcmRzW2kgPj4gMl0gfD0gYnl0ZXNbaV0gPDwgKChpICUgNCkgKiA4KTsKICB3b3Jkc1tsZW4gPj4gMl0gfD0gMHg4MCA8PCAoKGxlbiAlIDQpICogOCk7CiAgd29yZHNbdG90YWwgLSAyXSA9IGxlbiA8PCAzOwogIHdvcmRzW3RvdGFsIC0gMV0gPSBsZW4gPj4+IDI5OwoKICBsZXQgYSA9IDE3MzI1ODQxOTMsIGIgPSAtMjcxNzMzODc5LCBjID0gLTE3MzI1ODQxOTQsIGQgPSAyNzE3MzM4Nzg7CiAgY29uc3QgSyA9IFsKICAgIC02ODA4NzY5MzYsIC0zODk1NjQ1ODYsIDYwNjEwNTgxOSwgLTEwNDQ1MjUzMzAsIC0xNzY0MTg4OTcsIDEyMDAwODA0MjYsCiAgICAtMTQ3MzIzMTM0MSwgLTQ1NzA1OTgzLCAxNzcwMDM1NDE2LCAtMTk1ODQxNDQxNywgLTQyMDYzLCAtMTk5MDQwNDE2MiwKICAgIDE4MDQ2MDM2ODIsIC00MDM0MTEwMSwgLTE1MDIwMDIyOTAsIDEyMzY1MzUzMjksIC0xNjU3OTY1MTAsIC0xMDY5NTAxNjMyLAogICAgNjQzNzE3NzEzLCAtMzczODk3MzAyLCAtNzAxNTU4NjkxLCAzODAxNjA4MywgLTY2MDQ3ODMzNSwgLTQwNTUzNzg0OCwKICAgIDU2ODQ0NjQzOCwgLTEwMTk4MDM2OTAsIC0xODczNjM5NjEsIDExNjM1MzE1MDEsIC0xNDQ0NjgxNDY3LCAtNTE0MDM3ODQsCiAgICAxNzM1MzI4NDczLCAtMTkyNjYwNzczNCwgLTM3ODU1OCwgLTIwMjI1NzQ0NjMsIDE4MzkwMzA1NjIsIC0zNTMwOTU1NiwKICAgIC0xNTMwOTkyMDYwLCAxMjcyODkzMzUzLCAtMTU1NDk3NjMyLCAtMTA5NDczMDY0MCwgNjgxMjc5MTc0LCAtMzU4NTM3MjIyLAogICAgLTcyMjUyMTk3OSwgNzYwMjkxODksIC02NDAzNjQ0ODcsIC00MjE4MTU4MzUsIDUzMDc0MjUyMCwgLTk5NTMzODY1MSwKICAgIC0xOTg2MzA4NDQsIDExMjY4OTE0MTUsIC0xNDE2MzU0OTA1LCAtNTc0MzQwNTUsIDE3MDA0ODU1NzEsIC0xODk0OTg2NjA2LAogICAgLTEwNTE1MjMsIC0yMDU0OTIyNzk5LCAxODczMzEzMzU5LCAtMzA2MTE3NDQsIC0xNTYwMTk4MzgwLCAxMzA5MTUxNjQ5LAogICAgLTE0NTUyMzA3MCwgLTExMjAyMTAzNzksIDcxODc4NzI1OSwgLTM0MzQ4NTU1MQogIF07CiAgY29uc3QgUyA9IFs3LCAxMiwgMTcsIDIyLCA1LCA5LCAxNCwgMjAsIDQsIDExLCAxNiwgMjMsIDYsIDEwLCAxNSwgMjFdOwoKICBmb3IgKGxldCBpID0gMDsgaSA8IHRvdGFsOyBpICs9IDE2KSB7CiAgICBjb25zdCBvbGRBID0gYSwgb2xkQiA9IGIsIG9sZEMgPSBjLCBvbGREID0gZDsKICAgIGZvciAobGV0IGogPSAwOyBqIDwgNjQ7IGorKykgewogICAgICBsZXQgZiwgZzsKICAgICAgaWYgKGogPCAxNikgeyBmID0gKGIgJiBjKSB8ICh+YiAmIGQpOyBnID0gajsgfQogICAgICBlbHNlIGlmIChqIDwgMzIpIHsgZiA9IChkICYgYikgfCAofmQgJiBjKTsgZyA9ICg1ICogaiArIDEpICUgMTY7IH0KICAgICAgZWxzZSBpZiAoaiA8IDQ4KSB7IGYgPSBiIF4gYyBeIGQ7IGcgPSAoMyAqIGogKyA1KSAlIDE2OyB9CiAgICAgIGVsc2UgeyBmID0gYyBeIChiIHwgfmQpOyBnID0gKDcgKiBqKSAlIDE2OyB9CiAgICAgIGNvbnN0IHRtcCA9IGQ7CiAgICAgIGQgPSBjOyBjID0gYjsKICAgICAgY29uc3QgeCA9IChhICsgZiArIEtbal0gKyB3b3Jkc1tpICsgZ10pIHwgMDsKICAgICAgYiA9IChiICsgKCh4IDw8IFNbaiAlIDRdKSB8ICh4ID4+PiAoMzIgLSBTW2ogJSA0XSkpKSkgfCAwOwogICAgICBhID0gdG1wOwogICAgfQogICAgYSA9IChhICsgb2xkQSkgfCAwOyBiID0gKGIgKyBvbGRCKSB8IDA7IGMgPSAoYyArIG9sZEMpIHwgMDsgZCA9IChkICsgb2xkRCkgfCAwOwogIH0KCiAgY29uc3QgaGV4ID0gbiA9PiB7CiAgICBsZXQgb3V0ID0gJyc7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IDQ7IGkrKykgb3V0ICs9ICgobiA+Pj4gKGkgKiA4KSkgJiAweGZmKS50b1N0cmluZygxNikucGFkU3RhcnQoMiwgJzAnKTsKICAgIHJldHVybiBvdXQ7CiAgfTsKICByZXR1cm4gaGV4KGEpICsgaGV4KGIpICsgaGV4KGMpICsgaGV4KGQpOwp9CgpmdW5jdGlvbiB1dGY4Qnl0ZXMoc3RyKSB7CiAgY29uc3Qgb3V0ID0gW107CiAgZm9yIChsZXQgaSA9IDA7IGkgPCBzdHIubGVuZ3RoOyBpKyspIHsKICAgIGxldCBjID0gc3RyLmNoYXJDb2RlQXQoaSk7CiAgICBpZiAoYyA8IDB4ODApIG91dC5wdXNoKGMpOwogICAgZWxzZSBpZiAoYyA8IDB4ODAwKSBvdXQucHVzaCgweGMwIHwgKGMgPj4gNiksIDB4ODAgfCAoYyAmIDYzKSk7CiAgICBlbHNlIGlmIChjID49IDB4ZDgwMCAmJiBjIDw9IDB4ZGJmZiAmJiBpICsgMSA8IHN0ci5sZW5ndGgpIHsKICAgICAgY29uc3QgYzIgPSBzdHIuY2hhckNvZGVBdCgrK2kpOwogICAgICBjID0gMHgxMDAwMCArICgoYyAtIDB4ZDgwMCkgPDwgMTApICsgKGMyIC0gMHhkYzAwKTsKICAgICAgb3V0LnB1c2goMHhmMCB8IChjID4+IDE4KSwgMHg4MCB8ICgoYyA+PiAxMikgJiA2MyksIDB4ODAgfCAoKGMgPj4gNikgJiA2MyksIDB4ODAgfCAoYyAmIDYzKSk7CiAgICB9IGVsc2Ugb3V0LnB1c2goMHhlMCB8IChjID4+IDEyKSwgMHg4MCB8ICgoYyA+PiA2KSAmIDYzKSwgMHg4MCB8IChjICYgNjMpKTsKICB9CiAgcmV0dXJuIG91dDsKfQoKLy8gLS0tLS0tLS0tLSB6emIg562+5ZCN77yIUVHpn7PkuZAgd2ViIOerryBtdXNpY3UuZmNnIOivt+axguetvuWQje+8iSAtLS0tLS0tLS0tCmZ1bmN0aW9uIHp6YlNpZ24odGV4dCkgewogIGNvbnN0IGggPSBtZDUodGV4dCkudG9VcHBlckNhc2UoKTsKICBjb25zdCB0MSA9IFsyMSwgNCwgOSwgMjYsIDE2LCAyMCwgMjcsIDMwXS5tYXAoaSA9PiBoW2ldKS5qb2luKCcnKTsKICBjb25zdCB0MyA9IFsxOCwgMTEsIDMsIDIsIDEsIDcsIDYsIDI1XS5tYXAoaSA9PiBoW2ldKS5qb2luKCcnKTsKICBjb25zdCBMMSA9IFsyMTIsIDQ1LCA4MCwgNjgsIDE5NSwgMTYzLCAxNjMsIDIwMywgMTU3LCAyMjAsIDI1NCwgOTEsIDIwNCwgNzksIDEwNCwgNl07CiAgY29uc3QgbHMyID0gW107CiAgZm9yIChsZXQgaSA9IDA7IGkgPCAxNjsgaSsrKSB7CiAgICBjb25zdCB4MSA9IHBhcnNlSW50KGhbaSAqIDJdLCAxNiksIHgyID0gcGFyc2VJbnQoaFtpICogMiArIDFdLCAxNik7CiAgICBsczIucHVzaCgoKHgxICogMTYpIF4geDIpIF4gTDFbaV0pOwogIH0KICBjb25zdCBUID0gJ0FCQ0RFRkdISUpLTE1OT1BRUlNUVVZXWFlaYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXowMTIzNDU2Nzg5Ky89JzsKICBjb25zdCBsczMgPSBbXTsKICBmb3IgKGxldCBpID0gMDsgaSA8IDY7IGkrKykgewogICAgaWYgKGkgPT09IDUpIGxzMy5wdXNoKFRbbHMyWzE1XSA+PiAyXSwgVFsobHMyWzE1XSAmIDMpIDw8IDRdKTsKICAgIGVsc2UgbHMzLnB1c2goCiAgICAgIFRbbHMyW2kgKiAzXSA+PiAyXSwKICAgICAgVFsobHMyW2kgKiAzICsgMV0gPj4gNCkgXiAoKGxzMltpICogM10gJiAzKSA8PCA0KV0sCiAgICAgIFRbKGxzMltpICogMyArIDJdID4+IDYpIF4gKChsczJbaSAqIDMgKyAxXSAmIDE1KSA8PCAyKV0sCiAgICAgIFRbNjMgJiBsczJbaSAqIDMgKyAyXV0KICAgICk7CiAgfQogIGNvbnN0IHQyID0gbHMzLmpvaW4oJycpLnJlcGxhY2UoL1tcXC8rPV0vZywgJycpOwogIHJldHVybiAoJ3p6YicgKyB0MSArIHQyICsgdDMpLnRvTG93ZXJDYXNlKCk7Cn0KCi8vIC0tLS0tLS0tLS0gbXVzaWN1LmZjZyBKU09OUCAtLS0tLS0tLS0tCmZ1bmN0aW9uIG11c2ljdShwYXlsb2FkKSB7CiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IGRhdGEgPSBKU09OLnN0cmluZ2lmeShwYXlsb2FkKTsKICAgIGNvbnN0IGNiID0gJ3FxbWNiXycgKyBNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyKTsKICAgIGNvbnN0IHNjcmlwdCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgY29uc3QgY2xlYW51cCA9ICgpID0+IHsgdHJ5IHsgZGVsZXRlIHdpbmRvd1tjYl07IH0gY2F0Y2ggeyB3aW5kb3dbY2JdID0gdW5kZWZpbmVkOyB9IHNjcmlwdC5yZW1vdmUoKTsgfTsKICAgIGNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7IGNsZWFudXAoKTsgcmVqZWN0KG5ldyBFcnJvcign6K+35rGC6LaF5pe2JykpOyB9LCAxNTAwMCk7CiAgICB3aW5kb3dbY2JdID0gZCA9PiB7IGNsZWFyVGltZW91dCh0aW1lcik7IGNsZWFudXAoKTsgcmVzb2x2ZShkKTsgfTsKICAgIHNjcmlwdC5vbmVycm9yID0gKCkgPT4geyBjbGVhclRpbWVvdXQodGltZXIpOyBjbGVhbnVwKCk7IHJlamVjdChuZXcgRXJyb3IoJ+e9kee7nOivt+axguWksei0pScpKTsgfTsKICAgIHNjcmlwdC5zcmMgPSAnaHR0cHM6Ly91LnkucXEuY29tL2NnaS1iaW4vbXVzaWN1LmZjZz9jYWxsYmFjaz0nICsgY2IKICAgICAgKyAnJmRhdGE9JyArIGVuY29kZVVSSUNvbXBvbmVudChkYXRhKQogICAgICArICcmc2lnbj0nICsgenpiU2lnbihkYXRhKTsKICAgIGRvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQoc2NyaXB0KTsKICB9KTsKfQoKLy8gLS0tLS0tLS0tLSDmrYzljZXpk77mjqXop6PmnpDkuI7mi4nlj5YgLS0tLS0tLS0tLQpjb25zdCBoYXNDSksgPSBzID0+IC9bXHU0ZTAwLVx1OWZmZlx1MzA0MC1cdTMwZmZcdWFjMDAtXHVkN2FmXS8udGVzdChzIHx8ICcnKTsKCi8qKiDku47ku7vmhI/moLzlvI/nmoTmrYzljZXliIbkuqvpk77mjqUgLyDnuq/mlbDlrZfkuK3mj5Dlj5bmrYzljZUgSUQgKi8KZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RQbGF5bGlzdElkKGlucHV0KSB7CiAgaWYgKCFpbnB1dCkgcmV0dXJuIG51bGw7CiAgY29uc3QgcyA9IFN0cmluZyhpbnB1dCkudHJpbSgpOwogIGNvbnN0IG0gPSBzLm1hdGNoKC8oPzpbPyZdaWQ9fFwvcGxheWxpc3RcLykoXGR7Nix9KS8pIHx8IHMubWF0Y2goL14oXGR7Nix9KSQvKTsKICByZXR1cm4gbSA/IG1bMV0gOiBudWxsOwp9CgovKioKICog5ouJ5Y+W5YWs5byA5q2M5Y2V77yI5peg6ZyA55m75b2V77yJCiAqIEByZXR1cm5zIHt7aWQsIHRpdGxlLCBzb25nczogQXJyYXk8e25hbWUsIHNpbmdlciwgYWxidW0sIHllYXJ9Pn19CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmV0Y2hRUVBsYXlsaXN0KGlkKSB7CiAgY29uc3QgcGF5bG9hZCA9IHsKICAgIGNvbW06IHsgY3Q6IDE5LCBjdjogMTg0NSwgdWluOiAwIH0sCiAgICByZXFfMTogewogICAgICBtb2R1bGU6ICdtdXNpYy5zcmZEaXNzSW5mby5haURpc3NJbmZvJywKICAgICAgbWV0aG9kOiAndW5pZm9ybV9nZXRfRGlzc2luZm8nLAogICAgICBwYXJhbTogeyBkaXNzdGlkOiBOdW1iZXIoaWQpLCB0YWc6IDEsIHVzZXJpbmZvOiAxLCBzb25nX2JlZ2luOiAwLCBzb25nX251bTogMjAwLCBvcmRlcmxpc3Q6IDEgfQogICAgfQogIH07CiAgY29uc3QgZCA9IGF3YWl0IG11c2ljdShwYXlsb2FkKTsKICBjb25zdCByID0gZCAmJiBkLnJlcV8xOwogIGNvbnN0IGRhdGEgPSByICYmIHIuZGF0YTsKICBpZiAoIXIgfHwgci5jb2RlICE9PSAwIHx8ICFkYXRhIHx8ICFBcnJheS5pc0FycmF5KGRhdGEuc29uZ2xpc3QpIHx8ICFkYXRhLnNvbmdsaXN0Lmxlbmd0aCkgewogICAgdGhyb3cgbmV3IEVycm9yKCfor7vlj5bmrYzljZXlpLHotKXvvJror7fnoa7orqTpk77mjqXkuLrlhazlvIDmrYzljZUnKTsKICB9CiAgY29uc3Qgc29uZ3MgPSBkYXRhLnNvbmdsaXN0Lm1hcChzID0+ICh7CiAgICBuYW1lOiBzLnRpdGxlIHx8IHMubmFtZSB8fCAnJywKICAgIHNpbmdlcjogKHMuc2luZ2VyIHx8IFtdKS5tYXAoeCA9PiB4Lm5hbWUpLmpvaW4oJ+OAgScpLAogICAgYWxidW06IChzLmFsYnVtICYmIChzLmFsYnVtLnRpdGxlIHx8IHMuYWxidW0ubmFtZSkpIHx8ICcnLAogICAgeWVhcjogcy50aW1lX3B1YmxpYyA/IE51bWJlcihTdHJpbmcocy50aW1lX3B1YmxpYykuc2xpY2UoMCwgNCkpIDogbnVsbAogIH0pKS5maWx0ZXIocyA9PiBzLm5hbWUpOwogIHJldHVybiB7IGlkLCB0aXRsZTogKGRhdGEuZGlyaW5mbyAmJiBkYXRhLmRpcmluZm8udGl0bGUpIHx8ICfmiJHnmoTmrYzljZUnLCBzb25ncyB9Owp9CgovKioKICog5oyJ5YWz6ZSu6K+N5pCc57Si5YWs5byA5q2M5Y2V77yI55So5oi35YiG5Lqr5LiN5Ye66ZO+5o6l5pe255qE5Li76Lev5b6E77yJCiAqIEByZXR1cm5zIHtBcnJheTx7aWQsIHRpdGxlLCBjcmVhdG9yLCBzb25nQ291bnQsIGxpc3RlbnN9Pn0KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzZWFyY2hQbGF5bGlzdHMoa2V5d29yZCkgewogIGNvbnN0IHBheWxvYWQgPSB7CiAgICBjb21tOiB7IGN0OiAxOSwgY3Y6IDE4NDUgfSwKICAgIHJlcV8xOiB7CiAgICAgIG1ldGhvZDogJ0RvU2VhcmNoRm9yUVFNdXNpY0Rlc2t0b3AnLAogICAgICBtb2R1bGU6ICdtdXNpYy5zZWFyY2guU2VhcmNoQ2dpU2VydmljZScsCiAgICAgIHBhcmFtOiB7IHNlYXJjaF90eXBlOiAzLCBxdWVyeToga2V5d29yZCwgcGFnZV9udW06IDEsIG51bV9wZXJfcGFnZTogOCB9CiAgICB9CiAgfTsKICBjb25zdCBkID0gYXdhaXQgbXVzaWN1KHBheWxvYWQpOwogIGNvbnN0IHIgPSBkICYmIGQucmVxXzE7CiAgY29uc3QgbGlzdCA9IHIgJiYgci5kYXRhICYmIHIuZGF0YS5ib2R5ICYmIHIuZGF0YS5ib2R5LnNvbmdsaXN0ICYmIHIuZGF0YS5ib2R5LnNvbmdsaXN0Lmxpc3Q7CiAgaWYgKCFyIHx8IHIuY29kZSAhPT0gMCB8fCAhQXJyYXkuaXNBcnJheShsaXN0KSkgdGhyb3cgbmV3IEVycm9yKCfmkJzntKLlpLHotKXvvIzor7fnqI3lkI7lho3or5UnKTsKICByZXR1cm4gbGlzdC5tYXAocCA9PiAoewogICAgaWQ6IHAuZGlzc2lkLAogICAgdGl0bGU6IHAuZGlzc25hbWUgfHwgJ+acquWRveWQjeatjOWNlScsCiAgICBjcmVhdG9yOiAocC5jcmVhdG9yICYmIHAuY3JlYXRvci5uYW1lKSB8fCAnJywKICAgIHNvbmdDb3VudDogcC5zb25nX2NvdW50ICE9IG51bGwgPyBwLnNvbmdfY291bnQgOiBudWxsLAogICAgbGlzdGVuczogcC5saXN0ZW5udW0gIT0gbnVsbCA/IHAubGlzdGVubnVtIDogbnVsbAogIH0pKS5maWx0ZXIocCA9PiBwLmlkICYmIHAudGl0bGUpOwp9CgovLyAtLS0tLS0tLS0tIOecn+WunuatjOWNlSDihpIg55S75YOP77yIcGVyc29uYSDlkIzmnoTvvIzlvJXmk47pm7bmlLnliqjmtojotLnvvIkgLS0tLS0tLS0tLQovKioKICog5oqK55So5oi355yf5a6e5q2M5Y2V5p6E5bu65oiQIHBlcnNvbmHvvJoKICogLSBzdGF0c++8muaMieWPkeihjOW5tOS7veWIhuahtu+8iHRpbWVfcHVibGljIOKGkiDlubTpvoTovbTvvInvvIzmnoTmiJAi6YKj5bm05L2gTuWyge+8jOOAiuatjOOAi+mXruS4liLnmoTlubTova4KICogLSBtaWxlc3RvbmVz77ya5Ye66ZWc5pyA5aSa55qE5q2M5omLIC8g56ys5LiA6aaW5aSW6K+t5q2MIC8g572u6aG25Y2V5puyIC8g5Y2V5puy5b6q546vIC8gMTjlsoHnmoTmrYwgLyDmnKzlkb3lubQKICogICDigJTigJTlhajpg6jmnaXoh6rnnJ/lrp7mrYzmm7Lkv6Hlj7fvvIzmnKropobnm5bnmoToioLngrnvvIjms6jlhozml6Uv57u86Im6L+WIhuS6q+etie+8ieeVmeepuu+8jOS4jee8lumAoAogKiBAcmV0dXJucyB7b2JqZWN0fG51bGx9IOaXoOazleaehOW7uu+8iOaXoOacieaViOWPkeihjOW5tOS7ve+8ieaXtui/lOWbniBudWxsCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRQbGF5bGlzdFBlcnNvbmEocGxheWxpc3QsIGJpcnRoKSB7CiAgY29uc3QgYmlydGhZZWFyID0gYmlydGgueWVhcjsKICBjb25zdCBub3cgPSBuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCk7CiAgY29uc3QgYWxsID0gcGxheWxpc3Quc29uZ3M7CiAgY29uc3Qgc29uZ3MgPSBhbGwuZmlsdGVyKHMgPT4gcy55ZWFyICYmIHMueWVhciA+PSBiaXJ0aFllYXIgJiYgcy55ZWFyIDw9IG5vdyk7CiAgaWYgKCFzb25ncy5sZW5ndGgpIHJldHVybiBudWxsOwoKICBjb25zdCBjbGFtcCA9IHkgPT4gTWF0aC5taW4obm93LCBNYXRoLm1heChiaXJ0aFllYXIsIHkgfHwgYmlydGhZZWFyKSk7CiAgY29uc3QgbWlsZXN0b25lcyA9IFtdOwoKICAvLyDlh7rplZzmnIDlpJrnmoTmrYzmiYvvvIjnnJ/lrp7popHmrKHvvIkKICBjb25zdCBmcmVxID0gbmV3IE1hcCgpOwogIGZvciAoY29uc3QgcyBvZiBhbGwpIGlmIChzLnNpbmdlcikgZnJlcS5zZXQocy5zaW5nZXIsIChmcmVxLmdldChzLnNpbmdlcikgfHwgMCkgKyAxKTsKICBsZXQgdG9wQXJ0aXN0ID0gbnVsbCwgdG9wQ291bnQgPSAwOwogIGZvciAoY29uc3QgW2FydGlzdCwgbl0gb2YgZnJlcSkgaWYgKG4gPiB0b3BDb3VudCkgeyB0b3BBcnRpc3QgPSBhcnRpc3Q7IHRvcENvdW50ID0gbjsgfQogIGlmICh0b3BBcnRpc3QpIHsKICAgIGNvbnN0IGVhcmxpZXN0ID0gc29uZ3MuZmlsdGVyKHMgPT4gcy5zaW5nZXIgPT09IHRvcEFydGlzdCkuc29ydCgoYSwgYikgPT4gYS55ZWFyIC0gYi55ZWFyKVswXTsKICAgIG1pbGVzdG9uZXMucHVzaCh7CiAgICAgIHR5cGU6ICdmaXJzdF9mb2xsb3cnLCBhcnRpc3Q6IHRvcEFydGlzdCwgeWVhcjogZWFybGllc3QgPyBlYXJsaWVzdC55ZWFyIDogYmlydGhZZWFyLAogICAgICBjaGlwOiAn5Ye66ZWc5pyA5aSa55qE5q2M5omLJywKICAgICAgdGV4dDogYOS9oOeahOatjOWNlemHjO+8jCR7dG9wQXJ0aXN0feWHuueOsOS6hiR7dG9wQ291bnR95qyh4oCU4oCU6LW354K56L+Z5Liq6K+N77yM5pyJ5pe25q+U57uI54K56YeN6KaB44CCYAogICAgfSk7CiAgfQoKICAvLyDnrKzkuIDpppblpJbor63mrYzvvIjmrYzlkI0v5q2M5omL5Z2H5LiN5ZCr5Lit5pel6Z+p5paH5a2X77yM5Y+W5Y+R6KGM5pyA5pep77yJCiAgY29uc3QgZm9yZWlnbnMgPSBzb25ncy5maWx0ZXIocyA9PiAhaGFzQ0pLKHMubmFtZSkgJiYgIWhhc0NKSyhzLnNpbmdlcikpOwogIGlmIChmb3JlaWducy5sZW5ndGgpIHsKICAgIGNvbnN0IGYgPSBmb3JlaWducy5zb3J0KChhLCBiKSA9PiBhLnllYXIgLSBiLnllYXIpWzBdOwogICAgbWlsZXN0b25lcy5wdXNoKHsKICAgICAgdHlwZTogJ2ZpcnN0X2ZvcmVpZ24nLCB5ZWFyOiBmLnllYXIsIHNvbmc6IGYubmFtZSwKICAgICAgdGV4dDogYOS9oOaUtuiXj+eahOesrOS4gOmmluWkluivreatjOaYr+OAiiR7Zi5uYW1lfeOAi+KAlOKAlOWQrOS4jeaHgueahOmCo+mDqOWIhu+8jOaXi+W+i+abv+Wug+ivtOS6huOAgmAKICAgIH0pOwogIH0KCiAgLy8g5q2M5Y2V572u6aG277yI56ys5LiA5L2N77yJCiAgY29uc3QgdG9wMSA9IGFsbFswXTsKICBpZiAodG9wMSkgewogICAgbWlsZXN0b25lcy5wdXNoKHsKICAgICAgdHlwZTogJ2FsbF90aW1lX3RvcCcsIHllYXI6IGNsYW1wKHRvcDEueWVhciksIHNvbmc6IHRvcDEubmFtZSwgY2hpcDogJ+atjOWNlee9rumhticsCiAgICAgIHRleHQ6IGDkvaDnmoTmrYzljZXnrKzkuIDkvY3vvIzmmK/jgIoke3RvcDEubmFtZX3jgIvigJTigJTmjpLnrKzkuIDov5nku7bkuovvvIzmnKzouqvlsLHmmK/nkIbnlLHjgIJgCiAgICB9KTsKICB9CgogIC8vIOWNleabsuW+queOr++8iOesrOS6jOS9je+8iQogIGNvbnN0IGxvb3AgPSBhbGxbMV0gfHwgYWxsWzBdOwogIGlmIChsb29wKSB7CiAgICBtaWxlc3RvbmVzLnB1c2goewogICAgICB0eXBlOiAnZmlyc3RfbG9vcCcsIHllYXI6IGNsYW1wKGxvb3AueWVhciksIHNvbmc6IGxvb3AubmFtZSwKICAgICAgdGV4dDogYOOAiiR7bG9vcC5uYW1lfeOAi++8jOaYr+S9oOW+iOaXqeWwseaUvui/m+atjOWNleeahOmCo+mmluKAlOKAlOW+queOr++8jOaYr+acgOivmuWunueahOWWnOasouOAgmAKICAgIH0pOwogIH0KCiAgLy8gMTjlsoHnmoTmrYzvvIjlj5HooYzlubQgPSDlh7rnlJ/lubQrMTjvvIzCsTIg5bm05YaF5bCx6L+R77yJCiAgY29uc3QgeTE4ID0gYmlydGhZZWFyICsgMTg7CiAgY29uc3QgbmVhcjE4ID0gWy4uLnNvbmdzXS5zb3J0KChhLCBiKSA9PiBNYXRoLmFicyhhLnllYXIgLSB5MTgpIC0gTWF0aC5hYnMoYi55ZWFyIC0geTE4KSlbMF07CiAgaWYgKG5lYXIxOCAmJiBNYXRoLmFicyhuZWFyMTgueWVhciAtIHkxOCkgPD0gMikgewogICAgbWlsZXN0b25lcy5wdXNoKHsKICAgICAgdHlwZTogJ2FkdWx0XzE4JywgeWVhcjogeTE4LCBzb25nOiBuZWFyMTgubmFtZSwKICAgICAgdGV4dDogbmVhcjE4LnllYXIgPT09IHkxOAogICAgICAgID8gYDE45bKB6YKj5bm077yM44CKJHtuZWFyMTgubmFtZX3jgIvpl67kuJbigJTigJTmiJDlubTov5nku7bkuovvvIzmnInml7bmmK/kuIDpppbmrYzlhYjmm7/kvaDor7TkuobjgIJgCiAgICAgICAgOiBgMTjlsoHliY3lkI7vvIzjgIoke25lYXIxOC5uYW1lfeOAi+mXruS4luKAlOKAlOaIkOW5tOi/meS7tuS6i++8jOacieaXtuaYr+S4gOmmluatjOWFiOabv+S9oOivtOS6huOAgmAKICAgIH0pOwogIH0KCiAgLy8g5pys5ZG95bm077yIMjQg4oaSIDM2IOKGkiAxMiDlsoHvvIzlsLHov5HljLnphY3vvJvpgb/lvIDlt7Looqvnva7pobYv5b6q546v55So6L+H55qE5q2M77yM5YeP5bCR6YeN5aSN77yJCiAgY29uc3QgdXNlZCA9IG5ldyBTZXQoW2FsbFswXSAmJiBhbGxbMF0ubmFtZSwgYWxsWzFdICYmIGFsbFsxXS5uYW1lXS5maWx0ZXIoQm9vbGVhbikpOwogIGZvciAoY29uc3Qgenkgb2YgW2JpcnRoWWVhciArIDI0LCBiaXJ0aFllYXIgKyAzNiwgYmlydGhZZWFyICsgMTJdKSB7CiAgICBpZiAoenkgPiBub3cpIGNvbnRpbnVlOwogICAgY29uc3QgcG9vbCA9IHNvbmdzLmZpbHRlcihzID0+ICF1c2VkLmhhcyhzLm5hbWUpKTsKICAgIGNvbnN0IHogPSBbLi4uKHBvb2wubGVuZ3RoID8gcG9vbCA6IHNvbmdzKV0uc29ydCgoYSwgYikgPT4gTWF0aC5hYnMoYS55ZWFyIC0genkpIC0gTWF0aC5hYnMoYi55ZWFyIC0genkpKVswXTsKICAgIGlmICh6ICYmIE1hdGguYWJzKHoueWVhciAtIHp5KSA8PSAyKSB7CiAgICAgIG1pbGVzdG9uZXMucHVzaCh7CiAgICAgICAgdHlwZTogJ3pvZGlhYycsIHllYXI6IHp5LCBzb25nOiB6Lm5hbWUsCiAgICAgICAgdGV4dDogYCR7enkgLSBiaXJ0aFllYXJ95bKB5pys5ZG95bm077yM44CKJHt6Lm5hbWV944CL6Zmq5L2g6L+H6L+Z5LiA5bm04oCU4oCU5Y2B5LqM5bm05LiA6L2u5Zue77yM5q2M5Y2V6ZW/5Ye65LiA5ZyI5bm06L2u44CCYAogICAgICB9KTsKICAgICAgYnJlYWs7CiAgICB9CiAgfQoKICAvLyDlubTova7ooYzvvJrmjInlj5HooYzlubTku73liIbmobbvvIjotoXov4cgOCDooYzml7blnYfljIDmir3nqIDvvIzkv53nlZnpppblsL7vvIkKICBjb25zdCBieVllYXIgPSBuZXcgTWFwKCk7CiAgZm9yIChjb25zdCBzIG9mIHNvbmdzKSB7CiAgICBpZiAoIWJ5WWVhci5oYXMocy55ZWFyKSkgYnlZZWFyLnNldChzLnllYXIsIFtdKTsKICAgIGJ5WWVhci5nZXQocy55ZWFyKS5wdXNoKHMpOwogIH0KICBsZXQgc3RhdHMgPSBbLi4uYnlZZWFyLmtleXMoKV0uc29ydCgoYSwgYikgPT4gYSAtIGIpLm1hcCh5ID0+IHsKICAgIGNvbnN0IGxpc3QgPSBieVllYXIuZ2V0KHkpOwogICAgY29uc3QgcyA9IGxpc3RbMF07CiAgICBjb25zdCBhZ2UgPSB5IC0gYmlydGhZZWFyOwogICAgcmV0dXJuIHsKICAgICAgeWVhcjogeSwKICAgICAgdG9wX2FydGlzdDogcy5zaW5nZXIsCiAgICAgIHRvcF9zb25nOiBzLm5hbWUsCiAgICAgIHBsYXlzOiBudWxsLAogICAgICBseXJpYzogJycsCiAgICAgIG5vdGU6ICcnLAogICAgICB0ZXh0OiBsaXN0Lmxlbmd0aCA+IDEKICAgICAgICA/IGDpgqPlubTkvaAke2FnZX3lsoHvvIzjgIoke3MubmFtZX3jgIvnrYkke2xpc3QubGVuZ3RofemmluatjOmXruS4luKAlOKAlOWQjuadpe+8jOWug+S7rOmDveS9j+i/m+S6huS9oOeahOatjOWNleOAgmAKICAgICAgICA6IGDpgqPlubTkvaAke2FnZX3lsoHvvIzjgIoke3MubmFtZX3jgIvliJrliJrpl67kuJbigJTigJTlkI7mnaXvvIzlroPkvY/ov5vkuobkvaDnmoTmrYzljZXjgIJgCiAgICB9OwogIH0pOwogIGlmIChzdGF0cy5sZW5ndGggPiA4KSB7CiAgICBjb25zdCBwaWNrZWQgPSBbXTsKICAgIGNvbnN0IHN0ZXAgPSAoc3RhdHMubGVuZ3RoIC0gMSkgLyA3OwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCA4OyBpKyspIHBpY2tlZC5wdXNoKHN0YXRzW01hdGgucm91bmQoaSAqIHN0ZXApXSk7CiAgICBzdGF0cyA9IHBpY2tlZDsKICB9CgogIHJldHVybiB7CiAgICBwZXJzb25hX2lkOiAncGxheWxpc3RfJyArIHBsYXlsaXN0LmlkLAogICAgcGVyc29uYV9uYW1lOiBwbGF5bGlzdC50aXRsZSwKICAgIGxldmVsOiAnTDEnLAogICAgbW9kZTogJ3BsYXlsaXN0JywKICAgIGJpcnRoX3llYXI6IGJpcnRoWWVhciwKICAgIHBsYXlsaXN0X3RpdGxlOiBwbGF5bGlzdC50aXRsZSwKICAgIHBsYXlsaXN0X2NvdW50OiBhbGwubGVuZ3RoLAogICAgbWlsZXN0b25lcywKICAgIHN0YXRzCiAgfTsKfQo=
+// QQ音乐真实歌单接入：公开接口（无需登录）拉取用户分享的歌单
+// 链路：u.y.qq.com/cgi-bin/musicu.fcg (JSONP 跨域) + zzb 签名
+// 接口：music.srfDissInfo.aiDissInfo / uniform_get_Dissinfo
+// 数据：每首歌含 time_public（发行日期）→ 按发行年份映射到用户年龄轴，构成"音乐年轮"
+
+// ---------- MD5（标准实现，UTF-8 输入 → 32 位小写 hex） ----------
+function md5(input) {
+  const bytes = utf8Bytes(input);
+  const len = bytes.length;
+  const padded = (len + 8) >> 6;
+  const total = (padded + 1) << 4;
+  const words = new Array(total).fill(0);
+  for (let i = 0; i < len; i++) words[i >> 2] |= bytes[i] << ((i % 4) * 8);
+  words[len >> 2] |= 0x80 << ((len % 4) * 8);
+  words[total - 2] = len << 3;
+  words[total - 1] = len >>> 29;
+
+  let a = 1732584193, b = -271733879, c = -1732584194, d = 271733878;
+  const K = [
+    -680876936, -389564586, 606105819, -1044525330, -176418897, 1200080426,
+    -1473231341, -45705983, 1770035416, -1958414417, -42063, -1990404162,
+    1804603682, -40341101, -1502002290, 1236535329, -165796510, -1069501632,
+    643717713, -373897302, -701558691, 38016083, -660478335, -405537848,
+    568446438, -1019803690, -187363961, 1163531501, -1444681467, -51403784,
+    1735328473, -1926607734, -378558, -2022574463, 1839030562, -35309556,
+    -1530992060, 1272893353, -155497632, -1094730640, 681279174, -358537222,
+    -722521979, 76029189, -640364487, -421815835, 530742520, -995338651,
+    -198630844, 1126891415, -1416354905, -57434055, 1700485571, -1894986606,
+    -1051523, -2054922799, 1873313359, -30611744, -1560198380, 1309151649,
+    -145523070, -1120210379, 718787259, -343485551
+  ];
+  const S = [7, 12, 17, 22, 5, 9, 14, 20, 4, 11, 16, 23, 6, 10, 15, 21];
+
+  for (let i = 0; i < total; i += 16) {
+    const oldA = a, oldB = b, oldC = c, oldD = d;
+    for (let j = 0; j < 64; j++) {
+      let f, g;
+      if (j < 16) { f = (b & c) | (~b & d); g = j; }
+      else if (j < 32) { f = (d & b) | (~d & c); g = (5 * j + 1) % 16; }
+      else if (j < 48) { f = b ^ c ^ d; g = (3 * j + 5) % 16; }
+      else { f = c ^ (b | ~d); g = (7 * j) % 16; }
+      const tmp = d;
+      d = c; c = b;
+      const x = (a + f + K[j] + words[i + g]) | 0;
+      b = (b + ((x << S[j % 4]) | (x >>> (32 - S[j % 4])))) | 0;
+      a = tmp;
+    }
+    a = (a + oldA) | 0; b = (b + oldB) | 0; c = (c + oldC) | 0; d = (d + oldD) | 0;
+  }
+
+  const hex = n => {
+    let out = '';
+    for (let i = 0; i < 4; i++) out += ((n >>> (i * 8)) & 0xff).toString(16).padStart(2, '0');
+    return out;
+  };
+  return hex(a) + hex(b) + hex(c) + hex(d);
+}
+
+function utf8Bytes(str) {
+  const out = [];
+  for (let i = 0; i < str.length; i++) {
+    let c = str.charCodeAt(i);
+    if (c < 0x80) out.push(c);
+    else if (c < 0x800) out.push(0xc0 | (c >> 6), 0x80 | (c & 63));
+    else if (c >= 0xd800 && c <= 0xdbff && i + 1 < str.length) {
+      const c2 = str.charCodeAt(++i);
+      c = 0x10000 + ((c - 0xd800) << 10) + (c2 - 0xdc00);
+      out.push(0xf0 | (c >> 18), 0x80 | ((c >> 12) & 63), 0x80 | ((c >> 6) & 63), 0x80 | (c & 63));
+    } else out.push(0xe0 | (c >> 12), 0x80 | ((c >> 6) & 63), 0x80 | (c & 63));
+  }
+  return out;
+}
+
+// ---------- zzb 签名（QQ音乐 web 端 musicu.fcg 请求签名） ----------
+function zzbSign(text) {
+  const h = md5(text).toUpperCase();
+  const t1 = [21, 4, 9, 26, 16, 20, 27, 30].map(i => h[i]).join('');
+  const t3 = [18, 11, 3, 2, 1, 7, 6, 25].map(i => h[i]).join('');
+  const L1 = [212, 45, 80, 68, 195, 163, 163, 203, 157, 220, 254, 91, 204, 79, 104, 6];
+  const ls2 = [];
+  for (let i = 0; i < 16; i++) {
+    const x1 = parseInt(h[i * 2], 16), x2 = parseInt(h[i * 2 + 1], 16);
+    ls2.push(((x1 * 16) ^ x2) ^ L1[i]);
+  }
+  const T = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+  const ls3 = [];
+  for (let i = 0; i < 6; i++) {
+    if (i === 5) ls3.push(T[ls2[15] >> 2], T[(ls2[15] & 3) << 4]);
+    else ls3.push(
+      T[ls2[i * 3] >> 2],
+      T[(ls2[i * 3 + 1] >> 4) ^ ((ls2[i * 3] & 3) << 4)],
+      T[(ls2[i * 3 + 2] >> 6) ^ ((ls2[i * 3 + 1] & 15) << 2)],
+      T[63 & ls2[i * 3 + 2]]
+    );
+  }
+  const t2 = ls3.join('').replace(/[\\/+=]/g, '');
+  return ('zzb' + t1 + t2 + t3).toLowerCase();
+}
+
+// ---------- musicu.fcg JSONP ----------
+function musicu(payload) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify(payload);
+    const cb = 'qqmcb_' + Math.random().toString(36).slice(2);
+    const script = document.createElement('script');
+    const cleanup = () => { try { delete window[cb]; } catch { window[cb] = undefined; } script.remove(); };
+    const timer = setTimeout(() => { cleanup(); reject(new Error('请求超时')); }, 15000);
+    window[cb] = d => { clearTimeout(timer); cleanup(); resolve(d); };
+    script.onerror = () => { clearTimeout(timer); cleanup(); reject(new Error('网络请求失败')); };
+    script.src = 'https://u.y.qq.com/cgi-bin/musicu.fcg?callback=' + cb
+      + '&data=' + encodeURIComponent(data)
+      + '&sign=' + zzbSign(data);
+    document.head.appendChild(script);
+  });
+}
+
+// ---------- 歌单链接解析与拉取 ----------
+const hasCJK = s => /[\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]/.test(s || '');
+
+/** 从任意格式的歌单分享链接 / 纯数字中提取歌单 ID */
+export function extractPlaylistId(input) {
+  if (!input) return null;
+  const s = String(input).trim();
+  const m = s.match(/(?:[?&]id=|\/playlist\/)(\d{6,})/) || s.match(/^(\d{6,})$/);
+  return m ? m[1] : null;
+}
+
+/**
+ * 拉取公开歌单（无需登录）
+ * @returns {{id, title, songs: Array<{name, singer, album, year}>}}
+ */
+export async function fetchQQPlaylist(id) {
+  const payload = {
+    comm: { ct: 19, cv: 1845, uin: 0 },
+    req_1: {
+      module: 'music.srfDissInfo.aiDissInfo',
+      method: 'uniform_get_Dissinfo',
+      param: { disstid: Number(id), tag: 1, userinfo: 1, song_begin: 0, song_num: 200, orderlist: 1 }
+    }
+  };
+  const d = await musicu(payload);
+  const r = d && d.req_1;
+  const data = r && r.data;
+  if (!r || r.code !== 0 || !data || !Array.isArray(data.songlist) || !data.songlist.length) {
+    throw new Error('读取歌单失败：请确认链接为公开歌单');
+  }
+  const songs = data.songlist.map(s => ({
+    name: s.title || s.name || '',
+    singer: (s.singer || []).map(x => x.name).join('、'),
+    album: (s.album && (s.album.title || s.album.name)) || '',
+    year: s.time_public ? Number(String(s.time_public).slice(0, 4)) : null
+  })).filter(s => s.name);
+  return { id, title: (data.dirinfo && data.dirinfo.title) || '我的歌单', songs };
+}
+
+/**
+ * 按关键词搜索公开歌单（用户分享不出链接时的主路径）
+ * @returns {Array<{id, title, creator, songCount, listens}>}
+ */
+export async function searchPlaylists(keyword) {
+  const payload = {
+    comm: { ct: 19, cv: 1845 },
+    req_1: {
+      method: 'DoSearchForQQMusicDesktop',
+      module: 'music.search.SearchCgiService',
+      param: { search_type: 3, query: keyword, page_num: 1, num_per_page: 8 }
+    }
+  };
+  const d = await musicu(payload);
+  const r = d && d.req_1;
+  const list = r && r.data && r.data.body && r.data.body.songlist && r.data.body.songlist.list;
+  if (!r || r.code !== 0 || !Array.isArray(list)) throw new Error('搜索失败，请稍后再试');
+  return list.map(p => ({
+    id: p.dissid,
+    title: p.dissname || '未命名歌单',
+    creator: (p.creator && p.creator.name) || '',
+    songCount: p.song_count != null ? p.song_count : null,
+    listens: p.listennum != null ? p.listennum : null
+  })).filter(p => p.id && p.title);
+}
+
+// ---------- 真实歌单 → 画像（persona 同构，引擎零改动消费） ----------
+/**
+ * 把用户真实歌单构建成 persona：
+ * - stats：按发行年份分桶（time_public → 年龄轴），构成"那年你N岁，《歌》问世"的年轮
+ * - milestones：出镜最多的歌手 / 第一首外语歌 / 置顶单曲 / 单曲循环 / 18岁的歌 / 本命年
+ *   ——全部来自真实歌曲信号，未覆盖的节点（注册日/综艺/分享等）留空，不编造
+ * @returns {object|null} 无法构建（无有效发行年份）时返回 null
+ */
+export function buildPlaylistPersona(playlist, birth) {
+  const birthYear = birth.year;
+  const now = new Date().getFullYear();
+  const all = playlist.songs;
+  const songs = all.filter(s => s.year && s.year >= birthYear && s.year <= now);
+  if (!songs.length) return null;
+
+  const clamp = y => Math.min(now, Math.max(birthYear, y || birthYear));
+  const milestones = [];
+
+  // 出镜最多的歌手（真实频次）
+  const freq = new Map();
+  for (const s of all) if (s.singer) freq.set(s.singer, (freq.get(s.singer) || 0) + 1);
+  let topArtist = null, topCount = 0;
+  for (const [artist, n] of freq) if (n > topCount) { topArtist = artist; topCount = n; }
+  if (topArtist) {
+    const earliest = songs.filter(s => s.singer === topArtist).sort((a, b) => a.year - b.year)[0];
+    milestones.push({
+      type: 'first_follow', artist: topArtist, year: earliest ? earliest.year : birthYear,
+      chip: '出镜最多的歌手',
+      text: `你的歌单里，${topArtist}出现了${topCount}次——起点这个词，有时比终点重要。`
+    });
+  }
+
+  // 第一首外语歌（歌名/歌手均不含中日韩文字，取发行最早）
+  const foreigns = songs.filter(s => !hasCJK(s.name) && !hasCJK(s.singer));
+  if (foreigns.length) {
+    const f = foreigns.sort((a, b) => a.year - b.year)[0];
+    milestones.push({
+      type: 'first_foreign', year: f.year, song: f.name,
+      text: `你收藏的第一首外语歌是《${f.name}》——听不懂的那部分，旋律替它说了。`
+    });
+  }
+
+  // 歌单置顶（第一位）
+  const top1 = all[0];
+  if (top1) {
+    milestones.push({
+      type: 'all_time_top', year: clamp(top1.year), song: top1.name, chip: '歌单置顶',
+      text: `你的歌单第一位，是《${top1.name}》——排第一这件事，本身就是理由。`
+    });
+  }
+
+  // 单曲循环（第二位）
+  const loop = all[1] || all[0];
+  if (loop) {
+    milestones.push({
+      type: 'first_loop', year: clamp(loop.year), song: loop.name,
+      text: `《${loop.name}》，是你很早就放进歌单的那首——循环，是最诚实的喜欢。`
+    });
+  }
+
+  // 18岁的歌（发行年 = 出生年+18，±2 年内就近）
+  const y18 = birthYear + 18;
+  const near18 = [...songs].sort((a, b) => Math.abs(a.year - y18) - Math.abs(b.year - y18))[0];
+  if (near18 && Math.abs(near18.year - y18) <= 2) {
+    milestones.push({
+      type: 'adult_18', year: y18, song: near18.name,
+      text: near18.year === y18
+        ? `18岁那年，《${near18.name}》问世——成年这件事，有时是一首歌先替你说了。`
+        : `18岁前后，《${near18.name}》问世——成年这件事，有时是一首歌先替你说了。`
+    });
+  }
+
+  // 本命年（24 → 36 → 12 岁，就近匹配；避开已被置顶/循环用过的歌，减少重复）
+  const used = new Set([all[0] && all[0].name, all[1] && all[1].name].filter(Boolean));
+  for (const zy of [birthYear + 24, birthYear + 36, birthYear + 12]) {
+    if (zy > now) continue;
+    const pool = songs.filter(s => !used.has(s.name));
+    const z = [...(pool.length ? pool : songs)].sort((a, b) => Math.abs(a.year - zy) - Math.abs(b.year - zy))[0];
+    if (z && Math.abs(z.year - zy) <= 2) {
+      milestones.push({
+        type: 'zodiac', year: zy, song: z.name,
+        text: `${zy - birthYear}岁本命年，《${z.name}》陪你过这一年——十二年一轮回，歌单长出一圈年轮。`
+      });
+      break;
+    }
+  }
+
+  // 年轮行：按发行年份分桶（超过 8 行时均匀抽稀，保留首尾）
+  const byYear = new Map();
+  for (const s of songs) {
+    if (!byYear.has(s.year)) byYear.set(s.year, []);
+    byYear.get(s.year).push(s);
+  }
+  let stats = [...byYear.keys()].sort((a, b) => a - b).map(y => {
+    const list = byYear.get(y);
+    const s = list[0];
+    const age = y - birthYear;
+    return {
+      year: y,
+      top_artist: s.singer,
+      top_song: s.name,
+      plays: null,
+      lyric: '',
+      note: '',
+      text: list.length > 1
+        ? `那年你${age}岁，《${s.name}》等${list.length}首歌问世——后来，它们都住进了你的歌单。`
+        : `那年你${age}岁，《${s.name}》刚刚问世——后来，它住进了你的歌单。`
+    };
+  });
+  if (stats.length > 8) {
+    const picked = [];
+    const step = (stats.length - 1) / 7;
+    for (let i = 0; i < 8; i++) picked.push(stats[Math.round(i * step)]);
+    stats = picked;
+  }
+
+  return {
+    persona_id: 'playlist_' + playlist.id,
+    persona_name: playlist.title,
+    level: 'L1',
+    mode: 'playlist',
+    birth_year: birthYear,
+    playlist_title: playlist.title,
+    playlist_count: all.length,
+    milestones,
+    stats
+  };
+}

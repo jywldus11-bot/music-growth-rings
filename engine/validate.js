@@ -1,1 +1,55 @@
-Ly8g5LqL5a6e5qCh6aqM5Zmo77ya55Sf5oiQ5paH5qGI5b+F6aG76IO95Zue5rqv5Yiw5rOo5YWl55qE55m95ZCN5Y2V5pWw5o2u77yI5pWw5o2u57qq5b6LICMyLyMz77yJCgpjb25zdCBCQU5ORURfV09SRFMgPSBbJ+WkseaBiycsICfmipHpg4EnLCAn5a2k54usJywgJ+W0qea6gycsICfliIbmiYsnLCAn5Ye66L2oJywgJ+WOu+S4licsICfljrvkuJbkuoYnLCAn6Ieq5p2AJ107CgovKioKICog5qCh6aqM5Y2V5p2h5paH5qGICiAqIEBwYXJhbSB7c3RyaW5nfSB0ZXh0CiAqIEBwYXJhbSB7b2JqZWN0fSBub2RlICBhbGlnbigpIOi+k+WHuueahOiKgueCue+8iOWQq+azqOWFpeeahCBwZXJzb25hbCAvIGFydGlzdEV2ZW5077yJCiAqIEByZXR1cm5zIHt7cGFzczogYm9vbGVhbiwgcmVhc29uPzogc3RyaW5nfX0KICovCmV4cG9ydCBmdW5jdGlvbiB2YWxpZGF0ZVRleHQodGV4dCwgbm9kZSkgewogIGlmICghdGV4dCB8fCB0eXBlb2YgdGV4dCAhPT0gJ3N0cmluZycpIHJldHVybiB7IHBhc3M6IGZhbHNlLCByZWFzb246ICdlbXB0eScgfTsKICBpZiAodGV4dC5sZW5ndGggPiA4MCkgcmV0dXJuIHsgcGFzczogZmFsc2UsIHJlYXNvbjogJ3Rvb19sb25nJyB9OwoKICBmb3IgKGNvbnN0IHcgb2YgQkFOTkVEX1dPUkRTKSB7CiAgICBpZiAodGV4dC5pbmNsdWRlcyh3KSkgcmV0dXJuIHsgcGFzczogZmFsc2UsIHJlYXNvbjogJ2Jhbm5lZF93b3JkOicgKyB3IH07CiAgfQoKICAvLyDlubTku73moKHpqozvvJrmlofmoYjkuK3lh7rnjrDnmoQgNCDkvY3lubTku73lv4XpobvnrYnkuo7oioLngrnlubTku70KICBjb25zdCB5ZWFyc0luVGV4dCA9IHRleHQubWF0Y2goL1xkezR9L2cpIHx8IFtdOwogIGZvciAoY29uc3QgeSBvZiB5ZWFyc0luVGV4dCkgewogICAgaWYgKE51bWJlcih5KSAhPT0gbm9kZS55ZWFyKSByZXR1cm4geyBwYXNzOiBmYWxzZSwgcmVhc29uOiAnYmFkX3llYXI6JyArIHkgfTsKICB9CgogIC8vIOWunuS9k+agoemqjO+8muS5puWQjeWPty/lvJXlj7flhoXnmoTmrYzlkI3lv4XpobvlrZjlnKjkuo7ms6jlhaXmlbDmja4KICBjb25zdCBxdW90ZWQgPSB0ZXh0Lm1hdGNoKC9b44CK44CMIl0oW17jgIvjgI0iXSspW+OAiyJdL2cpIHx8IFtdOwogIGNvbnN0IGFsbG93ZWQgPSBjb2xsZWN0RW50aXRpZXMobm9kZSk7CiAgZm9yIChjb25zdCBxIG9mIHF1b3RlZCkgewogICAgY29uc3QgbmFtZSA9IHEucmVwbGFjZSgvW+OAiuOAi+OAjCJdL2csICcnKTsKICAgIGlmICghYWxsb3dlZC5zb21lKGEgPT4gYS5pbmNsdWRlcyhuYW1lKSkpIHJldHVybiB7IHBhc3M6IGZhbHNlLCByZWFzb246ICdiYWRfZW50aXR5OicgKyBuYW1lIH07CiAgfQoKICByZXR1cm4geyBwYXNzOiB0cnVlIH07Cn0KCmZ1bmN0aW9uIGNvbGxlY3RFbnRpdGllcyhub2RlKSB7CiAgY29uc3Qgb3V0ID0gW107CiAgaWYgKG5vZGUucGVyc29uYWwpIHsKICAgIGlmIChub2RlLnBlcnNvbmFsLnRvcF9zb25nKSBvdXQucHVzaChub2RlLnBlcnNvbmFsLnRvcF9zb25nKTsKICAgIGlmIChub2RlLnBlcnNvbmFsLnRvcF9hcnRpc3QpIG91dC5wdXNoKG5vZGUucGVyc29uYWwudG9wX2FydGlzdCk7CiAgfQogIGlmIChub2RlLmFydGlzdEV2ZW50KSB7CiAgICBvdXQucHVzaChub2RlLmFydGlzdEV2ZW50LmV2ZW50IHx8ICcnKTsKICAgIGlmIChub2RlLmFydGlzdEV2ZW50LnNvbmcpIG91dC5wdXNoKG5vZGUuYXJ0aXN0RXZlbnQuc29uZyk7CiAgICBpZiAobm9kZS5hcnRpc3RFdmVudC5kZXRhaWwpIG91dC5wdXNoKG5vZGUuYXJ0aXN0RXZlbnQuZGV0YWlsKTsKICB9CiAgLy8g5bqP56ug6IqC54K577ya55u46YGH5YmN55qE5YWo6YOo5LqL5Lu26YO96L+b5YWl55m95ZCN5Y2VCiAgaWYgKG5vZGUucHJvbG9ndWVFdmVudHMpIHsKICAgIGZvciAoY29uc3QgZSBvZiBub2RlLnByb2xvZ3VlRXZlbnRzKSB7CiAgICAgIG91dC5wdXNoKGUuZXZlbnQgfHwgJycpOwogICAgICBpZiAoZS5zb25nKSBvdXQucHVzaChlLnNvbmcpOwogICAgfQogIH0KICByZXR1cm4gb3V0Lm1hcChzID0+IFN0cmluZyhzKSk7Cn0K
+// 事实校验器：生成文案必须能回溯到注入的白名单数据（数据纪律 #2/#3）
+
+const BANNED_WORDS = ['失恋', '抑郁', '孤独', '崩溃', '分手', '出轨', '去世', '去世了', '自杀'];
+
+/**
+ * 校验单条文案
+ * @param {string} text
+ * @param {object} node  align() 输出的节点（含注入的 personal / artistEvent）
+ * @returns {{pass: boolean, reason?: string}}
+ */
+export function validateText(text, node) {
+  if (!text || typeof text !== 'string') return { pass: false, reason: 'empty' };
+  if (text.length > 80) return { pass: false, reason: 'too_long' };
+
+  for (const w of BANNED_WORDS) {
+    if (text.includes(w)) return { pass: false, reason: 'banned_word:' + w };
+  }
+
+  // 年份校验：文案中出现的 4 位年份必须等于节点年份
+  const yearsInText = text.match(/\d{4}/g) || [];
+  for (const y of yearsInText) {
+    if (Number(y) !== node.year) return { pass: false, reason: 'bad_year:' + y };
+  }
+
+  // 实体校验：书名号/引号内的歌名必须存在于注入数据
+  const quoted = text.match(/[《「"]([^》」"]+)[》"]/g) || [];
+  const allowed = collectEntities(node);
+  for (const q of quoted) {
+    const name = q.replace(/[《》「"]/g, '');
+    if (!allowed.some(a => a.includes(name))) return { pass: false, reason: 'bad_entity:' + name };
+  }
+
+  return { pass: true };
+}
+
+function collectEntities(node) {
+  const out = [];
+  if (node.personal) {
+    if (node.personal.top_song) out.push(node.personal.top_song);
+    if (node.personal.top_artist) out.push(node.personal.top_artist);
+  }
+  if (node.artistEvent) {
+    out.push(node.artistEvent.event || '');
+    if (node.artistEvent.song) out.push(node.artistEvent.song);
+    if (node.artistEvent.detail) out.push(node.artistEvent.detail);
+  }
+  // 序章节点：相遇前的全部事件都进入白名单
+  if (node.prologueEvents) {
+    for (const e of node.prologueEvents) {
+      out.push(e.event || '');
+      if (e.song) out.push(e.song);
+    }
+  }
+  return out.map(s => String(s));
+}

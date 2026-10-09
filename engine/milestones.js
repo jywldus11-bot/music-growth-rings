@@ -1,1 +1,57 @@
-Ly8g5Liq5Lq66YeM56iL56KR5bGC77ya5oqK55S75YOPIG1pbGVzdG9uZXPvvIjnrKzkuIDmrKHku6zvvInms6jlhaXlj5nkuovoioLngrkKLy8g5LqL5a6e5YWo6YOo5p2l6Ieq55S75YOP5pWw5o2u77yI6Zu257yW6YCg77yJ77yM5paH5qGI6LWw5qih5p2/5YWc5bqV5bGC77yM5LiN6L+bIExMTSDnlJ/miJDkuI7moKHpqozmtYHnqIvjgIIKLy8g57G75Z6L5riF5Y2V77yIMTMg6aG555So5oi35Y+Z5LqL6KaB57Sg5Lit55qEIDEyIOS4quaVsOaNruiKgueCue+8m+WHuueUn+mCo+WkqeeahOatjOeUsSBiaXJ0aGRheS5qcyDmib/ovb3vvInvvJoKLy8gICBqb2luX2RhdGUg5rOo5YaM5pelIC8gc3R5bGVfZXhwbG9yZSDpo47moLzmkbjntKIgLyBmaXJzdF9mb2xsb3cg56ys5LiA5L2N5YWz5rOoIC8KLy8gICBmaXJzdF9mb3JlaWduIOesrOS4gOmmluWkluivreatjCAvIGZpcnN0X3dlY2hhdF9zaGFyZSDnrKzkuIDmrKHliIbkuqsgLwovLyAgIGFsbF90aW1lX3RvcCDmkq3mlL7mnIDlpJrnmoTmrYwgLyBhZHVsdF8xOCAxOOWygeeahOatjCAvIHpvZGlhYyDmnKzlkb3lubQgLwovLyAgIGZpcnN0X25ld19nZW5yZSDmlrDpo47moLzliJ3pgYcgLyB2YXJpZXR5X3Nob3cg6Z+z5LmQ57u86Im6IC8KLy8gICBmaXJzdF9sb29wIOesrOS4gOaUr+WNleabsuW+queOryAvIGZpcnN0X2NoYXJ0X3RvcCDmrYzmiYvmppznrKzkuIDmrKHnrKzkuIAKCmV4cG9ydCBjb25zdCBNSUxFU1RPTkVfQ0hJUCA9IHsKICBqb2luX2RhdGU6ICfms6jlhozpgqPkuIDlpKknLAogIHN0eWxlX2V4cGxvcmU6ICfpo47moLzmkbjntKInLAogIGZpcnN0X2ZvbGxvdzogJ+esrOS4gOS9jeWFs+azqCcsCiAgZmlyc3RfZm9yZWlnbjogJ+esrOS4gOmmluWkluivreatjCcsCiAgZmlyc3Rfd2VjaGF0X3NoYXJlOiAn56ys5LiA5qyh5YiG5LqrJywKICBhbGxfdGltZV90b3A6ICfmkq3mlL7mnIDlpJrnmoTmrYwnLAogIGFkdWx0XzE4OiAnMTjlsoHnmoTmrYwnLAogIHpvZGlhYzogJ+acrOWRveW5tCcsCiAgZmlyc3RfbmV3X2dlbnJlOiAn5paw6aOO5qC85Yid6YGHJywKICB2YXJpZXR5X3Nob3c6ICfpn7PkuZDnu7zoibonLAogIGZpcnN0X2xvb3A6ICfnrKzkuIDmlK/ljZXmm7Llvqrnjq8nLAogIGZpcnN0X2NoYXJ0X3RvcDogJ+atjOaJi+amnOesrOS4gOasoeesrOS4gCcKfTsKCi8qKgogKiDmiornlLvlg4/ph4znqIvnopHmjInlubTku73mj5LlhaXoioLngrnluo/liJfvvIjlkIzlubTlj6/lpJrooYzvvJrmlbDmja7ooYzlnKjliY3vvIzph4znqIvnopHooYzpmo/lkI7vvIkKICogQHBhcmFtIHtBcnJheX0gbm9kZXMgICAgYWxpZ24oKSAvIGJ1aWxkQmlydGhkYXlOb2RlcygpIOi+k+WHuu+8iOS8muiiq+WOn+WcsOS/ruaUue+8iQogKiBAcGFyYW0ge29iamVjdHxudWxsfSBwZXJzb25hCiAqIEBwYXJhbSB7bnVtYmVyfSBiaXJ0aFllYXIKICogQHJldHVybnMge0FycmF5fSDlkIzkuIDmlbDnu4TlvJXnlKgKICovCmV4cG9ydCBmdW5jdGlvbiBhdHRhY2hNaWxlc3RvbmVzKG5vZGVzLCBwZXJzb25hLCBiaXJ0aFllYXIpIHsKICBpZiAoIXBlcnNvbmEgfHwgIUFycmF5LmlzQXJyYXkocGVyc29uYS5taWxlc3RvbmVzKSB8fCAhcGVyc29uYS5taWxlc3RvbmVzLmxlbmd0aCkgcmV0dXJuIG5vZGVzOwogIGNvbnN0IGN1cnJlbnRZZWFyID0gbmV3IERhdGUoKS5nZXRGdWxsWWVhcigpOwoKICBjb25zdCByb3dzID0gcGVyc29uYS5taWxlc3RvbmVzCiAgICAuZmlsdGVyKG0gPT4gTUlMRVNUT05FX0NISVBbbS50eXBlXSkKICAgIC5tYXAobSA9PiAoeyAuLi5tLCB5ZWFyOiBtLnllYXIgfHwgcGVyc29uYS5wbGF0Zm9ybV9qb2luX3llYXIgfSkpCiAgICAuZmlsdGVyKG0gPT4gbS55ZWFyID49IGJpcnRoWWVhciAmJiBtLnllYXIgPD0gY3VycmVudFllYXIpCiAgICAuc29ydCgoYSwgYikgPT4gYS55ZWFyIC0gYi55ZWFyKTsKCiAgZm9yIChjb25zdCBtIG9mIHJvd3MpIHsKICAgIGxldCBhdCA9IG5vZGVzLmZpbmRJbmRleChuID0+IG4ueWVhciA+IG0ueWVhcik7CiAgICBjb25zdCBub2RlID0gewogICAgICB5ZWFyOiBtLnllYXIsCiAgICAgIGFnZTogbS55ZWFyIC0gYmlydGhZZWFyLAogICAgICBwZXJzb25hbDogbnVsbCwKICAgICAgYXJ0aXN0RXZlbnQ6IG51bGwsCiAgICAgIGtpbmQ6ICdtaWxlc3RvbmUnLAogICAgICBtaWxlc3RvbmU6IG0sCiAgICAgIGluR2FwOiBmYWxzZQogICAgfTsKICAgIGlmIChhdCA9PT0gLTEpIG5vZGVzLnB1c2gobm9kZSk7CiAgICBlbHNlIG5vZGVzLnNwbGljZShhdCwgMCwgbm9kZSk7CiAgfQogIHJldHVybiBub2RlczsKfQo=
+// 个人里程碑层：把画像 milestones（第一次们）注入叙事节点
+// 事实全部来自画像数据（零编造），文案走模板兜底层，不进 LLM 生成与校验流程。
+// 类型清单（13 项用户叙事要素中的 12 个数据节点；出生那天的歌由 birthday.js 承载）：
+//   join_date 注册日 / style_explore 风格摸索 / first_follow 第一位关注 /
+//   first_foreign 第一首外语歌 / first_wechat_share 第一次分享 /
+//   all_time_top 播放最多的歌 / adult_18 18岁的歌 / zodiac 本命年 /
+//   first_new_genre 新风格初遇 / variety_show 音乐综艺 /
+//   first_loop 第一支单曲循环 / first_chart_top 歌手榜第一次第一
+
+export const MILESTONE_CHIP = {
+  join_date: '注册那一天',
+  style_explore: '风格摸索',
+  first_follow: '第一位关注',
+  first_foreign: '第一首外语歌',
+  first_wechat_share: '第一次分享',
+  all_time_top: '播放最多的歌',
+  adult_18: '18岁的歌',
+  zodiac: '本命年',
+  first_new_genre: '新风格初遇',
+  variety_show: '音乐综艺',
+  first_loop: '第一支单曲循环',
+  first_chart_top: '歌手榜第一次第一'
+};
+
+/**
+ * 把画像里程碑按年份插入节点序列（同年可多行：数据行在前，里程碑行随后）
+ * @param {Array} nodes    align() / buildBirthdayNodes() 输出（会被原地修改）
+ * @param {object|null} persona
+ * @param {number} birthYear
+ * @returns {Array} 同一数组引用
+ */
+export function attachMilestones(nodes, persona, birthYear) {
+  if (!persona || !Array.isArray(persona.milestones) || !persona.milestones.length) return nodes;
+  const currentYear = new Date().getFullYear();
+
+  const rows = persona.milestones
+    .filter(m => MILESTONE_CHIP[m.type])
+    .map(m => ({ ...m, year: m.year || persona.platform_join_year }))
+    .filter(m => m.year >= birthYear && m.year <= currentYear)
+    .sort((a, b) => a.year - b.year);
+
+  for (const m of rows) {
+    let at = nodes.findIndex(n => n.year > m.year);
+    const node = {
+      year: m.year,
+      age: m.year - birthYear,
+      personal: null,
+      artistEvent: null,
+      kind: 'milestone',
+      milestone: m,
+      inGap: false
+    };
+    if (at === -1) nodes.push(node);
+    else nodes.splice(at, 0, node);
+  }
+  return nodes;
+}

@@ -1,1 +1,70 @@
-IyDlvIDlj5Hku7vliqHmuIXljZXvvIjmiKroh7MgMjAyNi0xMC0wOSDmj5DkuqTvvIkKCj4gQUkg5Yqp5omL5bel5L2c5pa55byP77ya5LuO5LiK5Yiw5LiL6YCQ6aG55omn6KGM77yM5a6M5oiQ5LiA6aG55Yu+6YCJ5LiA6aG577yM5LiN6KaB6Lez5q2l44CCCj4g5q+P5a6M5oiQ5LiA5LiqIFBoYXNlIOaPkOS6pOS4gOasoSBnaXQgY29tbWl044CCCgojIyDov5DooYzmlrnlvI/vvIhRdWljayBTdGFydO+8iQoKYGBgYmFzaApjZCBncm93dGgtcmluZ3MKcHl0aG9uMyAtbSBodHRwLnNlcnZlciA4MDAwCiMg5rWP6KeI5Zmo5omT5byAIGh0dHA6Ly9sb2NhbGhvc3Q6ODAwMC9zcmMvaW5kZXguaHRtbAojIOmZjee6p+i3r+W+hOa1i+ivle+8mlVSTCDliqAgP2xldmVsPTEgLyA/bGV2ZWw9MiAvID9sZXZlbD0zCmBgYAoKIyMg5bey5a6M5oiQ55qE6ISa5omL5p6277yIMjAyNi0xMC0wNO+8jOW+heS6uuW3pSByZXZpZXfvvIkKCi0gW3hdIGBkYXRhL3RlbXBsYXRlcy5qc29uYCDmqKHmnb/lhZzlupXlupMgKyBgZGF0YS9jb3B5Lmpzb25gIOeVjOmdouaWh+ahiAotIFt4XSBgc3JjL2VuZ2luZS9g77yIYWxpZ24gLyB2YWxpZGF0ZSAvIGZhbGxiYWNrIC8gZ2VuZXJhdGXvvIkrIGBzcmMvbGxtL2FkYXB0ZXIuanNgCi0gW3hdIGBzcmMvdWkvYO+8iGFwcCAvIHJpbmfvvIkrIGBzcmMvaW5kZXguaHRtbGAgKyBgc3JjL2Nzcy9zdHlsZS5jc3Ng77yI5Zub5bGP5Y6f5Z6L77ya6L6T5YWl4oaS562J5b6F4oaS5Y+Z5LqL4oaS57uT5bC+77yJCi0gW3hdIOW8leaTjuaXoOa1j+iniOWZqOerr+WIsOerr+a1i+ivlemAmui/h++8mkwxIOS6pOe7hyAvIEwzIOe6r+atjOaJi+e6vyAvIOaDhee7quiviuaWreaLpuaIqiAvIOe8lumAoOW5tOS7veaLpuaIqiAvIEJJR0JBTkcg56m655m95pyf55WZ55m9Ci0g5rOo77yaTExNIOeUn+aIkOi3r+W+hOW3suWunueOsOacquWunua1i++8iOmcgOmFjee9riBBUEnvvInvvJvmqKHmnb/mqKHlvI/lj6/nm7TmjqXmvJTnpLrjgILlubTooajlt7LmoLjlr7nvvIzku4UgYHZlcmlmaWVkOiB0cnVlYCDov5vlhaXnlJ/miJDvvJvmiJDlkZjkuKrkurrkuJPovpHkv53nlZnkuLogYHZlcmlmaWVkOiBmYWxzZWDjgIIKCiMjIFBoYXNlIDAgwrcg5pWw5o2u77yIMTAuNe+8iQoKLSBbeF0g6YCQ5p2h5qC45a+5IGBkYXRhL2FydGlzdHMvamF5X2Nob3UuanNvbmAg5YWo6YOo5LqL5Lu277yI5a+554WnUVHpn7PkuZDmrYzmiYvpobUv5p2D5aiB55m+56eR77yJ77yM5qC45a+56YCa6L+H55qE572uIGB2ZXJpZmllZDogdHJ1ZWDvvIzmnInor6/nmoTkv67mraMKLSBbeF0g6YCQ5p2h5qC45a+5IGBkYXRhL2FydGlzdHMvYmlnYmFuZy5qc29uYO+8iOWQq+a8lOWUseS8muS/oeaBr+aguOWunuWumOaWuea4oOmBk++8ie+8jOWQjOS4igotIFt4XSDooaXlhYXnrKwz5Liq55S75YOP77yaTDIg5Lit6YeP5pWw5o2u55So5oi377yI5YaZIGBkYXRhL3BlcnNvbmFzL3BlcnNvbmFfcDNfbWlkLmpzb25g77yM5Y+q5pyJ6L+RM+W5tOaVsOaNru+8jOmqjOivgemZjee6p+i3r+W+hO+8iQotIFt4XSDliJvlu7ogYGRhdGEvdGVtcGxhdGVzLmpzb25gIOaooeadv+WFnOW6leW6k++8iOaMiSBuYXJyYXRpdmUtZW5naW5lLXByb21wdC5tZCDnrKw16IqC77yM5q+P57G74omlMTDmnaHvvIkKLSBbeF0g5Yib5bu6IGBkYXRhL2NvcHkuanNvbmDvvIjnlYzpnaLmlofmoYjpm4bkuK3nrqHnkIbvvIkKCiMjIFBoYXNlIDEgwrcg5Y+Z5LqL5byV5pOO77yIMTAuNu+8iQoKLSBbIF0gYHNyYy9lbmdpbmUvYWxpZ24uanNg77ya5bm05Lu95a+56b2Q5Zmo77yIcGVyc29uYS5zdGF0cyDDlyBhcnRpc3QgbWlsZXN0b25lc++8jOe6r+WHveaVsO+8iQotIFsgXSBgc3JjL2xsbS9hZGFwdGVyLmpzYO+8mkxMTSBBUEkg6YCC6YWN5bGC77yIT3BlbkFJIOWFvOWuueWNj+iuru+8jOWvhumSpeivu+eOr+Wig+WPmOmHjyBgTExNX0FQSV9LRVlg44CBYExMTV9CQVNFX1VSTGDjgIFgTExNX01PREVMYO+8iQotIFsgXSBgc3JjL2VuZ2luZS9nZW5lcmF0ZS5qc2DvvJrms6jlhaXnmb3lkI3ljZXkuovku7bosIMgTExN77yIU3lzdGVtIFByb21wdCDnlKggZG9jcy9uYXJyYXRpdmUtZW5naW5lLXByb21wdC5tZCDnrKwy6IqC5Y6f5paH77yJCi0gWyBdIGBzcmMvZW5naW5lL3ZhbGlkYXRlLmpzYO+8muS6i+WunuagoemqjOWZqO+8iOWbnuWMuemFjSArIOaDhee7quiviuaWreemgeeUqOivjeihqO+8iQotIFsgXSBgc3JjL2VuZ2luZS9mYWxsYmFjay5qc2DvvJrph43nlJ/miJDiiaQz5qyhIOKGkiDmqKHmnb/lhZzlupUKLSBbIF0g57yT5a2Y77yaa2V5ID0gbWQ1KGFydGlzdF9pZCArIGJpcnRoX3llYXIgKyBwZXJzb25hX2lkKe+8jGxvY2FsU3RvcmFnZSDljbPlj68KLSBbIF0g6aqM5pS277ya5Lik5LiqIHBlcnNvbmEg5ZCE55Sf5oiQ5LiA5qyh77yM5YWo6YOo5paH5qGI6YCa6L+H5qCh6aqM5Zmo77ybTExNIOaWree9keaXtuaooeadv+aooeW8j+WujOaVtOWPr+i3kQoKIyMgUGhhc2UgMiDCtyDliY3nq6/vvIgxMC4377yJCgotIFsgXSBgc3JjL3VpL2DvvJrovpPlhaXpobXvvIjlubTku73mu5rova4gKyDmrYzmiYvpgInmi6nvvIzpu5jorqTnjJzmtYvlubTku73vvIkKLSBbIF0g55Sf5oiQ562J5b6F6aG177yI5bm06L2u55Sf6ZW/5Yqo55S777yM57qmM+enku+8jOaOqeebluetieW+he+8iQotIFsgXSDlubTova7lj6/op4bljJbvvJrlkIzlv4PlnIbnjq/pgJDlubTngrnkuq7vvIzkuKrkurrkuovku7Yv5q2M5omL5LqL5Lu25YiG6Imy57O777yM5Lqk5rGH5bm05Lu96IqC54K55pS+5aSn77yM54K55Ye75Y2V5bm055yL6K+m5oOFCi0gWyBdIOmAkOW5tOWPmeS6i+a1j+iniO+8iOa7keWKqOaOqOi/m++8jOavj+Wxj+S4gOWPpeaWh+ahiCvlubTku73vvIkKLSBbIF0g57uT5bC+6YeR5Y+l6aG177ya5YWo56iL5pyA5omO5b+D5LiA5Y+lICsg5bm06L2u5YWo6LKMICsg5Y+M5Ye65Y+j77yI5YiG5LqrL+i/m+e7hO+8iQotIFsgXSDkuInnuqfpmY3nuqfliIfmjaLvvJpVUkwg5Y+C5pWwIGA/bGV2ZWw9MXwyfDNgIOaJi+WKqOinpuWPkQotIFsgXSDpqozmlLbvvJpQUkQg6aqM5pS26aG5IEEx77yIMTXnp5LlhoXlh7rpppbmnaHlj5nkuovvvInjgIFBNe+8iEwzIOi3r+W+hOWujOaVtO+8iQoKIyMgUGhhc2UgMyDCtyDkvKDmkq3kuI7mib/mjqXvvIgxMC4477yJCgotIFsgXSDliIbkuqvljaHniYfnlJ/miJDvvIjlubTova7lm74r6YeR5Y+l77yMY2FudmFzIOWvvOWHuuWbvueJh++8iQotIFsgXSDokL3lnLDpobXvvJrmnKrnmbvlvZXlj6/op4Hnuq/mrYzmiYvnur/niYjvvIhMM++8ie+8jOW6lemDqOazqOWGjOW8leWvvAotIFsgXSDmib/mjqXlsYLljp/lnovvvJrnu5PlsL7pobXlsZXnpLoi5ZCM57G75Lq65bCP57uE5o6o6I2Q5Y2hIu+8iOehruWumuaAp+agh+etvu+8muWQjOW5tOWFpeWdkS/lkIzmrYzmiYsv5ZCM6b6E5q6177yJKyDlhbHlkKzmiL/pl7TlhaXlj6PljaHvvIzngrnlh7vlsZXnpLrmjqjojZDnkIbnlLHvvIjljp/lnovljbPlj6/vvIzkuI3lgZrlrp7ml7bpgJrkv6HvvIkKLSBbIF0g6aqM5pS277yaQTbvvIjlvq7kv6Hnjq/looPmiZPlvIDokL3lnLDpobXmraPluLjvvInjgIFBN++8iOWFpeWPo+WPr+eCueWHu+S4lOWxleekuuaOqOiNkOeQhueUse+8iQoKIyMgUGhhc2UgNCDCtyDmtYvor5XkuI7mj5DkuqTvvIgxMC4577yJCgotIFsgXSDnnJ/mnLrmtYvor5XvvJppT1MgU2FmYXJpICsg5b6u5L+h5YaF572u5rWP6KeI5ZmoICsgQW5kcm9pZCBDaHJvbWUKLSBbIF0g55So5oi35rWL6K+V77yaNeWQjeebruagh+eUqOaIt++8jOWPqumXruS4gOWPpSLkvaDkvJrmiKrlm77lj5HmnIvlj4vlnIjlkJci77yI6aqM5pS2IEE477ya4omlNOS6uuiCr+Wumu+8iQotIFsgXSDkv67lpI3pmLvloZ7pl67popgKLSBbIF0g5o+Q5Lqk5L2c5ZOBCgojIyDluLjop4HlnZHvvIhBSSDliqnmiYvms6jmhI/vvIkKCjEuIGZldGNoIOacrOWcsCBKU09OIOWcqCBmaWxlOi8vIOWNj+iuruS4i+S8muiiq+a1j+iniOWZqOaLpuaIqiDihpIg55SoIGBweXRob24zIC1tIGh0dHAuc2VydmVyYCDotbfmnKzlnLDmnI3liqHmtYvor5UKMi4g5b6u5L+h5YaF572u5rWP6KeI5Zmo5a+5IGNhbnZhcy50b0RhdGFVUkwg5pyJ5YW85a655oCn6Zeu6aKYIOKGkiDliIbkuqvljaHniYfkvJjlhYjnlKggc3ZnIOW6j+WIl+WMluaWueahiAozLiDlubTooaggSlNPTiDkv67mlLnlkI7lv4XpobvlkIzmraXmm7TmlrAgZG9jcy9QUkQubWQgNi4zIOiKguekuuS+iwo0LiDku7vkvZXmg4XlhrXkuIvkuI3lvpfmioogYHZlcmlmaWVkOiBmYWxzZWAg55qE5LqL5Lu25pS+6L+b55Sf5oiQ5rWB56iL77yM5LiN5b6X56Gs57yW56CBIEFQSSDlr4bpkqUK
+# 开发任务清单（截至 2026-10-09 提交）
+
+> AI 助手工作方式：从上到下逐项执行，完成一项勾选一项，不要跳步。
+> 每完成一个 Phase 提交一次 git commit。
+
+## 运行方式（Quick Start）
+
+```bash
+cd growth-rings
+python3 -m http.server 8000
+# 浏览器打开 http://localhost:8000/src/index.html
+# 降级路径测试：URL 加 ?level=1 / ?level=2 / ?level=3
+```
+
+## 已完成的脚手架（2026-10-04，待人工 review）
+
+- [x] `data/templates.json` 模板兜底库 + `data/copy.json` 界面文案
+- [x] `src/engine/`（align / validate / fallback / generate）+ `src/llm/adapter.js`
+- [x] `src/ui/`（app / ring）+ `src/index.html` + `src/css/style.css`（四屏原型：输入→等待→叙事→结尾）
+- [x] 引擎无浏览器端到端测试通过：L1 交织 / L3 纯歌手线 / 情绪诊断拦截 / 编造年份拦截 / BIGBANG 空白期留白
+- 注：LLM 生成路径已实现未实测（需配置 API）；模板模式可直接演示。年表已核对，仅 `verified: true` 进入生成；成员个人专辑保留为 `verified: false`。
+
+## Phase 0 · 数据（10.5）
+
+- [x] 逐条核对 `data/artists/jay_chou.json` 全部事件（对照QQ音乐歌手页/权威百科），核对通过的置 `verified: true`，有误的修正
+- [x] 逐条核对 `data/artists/bigbang.json`（含演唱会信息核实官方渠道），同上
+- [x] 补充第3个画像：L2 中量数据用户（写 `data/personas/persona_p3_mid.json`，只有近3年数据，验证降级路径）
+- [x] 创建 `data/templates.json` 模板兜底库（按 narrative-engine-prompt.md 第5节，每类≥10条）
+- [x] 创建 `data/copy.json`（界面文案集中管理）
+
+## Phase 1 · 叙事引擎（10.6）
+
+- [ ] `src/engine/align.js`：年份对齐器（persona.stats × artist milestones，纯函数）
+- [ ] `src/llm/adapter.js`：LLM API 适配层（OpenAI 兼容协议，密钥读环境变量 `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL`）
+- [ ] `src/engine/generate.js`：注入白名单事件调 LLM（System Prompt 用 docs/narrative-engine-prompt.md 第2节原文）
+- [ ] `src/engine/validate.js`：事实校验器（回匹配 + 情绪诊断禁用词表）
+- [ ] `src/engine/fallback.js`：重生成≤3次 → 模板兜底
+- [ ] 缓存：key = md5(artist_id + birth_year + persona_id)，localStorage 即可
+- [ ] 验收：两个 persona 各生成一次，全部文案通过校验器；LLM 断网时模板模式完整可跑
+
+## Phase 2 · 前端（10.7）
+
+- [ ] `src/ui/`：输入页（年份滚轮 + 歌手选择，默认猜测年份）
+- [ ] 生成等待页（年轮生长动画，约3秒，掩盖等待）
+- [ ] 年轮可视化：同心圆环逐年点亮，个人事件/歌手事件分色系，交汇年份节点放大，点击单年看详情
+- [ ] 逐年叙事浏览（滑动推进，每屏一句文案+年份）
+- [ ] 结尾金句页：全程最扎心一句 + 年轮全貌 + 双出口（分享/进组）
+- [ ] 三级降级切换：URL 参数 `?level=1|2|3` 手动触发
+- [ ] 验收：PRD 验收项 A1（15秒内出首条叙事）、A5（L3 路径完整）
+
+## Phase 3 · 传播与承接（10.8）
+
+- [ ] 分享卡片生成（年轮图+金句，canvas 导出图片）
+- [ ] 落地页：未登录可见纯歌手线版（L3），底部注册引导
+- [ ] 承接层原型：结尾页展示"同类人小组推荐卡"（确定性标签：同年入坑/同歌手/同龄段）+ 共听房间入口卡，点击展示推荐理由（原型即可，不做实时通信）
+- [ ] 验收：A6（微信环境打开落地页正常）、A7（入口可点击且展示推荐理由）
+
+## Phase 4 · 测试与提交（10.9）
+
+- [ ] 真机测试：iOS Safari + 微信内置浏览器 + Android Chrome
+- [ ] 用户测试：5名目标用户，只问一句"你会截图发朋友圈吗"（验收 A8：≥4人肯定）
+- [ ] 修复阻塞问题
+- [ ] 提交作品
+
+## 常见坑（AI 助手注意）
+
+1. fetch 本地 JSON 在 file:// 协议下会被浏览器拦截 → 用 `python3 -m http.server` 起本地服务测试
+2. 微信内置浏览器对 canvas.toDataURL 有兼容性问题 → 分享卡片优先用 svg 序列化方案
+3. 年表 JSON 修改后必须同步更新 docs/PRD.md 6.3 节示例
+4. 任何情况下不得把 `verified: false` 的事件放进生成流程，不得硬编码 API 密钥

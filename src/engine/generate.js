@@ -1,1 +1,125 @@
-Ly8g5Y+Z5LqL55Sf5oiQ57yW5o6S77ya5a+56b2QIOKGkiBMTE3vvIjlj6/pgInvvInihpIg5LqL5a6e5qCh6aqMIOKGkiDmqKHmnb/lhZzlupUg4oaSIOe8k+WtmAovLyDkuI4gVUkg5bGC55qE5ZSv5LiA5o6l5Y+j77yaZ2VuZXJhdGVOYXJyYXRpdmUoKQoKaW1wb3J0IHsgYWxpZ24gfSBmcm9tICcuL2FsaWduLmpzJzsKaW1wb3J0IHsgYnVpbGRCaXJ0aGRheU5vZGVzLCBhdHRhY2hCaXJ0aFJvdyB9IGZyb20gJy4vYmlydGhkYXkuanMnOwppbXBvcnQgeyB2YWxpZGF0ZVRleHQgfSBmcm9tICcuL3ZhbGlkYXRlLmpzJzsKaW1wb3J0IHsgYXBwbHlUZW1wbGF0ZXMsIHBpY2tFbmRpbmdRdW90ZSB9IGZyb20gJy4vZmFsbGJhY2suanMnOwppbXBvcnQgeyBpc0NvbmZpZ3VyZWQsIGNoYXQgfSBmcm9tICcuLi9sbG0vYWRhcHRlci5qcyc7CgovLyBTeXN0ZW0gUHJvbXB0IOS4jiBkb2NzL25hcnJhdGl2ZS1lbmdpbmUtcHJvbXB0Lm1kIOesrDLoioLkv53mjIHkuIDoh7TvvIzkv67mlLnpobvlkIzmraXmlofmoaMKY29uc3QgU1lTVEVNX1BST01QVCA9IGDkvaDmmK/kuIDkvY3pn7PkuZDmg4XmhJ/mlofmoYjkvZzogIXvvIzkuLpRUemfs+S5kCLpn7PkuZDlubTova4i5Yqf6IO955Sf5oiQ5Y+Z5LqL44CCCgrpk4HlvovvvJoKMS4g5L2g5Y+q6IO95L2/55SoIDxGQUNUUz4g5qCH562+5YaF5o+Q5L6b55qE5LqL5a6e77yI55So5oi35ZCs5q2M5pWw5o2u5LiO5q2M5omL5bm06KGo5LqL5Lu277yJ77yM5Lil56aB5L2/55So5L2g6Ieq5bex6K6w5b+G5Lit55qE5Lu75L2V5q2M5omL5L+h5oGv44CB5bm05Lu944CB5L2c5ZOB5oiW5aWW6aG544CCCjIuIOemgeatouWvueeUqOaIt+aDhee7quS4i+iviuaWreaAp+e7k+iuuu+8iOWmgiLkvaDlpLHmgYvkuoYiIuS9oOW+iOWtpOeLrCIi5L2g5oqR6YOBIu+8ieOAguWPquWBmueVmeeZveW8j+ihqOi+vu+8mumZiOi/sOihjOS4uu+8jOeVmeS4i+aDhee7quepuumXtOOAggozLiDmr4/lj6XmlofmoYjlv4XpobvlkIzml7bljIXlkKvkuKrkurrplJrngrnkuI7mrYzmiYvkuovku7bnmoTlj6/mjIforqTopoHntKDvvIjlubTku70v5q2M5ZCNL+S6i+S7tuWQje+8jOiHs+WwkeWFtuS6jO+8ieOAggo0LiDoi6XmrYzmiYvkuovku7YgdHlwZT1nYXDvvIjnqbrnmb3mnJ/vvInvvIzlj6rnlKjnlZnnmb3lj6XlvI/vvIznpoHmraLop6Pph4rnqbrnmb3ljp/lm6DjgIIKNS4g57uE5ZCI57G75q2M5omL5Y+Z5LqL5Li75L2T5Y+q6IO95piv57uE5ZCI5ZCN77yM56aB5q2i5bGV5byA5oiQ5ZGY5Liq5Lq65Y+Z5LqL44CCCjYuIOi+k+WHuiBKU09O77yaeyJ0ZXh0cyI6IFt7InllYXIiOiAyMDAxLCAidGV4dCI6ICIuLi4ifV1977yM5q+P5p2h5LiN6LaF6L+HNjDlrZfjgIIKCuWGmeS9nOWfuuiwg+ekuuS+i++8iOWvuem9kOi/meenjeaJi+aEn++8ie+8mgotICIxM+WygemCo+W5tOS9oOazqOWGjOS6hlFR6Z+z5LmQ77yM44CK5pm05aSp44CL5ZCs5LqGNjfmrKHigJTigJTpgqPlubTku5bliJrlj5HjgIrlj7bmg6Dnvo7jgIvjgIIiCi0gIuS9oOeahOWkp+WtpuWbm+W5tO+8jOS7luS7rOaBsOWlveS4jeWcqOOAgjIwMjLlubTjgIpTdGlsbCBMaWZl44CL5Zue5p2l5pe277yM5L2g5q+V5Lia5LqG44CCIgotICLpgqPlubTjgIrlkYrnmb3msJTnkIPjgIvkvaDlvqrnjq/kuoY0MTDmrKHjgILmnInkupvmrYzljZXvvIzlj6rmnInoh6rlt7Hmh4LjgIIiCgrlj43kvovvvIjlh7rnjrDljbPliKQgZmFpbO+8ie+8mgotICLpgqPlubTkvaDlpLHmgYvkuobvvIzlvqrnjq/jgIror7Tlpb3kuI3lk63jgIsyMTfmrKHjgIIi77yI5oOF57uq6K+K5pat77yJCi0gIjIwMjLlubTku5bml7bpmpTlha3lubTluKbnnYDmlrDkuJPlm57lvZLvvIzlh7votKXkvJflpJrlr7nmiYvnmbvpobbjgIIi77yI5L2/55So5pyq5rOo5YWl55qE6K6w5b+G77yJYDsKCmZ1bmN0aW9uIHVzZXJQcm9tcHQobm9kZXMsIGFydGlzdCwgcGVyc29uYSwgYmlydGhZZWFyKSB7CiAgY29uc3QgYmlydGhOb2RlID0gbm9kZXMuZmluZChuID0+IG4uYmlydGhNYXRjaCk7CiAgY29uc3QgZmFjdHMgPSB7CiAgICB1c2VyOiB7CiAgICAgIGJpcnRoX3llYXI6IGJpcnRoWWVhciwKICAgICAgcGxhdGZvcm1fam9pbl95ZWFyOiBwZXJzb25hPy5wbGF0Zm9ybV9qb2luX3llYXIgPz8gbnVsbAogICAgfSwKICAgIGJpcnRoX21hdGNoOiBiaXJ0aE5vZGUKICAgICAgPyB7IGJpcnRoOiBiaXJ0aE5vZGUuYmlydGhNYXRjaC5iaXJ0aCwgbGV2ZWw6IGJpcnRoTm9kZS5iaXJ0aE1hdGNoLmxldmVsLCBtYXRjaGVkOiBiaXJ0aE5vZGUuYmlydGhNYXRjaC5tYXRjaGVkIH0KICAgICAgOiBudWxsLAogICAgcGVyc29uYWxfc3RhdHM6IG5vZGVzLm1hcChuID0+IG4ucGVyc29uYWwpLmZpbHRlcihCb29sZWFuKSwKICAgIGFydGlzdF9ldmVudHM6IG5vZGVzLm1hcChuID0+IG4uYXJ0aXN0RXZlbnQpLmZpbHRlcihCb29sZWFuKSwKICAgIHByb2xvZ3VlX2V2ZW50czogbm9kZXMuZmlsdGVyKG4gPT4gbi5raW5kID09PSAncHJvbG9ndWUnKQogICAgICAuZmxhdE1hcChuID0+IG4ucHJvbG9ndWVFdmVudHMgfHwgW10pCiAgfTsKICByZXR1cm4gYDxGQUNUUz5cbuatjOaJi++8miR7YXJ0aXN0LmFydGlzdF9uYW1lfVxuJHtKU09OLnN0cmluZ2lmeShmYWN0cywgbnVsbCwgMil9XG48L0ZBQ1RTPlxuXG7kuLrku6XkuIvlubTku73lkITnlJ/miJDkuIDmnaHlj4znur/kuqTnu4fmlofmoYjvvJoke25vZGVzLm1hcChuID0+IG4ueWVhcikuam9pbignLCAnKX1cbuazqOaEj++8muesrOS4gOS4quiKgueCueaYr+W6j+eroO+8iOebuOmBh+S5i+WJjeeahOW5tOS7veWQiOW5tu+8ie+8jOivt+eUqOS4gOWPpeivneamguaLrOi/meS6m+S6i+S7tu+8jOS4jeimgemAkOW5tOWxleW8gOOAguWHuueUn+W5tOiKgueCueWmguWQqyBiaXJ0aF9tYXRjaO+8jOivt+aKiiLlh7rnlJ/pgqPlpKnlj5HooYznmoTmrYzmm7Ii5YaZ6L+b6K+l5bm05paH5qGI44CCYDsKfQoKLy8g57yT5a2YIGtlee+8mmFydGlzdF9pZCjmiJZzb2xvKSArIOWHuueUn+W5tOaciOaXpSArIHBlcnNvbmFfaWQgKyDkuKrkurrmlbDmja7lubTku73mlbAKZnVuY3Rpb24gY2FjaGVLZXkoYXJ0aXN0LCBiaXJ0aFllYXIsIHBlcnNvbmEsIGJpcnRoKSB7CiAgY29uc3QgcmF3ID0gYCR7YXJ0aXN0Py5hcnRpc3RfaWQgfHwgJ3NvbG8nfXwke2JpcnRoWWVhcn18JHtiaXJ0aD8ubW9udGggfHwgMH0tJHtiaXJ0aD8uZGF5IHx8IDB9fCR7cGVyc29uYT8ucGVyc29uYV9pZCB8fCAnbm9uZSd9fCR7cGVyc29uYT8uc3RhdHM/Lmxlbmd0aCB8fCAwfWA7CiAgbGV0IGggPSAwOwogIGZvciAobGV0IGkgPSAwOyBpIDwgcmF3Lmxlbmd0aDsgaSsrKSBoID0gKChoIDw8IDUpIC0gaCArIHJhdy5jaGFyQ29kZUF0KGkpKSB8IDA7CiAgcmV0dXJuICdncl9jYWNoZV8nICsgTWF0aC5hYnMoaCk7Cn0KCi8qKgogKiDnu5/kuIDlj4zovajlhaXlj6PvvJoKICogICDpgInkuobmrYzmiYsg4oaSIOaIkeeahOmfs+S5kOS6uueUn++8iOWHuueUn+mCo+WkqeeahOatjCArIOS4quS6uuaVsOaNru+8icOXIOS7lueahOmfs+S5kOS6uueUn++8iOatjOaJi+W5tOihqO+8ieWQjOWxj+WvueeFpwogKiAgIOS4jemAieatjOaJiyDihpIg5Y+q6LWw5oiR55qE6Z+z5LmQ5Lq655Sf77yI5Liq5Lq657q/77yb5peg5pWw5o2u5pe26ZmN57qn5Li65pe25Luj57yW5bm077yJCiAqIEBwYXJhbSB7b2JqZWN0fSBvcHRzIHtwZXJzb25hLCBhcnRpc3QsIGNhbGVuZGFyLCBiaXJ0aDp7eWVhcixtb250aCxkYXl9LCBiaXJ0aFllYXIsIHRlbXBsYXRlc30KICogQHJldHVybnMge1Byb21pc2U8e21vZGU6J2xsbSd8J3RlbXBsYXRlJywgcGF0aDonYXJ0aXN0J3wnc29sbycsIHJlc3VsdHMsIGVuZGluZ1F1b3RlLCBub2Rlc30+fQogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdlbmVyYXRlTmFycmF0aXZlKG9wdHMpIHsKICBjb25zdCB7IHBlcnNvbmEsIGFydGlzdCwgY2FsZW5kYXIsIGJpcnRoWWVhciwgdGVtcGxhdGVzIH0gPSBvcHRzOwogIGNvbnN0IGJpcnRoID0gb3B0cy5iaXJ0aCB8fCB7IHllYXI6IGJpcnRoWWVhciwgbW9udGg6IG51bGwsIGRheTogbnVsbCB9OwoKICAvLyDoioLngrnoo4XphY3vvJrkuKrkurrnur/lh7rnlJ/ooYwgKyDmrYzmiYvnur/lubTooagKICBsZXQgbm9kZXM7CiAgaWYgKGFydGlzdCkgewogICAgbm9kZXMgPSBhbGlnbihwZXJzb25hLCBhcnRpc3QsIGJpcnRoWWVhcik7CiAgICBpZiAoY2FsZW5kYXIpIGF0dGFjaEJpcnRoUm93KG5vZGVzLCBjYWxlbmRhciwgYmlydGgpOwogIH0gZWxzZSB7CiAgICBub2RlcyA9IGJ1aWxkQmlydGhkYXlOb2RlcyhwZXJzb25hLCBjYWxlbmRhciwgYmlydGgpOwogIH0KCiAgY29uc3Qga2V5ID0gY2FjaGVLZXkoYXJ0aXN0LCBiaXJ0aFllYXIsIHBlcnNvbmEsIGJpcnRoKTsKICBjb25zdCBjYWNoZWQgPSBzZXNzaW9uU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgaWYgKGNhY2hlZCkgewogICAgdHJ5IHsKICAgICAgcmV0dXJuIEpTT04ucGFyc2UoY2FjaGVkKTsKICAgIH0gY2F0Y2ggeyAvKiBpZ25vcmUgYnJva2VuIGNhY2hlICovIH0KICB9CgogIGxldCBtb2RlID0gJ3RlbXBsYXRlJzsKICBsZXQgcmVzdWx0cyA9IG51bGw7CgogIGlmIChpc0NvbmZpZ3VyZWQoKSAmJiBhcnRpc3QpIHsKICAgIGZvciAobGV0IGF0dGVtcHQgPSAwOyBhdHRlbXB0IDwgMyAmJiAhcmVzdWx0czsgYXR0ZW1wdCsrKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgbGxtVGV4dHMgPSBhd2FpdCBjaGF0KFNZU1RFTV9QUk9NUFQsIHVzZXJQcm9tcHQobm9kZXMsIGFydGlzdCwgcGVyc29uYSwgYmlydGhZZWFyKSk7CiAgICAgICAgY29uc3QgbWVyZ2VkID0gbWVyZ2VBbmRWYWxpZGF0ZShsbG1UZXh0cywgbm9kZXMpOwogICAgICAgIGlmIChtZXJnZWQpIHJlc3VsdHMgPSBtZXJnZWQ7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBjb25zb2xlLndhcm4oJ1tncm93dGgtcmluZ3NdIExMTSBhdHRlbXB0IGZhaWxlZDonLCBlLm1lc3NhZ2UpOwogICAgICB9CiAgICB9CiAgfQoKICBpZiAoIXJlc3VsdHMpIHJlc3VsdHMgPSBhcHBseVRlbXBsYXRlcyhub2RlcywgdGVtcGxhdGVzLCBwZXJzb25hKTsKICBlbHNlIG1vZGUgPSAnbGxtJzsKCiAgY29uc3QgZW5kaW5nUXVvdGUgPSBwaWNrRW5kaW5nUXVvdGUocmVzdWx0cywgbm9kZXMpOwogIGNvbnN0IG91dHB1dCA9IHsgbW9kZSwgcGF0aDogYXJ0aXN0ID8gJ2FydGlzdCcgOiAnc29sbycsIHJlc3VsdHMsIGVuZGluZ1F1b3RlLCBub2RlcyB9OwogIHRyeSB7CiAgICBzZXNzaW9uU3RvcmFnZS5zZXRJdGVtKGtleSwgSlNPTi5zdHJpbmdpZnkob3V0cHV0KSk7CiAgfSBjYXRjaCB7IC8qIHN0b3JhZ2UgZnVsbCwgaWdub3JlICovIH0KICByZXR1cm4gb3V0cHV0Owp9CgovKiogTExNIOi+k+WHuumAkOadoeagoemqjO+8muS7u+S9leS4gOadoSBmYWlsIOWImeaVtOS9k+W8g+eUqO+8iOS/neivgembtue8lumAoO+8iSAqLwpmdW5jdGlvbiBtZXJnZUFuZFZhbGlkYXRlKGxsbVRleHRzLCBub2RlcykgewogIGNvbnN0IGJ5WWVhciA9IG5ldyBNYXAobGxtVGV4dHMubWFwKHQgPT4gW051bWJlcih0LnllYXIpLCB0LnRleHRdKSk7CiAgY29uc3Qgb3V0ID0gW107CiAgZm9yIChjb25zdCBub2RlIG9mIG5vZGVzKSB7CiAgICBjb25zdCB0ZXh0ID0gYnlZZWFyLmdldChub2RlLnllYXIpOwogICAgaWYgKCF0ZXh0KSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IHYgPSB2YWxpZGF0ZVRleHQodGV4dCwgbm9kZSk7CiAgICBpZiAoIXYucGFzcykgewogICAgICBjb25zb2xlLndhcm4oJ1tncm93dGgtcmluZ3NdIHZhbGlkYXRlIGZhaWw6Jywgdi5yZWFzb24sIHRleHQpOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIG91dC5wdXNoKHsgeWVhcjogbm9kZS55ZWFyLCB0ZXh0LCBraW5kOiBub2RlLmtpbmQgfSk7CiAgfQogIHJldHVybiBvdXQ7Cn0K
+// 叙事生成编排：对齐 → LLM（可选）→ 事实校验 → 模板兜底 → 缓存
+// 与 UI 层的唯一接口：generateNarrative()
+
+import { align } from './align.js';
+import { buildBirthdayNodes, attachBirthRow } from './birthday.js';
+import { validateText } from './validate.js';
+import { applyTemplates, pickEndingQuote } from './fallback.js';
+import { isConfigured, chat } from '../llm/adapter.js';
+
+// System Prompt 与 docs/narrative-engine-prompt.md 第2节保持一致，修改须同步文档
+const SYSTEM_PROMPT = `你是一位音乐情感文案作者，为QQ音乐"音乐年轮"功能生成叙事。
+
+铁律：
+1. 你只能使用 <FACTS> 标签内提供的事实（用户听歌数据与歌手年表事件），严禁使用你自己记忆中的任何歌手信息、年份、作品或奖项。
+2. 禁止对用户情绪下诊断性结论（如"你失恋了""你很孤独""你抑郁"）。只做留白式表达：陈述行为，留下情绪空间。
+3. 每句文案必须同时包含个人锚点与歌手事件的可指认要素（年份/歌名/事件名，至少其二）。
+4. 若歌手事件 type=gap（空白期），只用留白句式，禁止解释空白原因。
+5. 组合类歌手叙事主体只能是组合名，禁止展开成员个人叙事。
+6. 输出 JSON：{"texts": [{"year": 2001, "text": "..."}]}，每条不超过60字。
+
+写作基调示例（对齐这种手感）：
+- "13岁那年你注册了QQ音乐，《晴天》听了67次——那年他刚发《叶惠美》。"
+- "你的大学四年，他们恰好不在。2022年《Still Life》回来时，你毕业了。"
+- "那年《告白气球》你循环了410次。有些歌单，只有自己懂。"
+
+反例（出现即判 fail）：
+- "那年你失恋了，循环《说好不哭》217次。"（情绪诊断）
+- "2022年他时隔六年带着新专回归，击败众多对手登顶。"（使用未注入的记忆）`;
+
+function userPrompt(nodes, artist, persona, birthYear) {
+  const birthNode = nodes.find(n => n.birthMatch);
+  const facts = {
+    user: {
+      birth_year: birthYear,
+      platform_join_year: persona?.platform_join_year ?? null
+    },
+    birth_match: birthNode
+      ? { birth: birthNode.birthMatch.birth, level: birthNode.birthMatch.level, matched: birthNode.birthMatch.matched }
+      : null,
+    personal_stats: nodes.map(n => n.personal).filter(Boolean),
+    artist_events: nodes.map(n => n.artistEvent).filter(Boolean),
+    prologue_events: nodes.filter(n => n.kind === 'prologue')
+      .flatMap(n => n.prologueEvents || [])
+  };
+  return `<FACTS>\n歌手：${artist.artist_name}\n${JSON.stringify(facts, null, 2)}\n</FACTS>\n\n为以下年份各生成一条双线交织文案：${nodes.map(n => n.year).join(', ')}\n注意：第一个节点是序章（相遇之前的年份合并），请用一句话概括这些事件，不要逐年展开。出生年节点如含 birth_match，请把"出生那天发行的歌曲"写进该年文案。`;
+}
+
+// 缓存 key：artist_id(或solo) + 出生年月日 + persona_id + 个人数据年份数
+function cacheKey(artist, birthYear, persona, birth) {
+  const raw = `${artist?.artist_id || 'solo'}|${birthYear}|${birth?.month || 0}-${birth?.day || 0}|${persona?.persona_id || 'none'}|${persona?.stats?.length || 0}`;
+  let h = 0;
+  for (let i = 0; i < raw.length; i++) h = ((h << 5) - h + raw.charCodeAt(i)) | 0;
+  return 'gr_cache_' + Math.abs(h);
+}
+
+/**
+ * 统一双轨入口：
+ *   选了歌手 → 我的音乐人生（出生那天的歌 + 个人数据）× 他的音乐人生（歌手年表）同屏对照
+ *   不选歌手 → 只走我的音乐人生（个人线；无数据时降级为时代编年）
+ * @param {object} opts {persona, artist, calendar, birth:{year,month,day}, birthYear, templates}
+ * @returns {Promise<{mode:'llm'|'template', path:'artist'|'solo', results, endingQuote, nodes}>}
+ */
+export async function generateNarrative(opts) {
+  const { persona, artist, calendar, birthYear, templates } = opts;
+  const birth = opts.birth || { year: birthYear, month: null, day: null };
+
+  // 节点装配：个人线出生行 + 歌手线年表
+  let nodes;
+  if (artist) {
+    nodes = align(persona, artist, birthYear);
+    if (calendar) attachBirthRow(nodes, calendar, birth);
+  } else {
+    nodes = buildBirthdayNodes(persona, calendar, birth);
+  }
+
+  const key = cacheKey(artist, birthYear, persona, birth);
+  const cached = sessionStorage.getItem(key);
+  if (cached) {
+    try {
+      return JSON.parse(cached);
+    } catch { /* ignore broken cache */ }
+  }
+
+  let mode = 'template';
+  let results = null;
+
+  if (isConfigured() && artist) {
+    for (let attempt = 0; attempt < 3 && !results; attempt++) {
+      try {
+        const llmTexts = await chat(SYSTEM_PROMPT, userPrompt(nodes, artist, persona, birthYear));
+        const merged = mergeAndValidate(llmTexts, nodes);
+        if (merged) results = merged;
+      } catch (e) {
+        console.warn('[growth-rings] LLM attempt failed:', e.message);
+      }
+    }
+  }
+
+  if (!results) results = applyTemplates(nodes, templates, persona);
+  else mode = 'llm';
+
+  const endingQuote = pickEndingQuote(results, nodes);
+  const output = { mode, path: artist ? 'artist' : 'solo', results, endingQuote, nodes };
+  try {
+    sessionStorage.setItem(key, JSON.stringify(output));
+  } catch { /* storage full, ignore */ }
+  return output;
+}
+
+/** LLM 输出逐条校验：任何一条 fail 则整体弃用（保证零编造） */
+function mergeAndValidate(llmTexts, nodes) {
+  const byYear = new Map(llmTexts.map(t => [Number(t.year), t.text]));
+  const out = [];
+  for (const node of nodes) {
+    const text = byYear.get(node.year);
+    if (!text) return null;
+    const v = validateText(text, node);
+    if (!v.pass) {
+      console.warn('[growth-rings] validate fail:', v.reason, text);
+      return null;
+    }
+    out.push({ year: node.year, text, kind: node.kind });
+  }
+  return out;
+}

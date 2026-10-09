@@ -1,1 +1,150 @@
-Ly8g55Sf5pel6Lev5b6E77yI5Liq5Lq657q/6LW354K577yJ77ya5Ye655Sf6YKj5aSp55qE5q2MIOKGkiDpgJDlubTkuKrkurrmlbDmja4KLy8g5Yy56YWN6YC76L6R77ya5ZCM5pel5Y+R6KGM5Yy56YWN77yI5LuFIHByZWNpc2lvbj1kYXkg5p2h55uu77yJ4oaSIOmZjee6p+WQjOaciCDihpIg6ZmN57qn5ZCM5bm05pe25Luj6IOM5pmvCi8vIOS4quS6uue6v++8muacieeUu+WDjyDihpIg6YCQ5bm05Liq5Lq65Y+Z5LqL77yb5peg55S75YOPIOKGkiDml7bku6PnvJblubTvvIjmr4/lubTkuIDmnaEgZXJhIOadoeebru+8iQoKLyoqCiAqIOeUn+aXpeWMuemFje+8muWQjOaXpSDihpIg5ZCM5pyIIOKGkiDlkIzlubTvvIzkuInnuqfpmY3nuqcKICogQHBhcmFtIHtvYmplY3R9IGNhbGVuZGFyICBkYXRhL2NhbGVuZGFyLmpzb24KICogQHBhcmFtIHt7eWVhcixtb250aCxkYXl9fSBiaXJ0aCAg5Ye655Sf5bm05pyI5pel77yIbW9udGgvZGF5IDEtMTIvMS0zMe+8jOWPr+S4uiBudWxs77yJCiAqIEByZXR1cm5zIHt7bGV2ZWw6J2RheSd8J21vbnRoJ3wnbm9uZScsIG1hdGNoZWQ6QXJyYXksIHllYXJDb250ZXh0OkFycmF5fX0KICovCmV4cG9ydCBmdW5jdGlvbiBtYXRjaEJpcnRoZGF5KGNhbGVuZGFyLCBiaXJ0aCkgewogIGNvbnN0IGVudHJpZXMgPSAoY2FsZW5kYXIuZW50cmllcyB8fCBbXSkuZmlsdGVyKGUgPT4gZS52ZXJpZmllZCA9PT0gdHJ1ZSk7CiAgaWYgKGJpcnRoLm1vbnRoICYmIGJpcnRoLmRheSkgewogICAgY29uc3QgZXhhY3QgPSBlbnRyaWVzLmZpbHRlcihlID0+IGUucHJlY2lzaW9uID09PSAnZGF5JyAmJiBlLm1vbnRoID09PSBiaXJ0aC5tb250aCAmJiBlLmRheSA9PT0gYmlydGguZGF5KTsKICAgIGlmIChleGFjdC5sZW5ndGgpIHJldHVybiB7IGxldmVsOiAnZGF5JywgbWF0Y2hlZDogZXhhY3QsIHllYXJDb250ZXh0OiBbXSB9OwogIH0KICBpZiAoYmlydGgubW9udGgpIHsKICAgIGNvbnN0IHNhbWVNb250aCA9IGVudHJpZXMuZmlsdGVyKGUgPT4KICAgICAgZS5tb250aCA9PT0gYmlydGgubW9udGggJiYKICAgICAgZS55ZWFyID49IGJpcnRoLnllYXIgLSAxICYmIGUueWVhciA8PSBiaXJ0aC55ZWFyICsgMSAmJiAvLyDnlJ/ml6XliY3lkI7kuLTov5HnmoTkuZ/nrpci5L2g5Ye655Sf6YKj6Zi15a2QIgogICAgICAhKGJpcnRoLmRheSAmJiBlLnByZWNpc2lvbiA9PT0gJ2RheScgJiYgZS5kYXkgPT09IGJpcnRoLmRheSkKICAgICk7CiAgICBpZiAoc2FtZU1vbnRoLmxlbmd0aCkgewogICAgICByZXR1cm4geyBsZXZlbDogJ21vbnRoJywgbWF0Y2hlZDogc2FtZU1vbnRoLnNsaWNlKDAsIDMpLCB5ZWFyQ29udGV4dDogW10gfTsKICAgIH0KICB9CiAgcmV0dXJuIHsgbGV2ZWw6ICdub25lJywgbWF0Y2hlZDogW10sIHllYXJDb250ZXh0OiBbXSB9Owp9CgovKiog5Ye655Sf5bm055qE5pe25Luj6IOM5pmv5p2h55uu77yI5o6S6Zmk5bey5Yy56YWN55qE77yJICovCmV4cG9ydCBmdW5jdGlvbiBiaXJ0aFllYXJDb250ZXh0KGNhbGVuZGFyLCBiaXJ0aCwgbWF0Y2hlZFRpdGxlcykgewogIGNvbnN0IGVudHJpZXMgPSAoY2FsZW5kYXIuZW50cmllcyB8fCBbXSkuZmlsdGVyKGUgPT4KICAgIGUudmVyaWZpZWQgPT09IHRydWUgJiYgZS55ZWFyID09PSBiaXJ0aC55ZWFyICYmICFtYXRjaGVkVGl0bGVzLmluY2x1ZGVzKGUudGl0bGUpCiAgKTsKICByZXR1cm4gZW50cmllcy5zbGljZSgwLCA0KTsKfQoKLyoqCiAqIOaehOW7uueUn+aXpei3r+W+hOWPmeS6i+iKgueCuQogKiBAcGFyYW0ge29iamVjdHxudWxsfSBwZXJzb25hICDnlLvlg4/vvIjlj6/kuLogbnVsbCDihpIgTDMg5pe25Luj57yW5bm057q/77yJCiAqIEBwYXJhbSB7b2JqZWN0fSBjYWxlbmRhcgogKiBAcGFyYW0ge3t5ZWFyLG1vbnRoLGRheX19IGJpcnRoCiAqIEByZXR1cm5zIHtBcnJheX0g5LiOIGFsaWduKCkg5ZCM5p6E55qE6IqC54K55pWw57uE77yIa2luZCDmlrDlop4gYmlydGhfZGF5IC8gYmlydGhfeWVhciAvIGVyYe+8iQogKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkQmlydGhkYXlOb2RlcyhwZXJzb25hLCBjYWxlbmRhciwgYmlydGgpIHsKICBjb25zdCBjdXJyZW50WWVhciA9IG5ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKTsKICBjb25zdCBub2RlcyA9IFtdOwoKICBjb25zdCBtYXRjaCA9IG1hdGNoQmlydGhkYXkoY2FsZW5kYXIsIGJpcnRoKTsKICBjb25zdCBtYXRjaGVkVGl0bGVzID0gbWF0Y2gubWF0Y2hlZC5tYXAoZSA9PiBlLnRpdGxlKTsKICBjb25zdCB5ZWFyQ3R4ID0gYmlydGhZZWFyQ29udGV4dChjYWxlbmRhciwgYmlydGgsIG1hdGNoZWRUaXRsZXMpOwoKICAvLyDoioLngrkx77ya5Ye655Sf6YKj5aSp55qE6Z+z5LmQ77yI5peg5Lu75L2V5Yy56YWN5pe26Lez6L+H77yM55Sx5pe25Luj6IOM5pmv6IqC54K55byA5Zy677yJCiAgaWYgKG1hdGNoLmxldmVsICE9PSAnbm9uZScpIHsKICAgIG5vZGVzLnB1c2goewogICAgICB5ZWFyOiBiaXJ0aC55ZWFyLAogICAgICBhZ2U6IDAsCiAgICAgIHBlcnNvbmFsOiBudWxsLAogICAgICBhcnRpc3RFdmVudDogbnVsbCwKICAgICAgYmlydGhNYXRjaDogeyAuLi5tYXRjaCwgYmlydGggfSwKICAgICAga2luZDogJ2JpcnRoX2RheScsCiAgICAgIGluR2FwOiBmYWxzZQogICAgfSk7CiAgfQoKICAvLyDoioLngrky77ya5Ye655Sf5bm055qE5pe25Luj6IOM5pmv77yI5peg5Yy56YWN5LiU5peg6IOM5pmv5pe25Lmf5L+d55WZ6IqC54K577yM6LWw6YCa55So5byA5Zy65paH5qGI77yJCiAgaWYgKHllYXJDdHgubGVuZ3RoIHx8IG1hdGNoLmxldmVsID09PSAnbm9uZScpIHsKICAgIG5vZGVzLnB1c2goewogICAgICB5ZWFyOiBiaXJ0aC55ZWFyLAogICAgICBhZ2U6IDAsCiAgICAgIHBlcnNvbmFsOiBudWxsLAogICAgICBhcnRpc3RFdmVudDogbnVsbCwKICAgICAgeWVhckNvbnRleHQ6IHllYXJDdHgsCiAgICAgIGtpbmQ6ICdiaXJ0aF95ZWFyJywKICAgICAgaW5HYXA6IGZhbHNlCiAgICB9KTsKICB9CgogIGlmIChwZXJzb25hICYmIEFycmF5LmlzQXJyYXkocGVyc29uYS5zdGF0cykgJiYgcGVyc29uYS5zdGF0cy5sZW5ndGgpIHsKICAgIC8vIOacieS4quS6uuaVsOaNru+8muS4quS6uue6v+WPmeS6iyArIOebuOmBh+mUmueCuQogICAgY29uc3Qgam9pblllYXIgPSBwZXJzb25hLnBsYXRmb3JtX2pvaW5feWVhcjsKICAgIGNvbnN0IHNvcnRlZCA9IFsuLi5wZXJzb25hLnN0YXRzXS5zb3J0KChhLCBiKSA9PiBhLnllYXIgLSBiLnllYXIpOwogICAgZm9yIChjb25zdCBzIG9mIHNvcnRlZCkgewogICAgICBpZiAocy55ZWFyID4gY3VycmVudFllYXIpIGNvbnRpbnVlOwogICAgICBjb25zdCBpc0pvaW4gPSBzLnllYXIgPT09IGpvaW5ZZWFyOwogICAgICBub2Rlcy5wdXNoKHsKICAgICAgICB5ZWFyOiBzLnllYXIsCiAgICAgICAgYWdlOiBzLnllYXIgLSBiaXJ0aC55ZWFyLAogICAgICAgIHBlcnNvbmFsOiBzLAogICAgICAgIGFydGlzdEV2ZW50OiBudWxsLAogICAgICAgIGtpbmQ6IGlzSm9pbiA/ICdqb2luJyA6ICdwZXJzb25hbF9vbmx5JywKICAgICAgICBpbkdhcDogZmFsc2UKICAgICAgfSk7CiAgICB9CiAgfSBlbHNlIHsKICAgIC8vIOaXoOS4quS6uuaVsOaNru+8muaXtuS7o+e8luW5tO+8iOavj+W5tOS4gOadoSBlcmEg5p2h55uu77yJ4oCU4oCU5ouJ5paw6JC95Zyw6aG15b2i5oCBCiAgICBjb25zdCBieVllYXIgPSBuZXcgTWFwKCk7CiAgICBmb3IgKGNvbnN0IGUgb2YgKGNhbGVuZGFyLmVudHJpZXMgfHwgW10pKSB7CiAgICAgIGlmIChlLnZlcmlmaWVkICE9PSB0cnVlKSBjb250aW51ZTsKICAgICAgaWYgKGUueWVhciA8PSBiaXJ0aC55ZWFyIHx8IGUueWVhciA+IGN1cnJlbnRZZWFyKSBjb250aW51ZTsKICAgICAgaWYgKGUuZXJhICYmICFieVllYXIuaGFzKGUueWVhcikpIGJ5WWVhci5zZXQoZS55ZWFyLCBlKTsKICAgIH0KICAgIGZvciAoY29uc3QgW3llYXIsIGVudHJ5XSBvZiBbLi4uYnlZZWFyLmVudHJpZXMoKV0uc29ydCgoYSwgYikgPT4gYVswXSAtIGJbMF0pKSB7CiAgICAgIG5vZGVzLnB1c2goewogICAgICAgIHllYXIsCiAgICAgICAgYWdlOiB5ZWFyIC0gYmlydGgueWVhciwKICAgICAgICBwZXJzb25hbDogbnVsbCwKICAgICAgICBhcnRpc3RFdmVudDogbnVsbCwKICAgICAgICBlcmFFbnRyeTogZW50cnksCiAgICAgICAga2luZDogJ2VyYScsCiAgICAgICAgaW5HYXA6IGZhbHNlCiAgICAgIH0pOwogICAgfQogIH0KCiAgcmV0dXJuIG5vZGVzOwp9CgovKioKICog5oqKIuWHuueUn+mCo+WkqeeahOatjCLpmYTliqDliLDnu5/kuIDoioLngrnluo/liJfnmoTlh7rnlJ/lubTooYzvvIjlj4zovajmqKHlvI/nlKjvvInvvJoKICog5pyJ5Yy56YWNIOKGkiBub2RlLmJpcnRoTWF0Y2jvvJvml6DorrrmmK/lkKblkb3kuK0g4oaSIOmZhOS4iuWHuueUn+W5tOaXtuS7o+iDjOaZr++8iG5vZGUueWVhckNvbnRleHTvvInjgIIKICog5Ye655Sf5bm05rKh5pyJ546w5oiQ6IqC54K55pe277yI5q2M5omL5omA5pyJ6YeM56iL56KR6YO95pma5LqO5Ye655Sf5bm077yJ5paw5bu6IGJpcnRoX3NvbG8g6IqC54K544CCCiAqIEBwYXJhbSB7QXJyYXl9IG5vZGVzICBhbGlnbigpIOi+k+WHuu+8iOS8muiiq+WOn+WcsOS/ruaUue+8iQogKiBAcGFyYW0ge29iamVjdH0gY2FsZW5kYXIKICogQHBhcmFtIHt7eWVhcixtb250aCxkYXl9fSBiaXJ0aAogKiBAcmV0dXJucyB7QXJyYXl9IOWQjOS4gOaVsOe7hOW8leeUqAogKi8KZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaEJpcnRoUm93KG5vZGVzLCBjYWxlbmRhciwgYmlydGgpIHsKICBjb25zdCBtYXRjaCA9IG1hdGNoQmlydGhkYXkoY2FsZW5kYXIsIGJpcnRoKTsKICBjb25zdCBtYXRjaGVkVGl0bGVzID0gbWF0Y2gubWF0Y2hlZC5tYXAoZSA9PiBlLnRpdGxlKTsKICBjb25zdCB5Y3R4ID0gYmlydGhZZWFyQ29udGV4dChjYWxlbmRhciwgYmlydGgsIG1hdGNoZWRUaXRsZXMpOwoKICBsZXQgbm9kZSA9IG5vZGVzLmZpbmQobiA9PiBuLnllYXIgPT09IGJpcnRoLnllYXIpOwogIGlmICghbm9kZSkgewogICAgbm9kZSA9IHsKICAgICAgeWVhcjogYmlydGgueWVhciwKICAgICAgYWdlOiAwLAogICAgICBwZXJzb25hbDogbnVsbCwKICAgICAgYXJ0aXN0RXZlbnQ6IG51bGwsCiAgICAgIGtpbmQ6ICdiaXJ0aF9zb2xvJywKICAgICAgaW5HYXA6IGZhbHNlCiAgICB9OwogICAgY29uc3QgYXQgPSBub2Rlcy5maW5kSW5kZXgobiA9PiBuLnllYXIgPiBiaXJ0aC55ZWFyKTsKICAgIGlmIChhdCA9PT0gLTEpIG5vZGVzLnB1c2gobm9kZSk7CiAgICBlbHNlIG5vZGVzLnNwbGljZShhdCwgMCwgbm9kZSk7CiAgfQogIGlmIChtYXRjaC5sZXZlbCAhPT0gJ25vbmUnKSBub2RlLmJpcnRoTWF0Y2ggPSB7IC4uLm1hdGNoLCBiaXJ0aCB9OwogIG5vZGUueWVhckNvbnRleHQgPSB5Y3R4LnNsaWNlKDAsIDMpOwogIHJldHVybiBub2RlczsKfQo=
+// 生日路径（个人线起点）：出生那天的歌 → 逐年个人数据
+// 匹配逻辑：同日发行匹配（仅 precision=day 条目）→ 降级同月 → 降级同年时代背景
+// 个人线：有画像 → 逐年个人叙事；无画像 → 时代编年（每年一条 era 条目）
+
+/**
+ * 生日匹配：同日 → 同月 → 同年，三级降级
+ * @param {object} calendar  data/calendar.json
+ * @param {{year,month,day}} birth  出生年月日（month/day 1-12/1-31，可为 null）
+ * @returns {{level:'day'|'month'|'none', matched:Array, yearContext:Array}}
+ */
+export function matchBirthday(calendar, birth) {
+  const entries = (calendar.entries || []).filter(e => e.verified === true);
+  if (birth.month && birth.day) {
+    const exact = entries.filter(e => e.precision === 'day' && e.month === birth.month && e.day === birth.day);
+    if (exact.length) return { level: 'day', matched: exact, yearContext: [] };
+  }
+  if (birth.month) {
+    const sameMonth = entries.filter(e =>
+      e.month === birth.month &&
+      e.year >= birth.year - 1 && e.year <= birth.year + 1 && // 生日前后临近的也算"你出生那阵子"
+      !(birth.day && e.precision === 'day' && e.day === birth.day)
+    );
+    if (sameMonth.length) {
+      return { level: 'month', matched: sameMonth.slice(0, 3), yearContext: [] };
+    }
+  }
+  return { level: 'none', matched: [], yearContext: [] };
+}
+
+/** 出生年的时代背景条目（排除已匹配的） */
+export function birthYearContext(calendar, birth, matchedTitles) {
+  const entries = (calendar.entries || []).filter(e =>
+    e.verified === true && e.year === birth.year && !matchedTitles.includes(e.title)
+  );
+  return entries.slice(0, 4);
+}
+
+/**
+ * 构建生日路径叙事节点
+ * @param {object|null} persona  画像（可为 null → L3 时代编年线）
+ * @param {object} calendar
+ * @param {{year,month,day}} birth
+ * @returns {Array} 与 align() 同构的节点数组（kind 新增 birth_day / birth_year / era）
+ */
+export function buildBirthdayNodes(persona, calendar, birth) {
+  const currentYear = new Date().getFullYear();
+  const nodes = [];
+
+  const match = matchBirthday(calendar, birth);
+  const matchedTitles = match.matched.map(e => e.title);
+  const yearCtx = birthYearContext(calendar, birth, matchedTitles);
+
+  // 节点1：出生那天的音乐（无任何匹配时跳过，由时代背景节点开场）
+  if (match.level !== 'none') {
+    nodes.push({
+      year: birth.year,
+      age: 0,
+      personal: null,
+      artistEvent: null,
+      birthMatch: { ...match, birth },
+      kind: 'birth_day',
+      inGap: false
+    });
+  }
+
+  // 节点2：出生年的时代背景（无匹配且无背景时也保留节点，走通用开场文案）
+  if (yearCtx.length || match.level === 'none') {
+    nodes.push({
+      year: birth.year,
+      age: 0,
+      personal: null,
+      artistEvent: null,
+      yearContext: yearCtx,
+      kind: 'birth_year',
+      inGap: false
+    });
+  }
+
+  if (persona && Array.isArray(persona.stats) && persona.stats.length) {
+    // 有个人数据：个人线叙事 + 相遇锚点
+    const joinYear = persona.platform_join_year;
+    const sorted = [...persona.stats].sort((a, b) => a.year - b.year);
+    for (const s of sorted) {
+      if (s.year > currentYear) continue;
+      const isJoin = s.year === joinYear;
+      nodes.push({
+        year: s.year,
+        age: s.year - birth.year,
+        personal: s,
+        artistEvent: null,
+        kind: isJoin ? 'join' : 'personal_only',
+        inGap: false
+      });
+    }
+  } else {
+    // 无个人数据：时代编年（每年一条 era 条目）——拉新落地页形态
+    const byYear = new Map();
+    for (const e of (calendar.entries || [])) {
+      if (e.verified !== true) continue;
+      if (e.year <= birth.year || e.year > currentYear) continue;
+      if (e.era && !byYear.has(e.year)) byYear.set(e.year, e);
+    }
+    for (const [year, entry] of [...byYear.entries()].sort((a, b) => a[0] - b[0])) {
+      nodes.push({
+        year,
+        age: year - birth.year,
+        personal: null,
+        artistEvent: null,
+        eraEntry: entry,
+        kind: 'era',
+        inGap: false
+      });
+    }
+  }
+
+  return nodes;
+}
+
+/**
+ * 把"出生那天的歌"附加到统一节点序列的出生年行（双轨模式用）：
+ * 有匹配 → node.birthMatch；无论是否命中 → 附上出生年时代背景（node.yearContext）。
+ * 出生年没有现成节点时（歌手所有里程碑都晚于出生年）新建 birth_solo 节点。
+ * @param {Array} nodes  align() 输出（会被原地修改）
+ * @param {object} calendar
+ * @param {{year,month,day}} birth
+ * @returns {Array} 同一数组引用
+ */
+export function attachBirthRow(nodes, calendar, birth) {
+  const match = matchBirthday(calendar, birth);
+  const matchedTitles = match.matched.map(e => e.title);
+  const yctx = birthYearContext(calendar, birth, matchedTitles);
+
+  let node = nodes.find(n => n.year === birth.year);
+  if (!node) {
+    node = {
+      year: birth.year,
+      age: 0,
+      personal: null,
+      artistEvent: null,
+      kind: 'birth_solo',
+      inGap: false
+    };
+    const at = nodes.findIndex(n => n.year > birth.year);
+    if (at === -1) nodes.push(node);
+    else nodes.splice(at, 0, node);
+  }
+  if (match.level !== 'none') node.birthMatch = { ...match, birth };
+  node.yearContext = yctx.slice(0, 3);
+  return nodes;
+}

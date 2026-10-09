@@ -1,1 +1,45 @@
-LS0tCmRlc2NyaXB0aW9uOiDpn7PkuZDlubTova7pobnnm67lvIDlj5Hop4TliJnigJTigJTmioDmnK/pgInlnovjgIHku6PnoIHnuqrlvovjgIHmlbDmja7nuqrlvosKZ2xvYnM6CmFsd2F5c0FwcGx5OiB0cnVlCi0tLQoKIyDpn7PkuZDlubTova7vvIhHcm93dGggUmluZ3PvvInpobnnm67op4TliJkKCiMjIOmhueebruamgui/sAoKUVHpn7PkuZDnq5nlhoUgQUkg6Z+z5LmQ5Lq655Sf5Y+Z5LqL5byV5pOO77yISGFja2F0aG9uIERlbW/vvInjgILnlKjmiLfovpPlhaXlh7rnlJ/lubTku70r6YCJ5q2M5omLIOKGkiDkuKrkurrnur/vvIjpooTnva7nlLvlg4/vvInDlyDmrYzmiYvnur/vvIjlubTooajnmb3lkI3ljZXvvInihpIgTExNIOeUn+aIkOWPjOe6v+S6pOe7h+WPmeS6iyDihpIg5bm06L2u5Y+v6KeG5YyWIOKGkiDliIbkuqvljaHniYcgKyDlsI/nu4Qv5oi/6Ze05a+85rWB44CCCgojIyDmioDmnK/moIjnuqbmnZ8KCi0g5YmN56uv77ya5Y2V6aG1IEg144CC5LyY5YWI57qv6Z2Z5oCBIEhUTUwgKyBDU1MgKyDljp/nlJ8gSlPvvIjmiJYgVnVlIDMgQ0ROIOW8leWFpe+8ie+8jOS4jeW8leWFpeaehOW7uuW3peWFt++8jOS/neivgeivhOWuoeeOr+Wig+mbtumFjee9ruWPr+i3kQotIExMTSDosIPnlKjvvJrpgJrov4flj6/mm7/mjaLnmoQgQVBJIOmAgumFjeWxguWwgeijhe+8iGBzcmMvbGxtL2FkYXB0ZXIuanNg77yJ77yM6buY6K6k5a+55o6lIE9wZW5BSSDlhbzlrrnljY/orq7vvIzmqKHlnovlkI0v5a+G6ZKl5LuO546v5aKD5Y+Y6YeP6K+75Y+W77yMKirkuKXnpoHnoaznvJbnoIHlr4bpkqUqKgotIOaVsOaNru+8muaJgOacieaVsOaNruaWh+S7tuS4uiBKU09O77yM5L2N5LqOIGBkYXRhL2DvvIzov5DooYzml7YgZmV0Y2gg5Yqg6L29Ci0g6YOo572y55uu5qCH77ya6Z2Z5oCB5paH5Lu25pyN5Yqh5ZmoIC8gR2l0SHViIFBhZ2VzIOWdh+WPr+i/kOihjAoKIyMg5pWw5o2u57qq5b6L77yI5pyA6auY5LyY5YWI57qn77yM6L+d5Y+N5Y2zIGJ1Z++8iQoKMS4gKirlj6rkvb/nlKggYGRhdGEvYXJ0aXN0cy8qLmpzb25gIOS4rSBgdmVyaWZpZWQ6IHRydWVgIOeahOS6i+S7tioq5YGa5Y+Z5LqL55Sf5oiQ44CCYHZlcmlmaWVkOiBmYWxzZWAg55qE5LqL5Lu25LuF5L2c5Y2g5L2N77yM5Luj56CB5b+F6aG76L+H5rukCjIuICoqTExNIFByb21wdCDlj6rms6jlhaXnmb3lkI3ljZXkuovku7YqKu+8jFN5c3RlbSBwcm9tcHQg5b+F6aG75YyF5ZCrIuS7peS4i+aYr+S9oOWUr+S4gOWPr+W8leeUqOeahOS6i+Wunu+8jOemgeatouS9v+eUqOS9oOiHquW3seeahOiusOW/huihpeWFheS7u+S9leatjOaJi+S/oeaBryIKMy4gKirnlJ/miJDlkI7lv4XpobvlgZrkuovlrp7lm57ljLnphY3moKHpqowqKu+8muaWh+ahiOS4reeahOatjOWQjS/kuJPovpHlkI0v5bm05Lu9L+S6i+S7tuWQjeWbnua6r+WIsOazqOWFpeaVsOaNru+8jOS4jeWMuemFjeWImemHjeeUn+aIkO+8iOKJpDPmrKHvvInvvIzku43lpLHotKXnlKjmqKHmnb/mlofmoYjlhZzlupUKNC4gKipCSUdCQU5HIOW5tOihqOS4rSBgdHlwZTogImdhcCJgIOeahOS6i+S7tioq77yI56m655m95pyf77yJ5b+F6aG76LWw55WZ55m95Y+Z5LqL5qih5p2/77yM56aB5q2iIExMTSDoh6rooYzop6Pph4rnqbrnmb3mnJ/ljp/lm6AKNS4g5paH5qGI5Lit56aB5q2i5oOF57uq6K+K5pat77yIIuS9oOWkseaBi+S6hi/kvaDlraTni6wi77yJ77yM5Y+q5YWB6K6455WZ55m95byP6KGo6L6+77yI6KeBIGRvY3MvbmFycmF0aXZlLWVuZ2luZS1wcm9tcHQubWQg55qE5q2j5Y+N5L6L77yJCgojIyDku6PnoIHnuqrlvosKCi0g55Sf5oiQ5bGC77yITExNIHBpcGVsaW5l77yJ5LiO5ZGI546w5bGC77yI5bm06L2u5riy5p+T77yJ5Lil5qC85YiG56a777yaYHNyYy9lbmdpbmUvYCDkuI4gYHNyYy91aS9g77yM6YCa6L+H5LqL5Lu2L+Wbnuiwg+mAmuS/oe+8jOS4jeiuuOS6kuebuCBpbXBvcnQg5YaF6YOo5Ye95pWwCi0g6ZmN57qn6YC76L6R5b+F6aG75pyJ5pi+5byP5rWL6K+V6Lev5b6E77yaTDEg5a6M5pW0IC8gTDIg6YOo5YiGIC8gTDMg57qv5q2M5omL57q/77yM5LiJ5Liq57qn5Yir6YO96KaB6IO95ZyoIERlbW8g6YeM5omL5Yqo6Kem5Y+R77yIVVJMIOWPguaVsCBgP2xldmVsPTF8MnwzYO+8iQotIOaooeadv+aWh+ahiOWFnOW6leW6k++8iOKJpTUw5p2h77yJ5pS+5ZyoIGBkYXRhL3RlbXBsYXRlcy5qc29uYO+8jExMTSDkuI3lj6/nlKjml7bmlbTkuKrkuqflk4Hku43lj6/lh7rlrozmlbTlj5nkuosKLSDmiYDmnInpnaLlkJHnlKjmiLfnmoTmlofmoYjmlL4gYGRhdGEvY29weS5qc29uYCDnu5/kuIDnrqHnkIbvvIzmlrnkvr/pnZ7lvIDlj5HlkIzlrabmlLnlrZcKLSDkuI3lhpnljZXlhYPmtYvor5XmoYbmnrbvvIzkvYYgYHNyYy9lbmdpbmUvYCDnmoTnuq/lh73mlbDvvIjlubTku73lr7npvZDjgIHmoKHpqozlmajvvInkv53mjIHlj6/ni6znq4vov5DooYzpqozor4EKCiMjIOaWh+S7tuW8leeUqOinhOWImQoKLSDku6PnoIHkuK3lvJXnlKggYGRhdGEvYCDkuI4gYGRvY3MvYCDkuIvmlofku7bkuIDlvovnlKjnm7jlr7not6/lvoQKLSDlubTooajmlbDmja7nu5PmnoTlj5jmm7Tml7bvvIzlkIzmraXmm7TmlrAgYGRvY3MvUFJELm1kYCDnrKw2LjPoioLnmoQgSlNPTiDnpLrkvosKCiMjIOemgeatouS6i+mhuQoKLSDnpoHmraLlnKjku6PnoIHku5PlupPkuK3mj5DkuqTku7vkvZUgQVBJIOWvhumSpQotIOemgeatouS4uuWunueOsOaWueS+v+e7lei/hyB2ZXJpZmllZCDov4fmu6TmiJbkuovlrp7moKHpqozlmagKLSDnpoHmraLorqkgTExNIOeUn+aIkCBCSUdCQU5HIOaIkOWRmOS4quS6uuWPmeS6i++8iOWPmeS6i+S4u+S9k+WPquiDveaYr+e7hOWQiO+8iQo=
+---
+description: 音乐年轮项目开发规则——技术选型、代码纪律、数据纪律
+globs:
+alwaysApply: true
+---
+
+# 音乐年轮（Growth Rings）项目规则
+
+## 项目概述
+
+QQ音乐站内 AI 音乐人生叙事引擎（Hackathon Demo）。用户输入出生年份+选歌手 → 个人线（预置画像）× 歌手线（年表白名单）→ LLM 生成双线交织叙事 → 年轮可视化 → 分享卡片 + 小组/房间导流。
+
+## 技术栈约束
+
+- 前端：单页 H5。优先纯静态 HTML + CSS + 原生 JS（或 Vue 3 CDN 引入），不引入构建工具，保证评审环境零配置可跑
+- LLM 调用：通过可替换的 API 适配层封装（`src/llm/adapter.js`），默认对接 OpenAI 兼容协议，模型名/密钥从环境变量读取，**严禁硬编码密钥**
+- 数据：所有数据文件为 JSON，位于 `data/`，运行时 fetch 加载
+- 部署目标：静态文件服务器 / GitHub Pages 均可运行
+
+## 数据纪律（最高优先级，违反即 bug）
+
+1. **只使用 `data/artists/*.json` 中 `verified: true` 的事件**做叙事生成。`verified: false` 的事件仅作占位，代码必须过滤
+2. **LLM Prompt 只注入白名单事件**，System prompt 必须包含"以下是你唯一可引用的事实，禁止使用你自己的记忆补充任何歌手信息"
+3. **生成后必须做事实回匹配校验**：文案中的歌名/专辑名/年份/事件名回溯到注入数据，不匹配则重生成（≤3次），仍失败用模板文案兜底
+4. **BIGBANG 年表中 `type: "gap"` 的事件**（空白期）必须走留白叙事模板，禁止 LLM 自行解释空白期原因
+5. 文案中禁止情绪诊断（"你失恋了/你孤独"），只允许留白式表达（见 docs/narrative-engine-prompt.md 的正反例）
+
+## 代码纪律
+
+- 生成层（LLM pipeline）与呈现层（年轮渲染）严格分离：`src/engine/` 与 `src/ui/`，通过事件/回调通信，不许互相 import 内部函数
+- 降级逻辑必须有显式测试路径：L1 完整 / L2 部分 / L3 纯歌手线，三个级别都要能在 Demo 里手动触发（URL 参数 `?level=1|2|3`）
+- 模板文案兜底库（≥50条）放在 `data/templates.json`，LLM 不可用时整个产品仍可出完整叙事
+- 所有面向用户的文案放 `data/copy.json` 统一管理，方便非开发同学改字
+- 不写单元测试框架，但 `src/engine/` 的纯函数（年份对齐、校验器）保持可独立运行验证
+
+## 文件引用规则
+
+- 代码中引用 `data/` 与 `docs/` 下文件一律用相对路径
+- 年表数据结构变更时，同步更新 `docs/PRD.md` 第6.3节的 JSON 示例
+
+## 禁止事项
+
+- 禁止在代码仓库中提交任何 API 密钥
+- 禁止为实现方便绕过 verified 过滤或事实校验器
+- 禁止让 LLM 生成 BIGBANG 成员个人叙事（叙事主体只能是组合）
