@@ -1,0 +1,68 @@
+{
+  "persona_id": "p1_jay",
+  "persona_name": "2001年生·11年老用户·周杰伦听众",
+  "level": "L1",
+  "birth_year": 2001,
+  "platform_join_year": 2014,
+  "favorite_artist": "jay_chou",
+  "platform_join_date": "2014年6月8日",
+  "note": "lyric为极短歌词摘录（≤1句，Demo用；正式产品接入平台版权歌词库自动选取年度歌曲的高亮句）。insight为人工精修的认知留白句：写普遍经历，不写个体诊断。milestones为个人线里程碑（第一次们）：事实型画像数据，模板文案消费，不进LLM生成。",
+  "milestones": [
+    { "type": "join_date", "date": "2014年6月8日" },
+    { "type": "style_explore", "year": 2014, "genres": ["华语流行", "游戏原声", "轻音乐"] },
+    { "type": "first_loop", "year": 2014, "song": "晴天", "plays": 320 },
+    { "type": "first_follow", "year": 2014, "artist": "周杰伦", "song": "晴天" },
+    { "type": "first_foreign", "year": 2015, "artist": "Wiz Khalifa", "song": "See You Again" },
+    { "type": "first_chart_top", "year": 2015, "artist": "周杰伦" },
+    { "type": "first_wechat_share", "year": 2016, "song": "告白气球" },
+    { "type": "first_new_genre", "year": 2017, "genre": "城市民谣", "song": "成都" },
+    { "type": "variety_show", "year": 2017, "show": "《中国有嘻哈》", "song": "Time" },
+    { "type": "adult_18", "year": 2019, "song": "说好不哭" },
+    { "type": "all_time_top", "year": 2024, "song": "晴天", "plays": 2380 },
+    { "type": "zodiac", "year": 2025, "song": "稻香" }
+  ],
+  "stats": [
+    {
+      "year": 2014, "top_artist": "周杰伦", "top_song": "晴天", "plays": 320,
+      "lyric": "从前从前，有个人爱你很久",
+      "insight": "十三岁的单曲循环大多说不出理由——这句词，要过好几年才听得懂。",
+      "note": "与QQ音乐相遇"
+    },
+    {
+      "year": 2015, "top_artist": "周杰伦", "top_song": "七里香", "plays": 285,
+      "lyric": "雨下整夜，我的爱溢出就像雨水",
+      "insight": "十四岁，抄在歌词本上的字，比作业本上的工整。",
+      "note": "初中，单曲循环期"
+    },
+    {
+      "year": 2016, "top_artist": "周杰伦", "top_song": "告白气球", "plays": 410,
+      "lyric": "亲爱的，爱上你，从那天起",
+      "insight": "十五岁，“喜欢”还是个不敢大声念出来的词。",
+      "note": "告白气球现象级那年"
+    },
+    {
+      "year": 2019, "top_artist": "周杰伦", "top_song": "说好不哭", "plays": 217,
+      "lyric": "你会微笑放手，说好不哭让我走",
+      "insight": "十八岁那年的夏天，很多人在告别——和一所学校，和一些人。",
+      "note": "高考毕业季"
+    },
+    {
+      "year": 2020, "top_artist": "周杰伦", "top_song": "Mojito", "plays": 190,
+      "lyric": "麻烦给我的爱人来一杯Mojito",
+      "insight": "大一的网课时代，夏天全靠这一首歌补齐。",
+      "note": "大一，网课时期"
+    },
+    {
+      "year": 2022, "top_artist": "周杰伦", "top_song": "最伟大的作品", "plays": 265,
+      "lyric": "世代的狂，音乐的王",
+      "insight": "时隔六年他发了新专辑，同一年你毕业——两件事撞在一起，就成了仪式感。",
+      "note": "大学毕业年，时隔六年新专"
+    },
+    {
+      "year": 2024, "top_artist": "周杰伦", "top_song": "晴天", "plays": 150,
+      "lyric": "刮风这天，我试过握着你手",
+      "insight": "工作第一年，循环回了十三岁那首歌——有些歌是绕了远路才到家。",
+      "note": "工作后，循环回了老歌"
+    }
+  ]
+}
