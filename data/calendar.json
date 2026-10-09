@@ -1,0 +1,115 @@
+{
+  "version": "1.0",
+  "note": "时代音乐日历：精选制（每年代标志性发行），非全量采集。precision 含义：day=发行日可精确到日（公开权威来源可查证）；month=可到月；year=仅可到年。匹配逻辑：生日同日匹配仅使用 precision=day 条目，依次降级同月→同年。Demo 用；正式产品接入平台曲库发行日期元数据（QQ音乐曲库自带），全量且精确。era=true 表示该年时代编年代表条目（L3 路径用）。歌词 lyric 仅收录有把握名句。",
+  "entries": [
+    { "year": 2000, "month": 11, "day": 7, "precision": "day", "title": "《Jay》", "artist": "周杰伦", "kind": "专辑", "note": "周杰伦首张专辑", "era": true, "verified": true },
+    { "year": 2000, "month": 6, "precision": "month", "title": "《孙燕姿》", "artist": "孙燕姿", "kind": "专辑", "note": "同名首专，收录《天黑黑》", "verified": true },
+    { "year": 2000, "month": 8, "precision": "month", "title": "《勇气》", "artist": "梁静茹", "kind": "歌曲", "verified": true },
+    { "year": 2000, "month": 10, "precision": "month", "title": "《寓言》", "artist": "王菲", "kind": "专辑", "verified": true },
+
+    { "year": 2001, "month": 9, "day": 14, "precision": "day", "title": "《范特西》", "artist": "周杰伦", "kind": "专辑", "note": "收录《双截棍》《简单爱》", "era": true, "verified": true },
+    { "year": 2001, "month": 9, "precision": "month", "title": "《唯一》", "artist": "王力宏", "kind": "歌曲", "verified": true },
+    { "year": 2001, "month": 8, "precision": "month", "title": "《流星雨》", "artist": "F4", "kind": "歌曲", "note": "《流星花园》同名年现象级", "verified": true },
+
+    { "year": 2002, "month": 7, "day": 18, "precision": "day", "title": "《八度空间》", "artist": "周杰伦", "kind": "专辑", "note": "收录《半岛铁盒》", "era": true, "verified": true },
+
+    { "year": 2003, "month": 7, "day": 31, "precision": "day", "title": "《叶惠美》", "artist": "周杰伦", "kind": "专辑", "note": "收录《晴天》", "era": true, "verified": true },
+    { "year": 2003, "month": 4, "precision": "month", "title": "《十年》", "artist": "陈奕迅", "kind": "歌曲", "note": "收录于专辑《黑·白·灰》", "verified": true },
+    { "year": 2003, "month": 8, "precision": "month", "title": "《遇见》", "artist": "孙燕姿", "kind": "歌曲", "verified": true },
+    { "year": 2003, "month": 11, "precision": "month", "title": "《生如夏花》", "artist": "朴树", "kind": "专辑", "verified": true },
+    { "year": 2003, "month": 12, "precision": "month", "title": "东方神起出道", "artist": "东方神起", "kind": "事件", "note": "K-pop一代团启幕", "verified": true },
+
+    { "year": 2004, "month": 8, "day": 3, "precision": "day", "title": "《七里香》", "artist": "周杰伦", "kind": "专辑", "era": true, "verified": true },
+    { "year": 2004, "month": 6, "precision": "month", "title": "《江南》", "artist": "林俊杰", "kind": "歌曲", "note": "收录于《第二天堂》", "verified": true },
+    { "year": 2004, "month": 5, "precision": "month", "title": "《Lydia》", "artist": "飞儿乐团", "kind": "歌曲", "verified": true },
+    { "year": 2004, "precision": "year", "title": "《倔强》", "artist": "五月天", "kind": "歌曲", "verified": true },
+
+    { "year": 2005, "month": 11, "day": 1, "precision": "day", "title": "《十一月的萧邦》", "artist": "周杰伦", "kind": "专辑", "note": "收录《夜曲》", "verified": true },
+    { "year": 2005, "month": 1, "precision": "month", "title": "《童话》", "artist": "光良", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2005, "month": 8, "precision": "month", "title": "《超级女声》现象级夏天", "artist": "李宇春等", "kind": "事件", "note": "全民短信投票选秀时代开启", "verified": true },
+    { "year": 2005, "month": 11, "precision": "month", "title": "Super Junior出道", "artist": "Super Junior", "kind": "事件", "verified": true },
+
+    { "year": 2006, "month": 9, "day": 5, "precision": "day", "title": "《依然范特西》", "artist": "周杰伦", "kind": "专辑", "note": "收录《千里之外》", "verified": true },
+    { "year": 2006, "month": 8, "day": 19, "precision": "day", "title": "BIGBANG正式出道", "artist": "BIGBANG", "kind": "事件", "note": "首尔YG Family十周年演唱会", "era": true, "verified": true },
+    { "year": 2006, "precision": "year", "title": "《隐形的翅膀》", "artist": "张韶涵", "kind": "歌曲", "verified": true },
+
+    { "year": 2007, "month": 8, "day": 16, "precision": "day", "title": "《谎言》(Lies)", "artist": "BIGBANG", "kind": "歌曲", "note": "组合突破性单曲", "verified": true },
+    { "year": 2007, "month": 11, "precision": "month", "title": "《我很忙》", "artist": "周杰伦", "kind": "专辑", "note": "收录《牛仔很忙》", "era": true, "verified": true },
+    { "year": 2007, "month": 4, "precision": "month", "title": "《认了吧》", "artist": "陈奕迅", "kind": "专辑", "note": "收录《爱情转移》", "verified": true },
+    { "year": 2007, "month": 8, "precision": "month", "title": "少女时代出道", "artist": "少女时代", "kind": "事件", "verified": true },
+
+    { "year": 2008, "month": 10, "day": 14, "precision": "day", "title": "《魔杰座》", "artist": "周杰伦", "kind": "专辑", "note": "收录《稻香》", "verified": true },
+    { "year": 2008, "month": 4, "precision": "month", "title": "《北京欢迎你》", "artist": "群星", "kind": "歌曲", "note": "北京奥运年", "era": true, "verified": true },
+    { "year": 2008, "month": 6, "precision": "month", "title": "《Viva la Vida》", "artist": "Coldplay", "kind": "专辑", "verified": true },
+    { "year": 2008, "month": 9, "precision": "month", "title": "《Nobody》", "artist": "Wonder Girls", "kind": "歌曲", "verified": true },
+
+    { "year": 2009, "month": 1, "precision": "month", "title": "《Gee》", "artist": "少女时代", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2009, "month": 3, "precision": "month", "title": "《Sorry Sorry》", "artist": "Super Junior", "kind": "歌曲", "verified": true },
+    { "year": 2009, "precision": "year", "title": "《日光》", "artist": "苏打绿", "kind": "歌曲", "verified": true },
+
+    { "year": 2010, "month": 5, "day": 18, "precision": "day", "title": "《跨时代》", "artist": "周杰伦", "kind": "专辑", "era": true, "verified": true },
+    { "year": 2010, "month": 2, "precision": "month", "title": "《传奇》", "artist": "王菲", "kind": "歌曲", "note": "春晚舞台翻红", "verified": true },
+    { "year": 2010, "precision": "year", "title": "《Baby》", "artist": "Justin Bieber", "kind": "歌曲", "verified": true },
+
+    { "year": 2011, "month": 11, "day": 11, "precision": "day", "title": "《惊叹号》", "artist": "周杰伦", "kind": "专辑", "verified": true },
+    { "year": 2011, "month": 1, "day": 24, "precision": "day", "title": "《21》", "artist": "Adele", "kind": "专辑", "note": "《Someone Like You》收录其中", "era": true, "verified": true },
+    { "year": 2011, "month": 4, "precision": "month", "title": "《苏格拉没有底》", "artist": "许嵩", "kind": "专辑", "note": "QQ音乐网络音乐时代的代表", "verified": true },
+    { "year": 2011, "precision": "year", "title": "《第二人生》", "artist": "五月天", "kind": "专辑", "note": "收录《诺亚方舟》", "verified": true },
+
+    { "year": 2012, "month": 2, "day": 29, "precision": "day", "title": "《Alive》", "artist": "BIGBANG", "kind": "专辑", "note": "收录《Fantastic Baby》", "verified": true },
+    { "year": 2012, "month": 4, "day": 8, "precision": "day", "title": "EXO出道", "artist": "EXO", "kind": "事件", "verified": true },
+    { "year": 2012, "month": 7, "precision": "month", "title": "《江南Style》(Gangnam Style)", "artist": "PSY", "kind": "歌曲", "note": "首个破十亿播放的MV", "era": true, "verified": true },
+    { "year": 2012, "month": 7, "precision": "month", "title": "《Xposed》", "artist": "邓紫棋", "kind": "专辑", "note": "收录《泡沫》", "verified": true },
+    { "year": 2012, "month": 12, "day": 28, "precision": "day", "title": "《十二新作》", "artist": "周杰伦", "kind": "专辑", "verified": true },
+
+    { "year": 2013, "month": 2, "precision": "month", "title": "《修炼爱情》", "artist": "林俊杰", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2013, "month": 6, "day": 13, "precision": "day", "title": "BTS出道", "artist": "防弹少年团", "kind": "事件", "verified": true },
+    { "year": 2013, "month": 8, "precision": "month", "title": "TFBOYS出道", "artist": "TFBOYS", "kind": "事件", "verified": true },
+
+    { "year": 2014, "month": 10, "day": 27, "precision": "day", "title": "《1989》", "artist": "Taylor Swift", "kind": "专辑", "note": "收录《Shake It Off》", "verified": true },
+    { "year": 2014, "month": 5, "precision": "month", "title": "《小苹果》", "artist": "筷子兄弟", "kind": "歌曲", "note": "广场舞神曲", "era": true, "verified": true },
+    { "year": 2014, "month": 12, "day": 26, "precision": "day", "title": "《哎呦，不错哦》", "artist": "周杰伦", "kind": "专辑", "verified": true },
+
+    { "year": 2015, "month": 5, "precision": "month", "title": "MADE系列单曲企划", "artist": "BIGBANG", "kind": "事件", "note": "M/A/D/E逐月发行，收录《BANG BANG BANG》", "era": true, "verified": true },
+    { "year": 2015, "month": 10, "precision": "month", "title": "《Hello》", "artist": "Adele", "kind": "歌曲", "verified": true },
+    { "year": 2015, "precision": "year", "title": "《演员》", "artist": "薛之谦", "kind": "歌曲", "verified": true },
+    { "year": 2015, "precision": "year", "title": "《小幸运》", "artist": "田馥甄", "kind": "歌曲", "verified": true },
+
+    { "year": 2016, "month": 6, "day": 24, "precision": "day", "title": "《周杰伦的床边故事》", "artist": "周杰伦", "kind": "专辑", "note": "收录《告白气球》", "verified": true },
+    { "year": 2016, "month": 8, "day": 8, "precision": "day", "title": "BLACKPINK出道", "artist": "BLACKPINK", "kind": "事件", "era": true, "verified": true },
+    { "year": 2016, "month": 5, "precision": "month", "title": "《大鱼》", "artist": "周深", "kind": "歌曲", "verified": true },
+    { "year": 2016, "precision": "year", "title": "《光年之外》", "artist": "邓紫棋", "kind": "歌曲", "verified": true },
+
+    { "year": 2017, "month": 1, "day": 6, "precision": "day", "title": "《Shape of You》", "artist": "Ed Sheeran", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2017, "month": 1, "precision": "month", "title": "《Despacito》", "artist": "Luis Fonsi", "kind": "歌曲", "verified": true },
+    { "year": 2017, "month": 7, "precision": "month", "title": "《消愁》", "artist": "毛不易", "kind": "歌曲", "note": "《明日之子》舞台", "verified": true },
+    { "year": 2017, "precision": "year", "title": "《成都》", "artist": "赵雷", "kind": "歌曲", "verified": true },
+
+    { "year": 2018, "precision": "year", "title": "《起风了》", "artist": "买辣椒也用券", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2018, "precision": "year", "title": "《卡路里》", "artist": "火箭少女101", "kind": "歌曲", "verified": true },
+
+    { "year": 2019, "month": 9, "day": 16, "precision": "day", "title": "《说好不哭》", "artist": "周杰伦", "kind": "歌曲", "verified": true },
+    { "year": 2019, "month": 3, "precision": "month", "title": "《bad guy》", "artist": "Billie Eilish", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2019, "precision": "year", "title": "《野狼disco》", "artist": "宝石Gem", "kind": "歌曲", "verified": true },
+
+    { "year": 2020, "month": 6, "day": 12, "precision": "day", "title": "《Mojito》", "artist": "周杰伦", "kind": "歌曲", "verified": true },
+    { "year": 2020, "month": 3, "precision": "month", "title": "《Future Nostalgia》", "artist": "Dua Lipa", "kind": "专辑", "era": true, "verified": true },
+    { "year": 2020, "precision": "year", "title": "《飞鸟和蝉》", "artist": "任然", "kind": "歌曲", "verified": true },
+
+    { "year": 2021, "month": 11, "day": 8, "precision": "day", "title": "《孤勇者》", "artist": "陈奕迅", "kind": "歌曲", "note": "《双城之战》中文主题曲", "era": true, "verified": true },
+    { "year": 2021, "month": 11, "precision": "month", "title": "《30》", "artist": "Adele", "kind": "专辑", "verified": true },
+    { "year": 2021, "precision": "year", "title": "《漠河舞厅》", "artist": "柳爽", "kind": "歌曲", "verified": true },
+
+    { "year": 2022, "month": 7, "day": 15, "precision": "day", "title": "《最伟大的作品》", "artist": "周杰伦", "kind": "专辑", "era": true, "verified": true },
+    { "year": 2022, "month": 4, "day": 5, "precision": "day", "title": "《Still Life》", "artist": "BIGBANG", "kind": "歌曲", "verified": true },
+    { "year": 2022, "month": 7, "precision": "month", "title": "NewJeans出道", "artist": "NewJeans", "kind": "事件", "verified": true },
+
+    { "year": 2023, "precision": "year", "title": "《乌梅子酱》", "artist": "李荣浩", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2023, "precision": "year", "title": "《我记得》", "artist": "赵雷", "kind": "歌曲", "verified": true },
+
+    { "year": 2024, "month": 10, "precision": "month", "title": "《APT.》", "artist": "ROSÉ & Bruno Mars", "kind": "歌曲", "era": true, "verified": true },
+    { "year": 2024, "precision": "year", "title": "《苹果香》", "artist": "狼戈", "kind": "歌曲", "verified": true },
+
+    { "year": 2025, "precision": "year", "title": "《跳楼机》", "artist": "LBI利比", "kind": "歌曲", "era": true, "verified": true }
+  ]
+}
