@@ -1,0 +1,788 @@
+/* 音乐年轮 · 原型样式（浅色，评审环境友好） */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #F7F5F0;
+  color: #2C2C2A;
+  min-height: 100vh;
+}
+.screen { display: none; max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+.screen.active { display: block; }
+
+/* ---- 输入页 ---- */
+.hero { text-align: center; padding: 24px 0 8px; }
+.hero h1 { font-size: 34px; font-weight: 600; letter-spacing: 4px; }
+.subtitle { color: #888780; margin-top: 8px; font-size: 14px; }
+.hero-badge {
+  display: inline-block; font-size: 11px; color: #854F0B; background: #FAEEDA;
+  border: 1px solid #FAC775; border-radius: 20px; padding: 3px 12px; margin-bottom: 14px;
+}
+.panel {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 16px;
+  padding: 28px 24px; margin-top: 24px;
+}
+.label { font-size: 14px; font-weight: 500; color: #444441; display: block; margin-bottom: 10px; }
+.year-select {
+  flex: 1.3; min-width: 0; width: auto; padding: 12px 10px; font-size: 16px;
+  border: 1px solid #D3D1C7; border-radius: 10px; background: #fff; color: #2C2C2A;
+}
+.birth-row { display: flex; gap: 10px; }
+.date-select {
+  flex: 1; min-width: 0; padding: 12px 10px; font-size: 16px;
+  border: 1px solid #D3D1C7; border-radius: 10px; background: #fff; color: #2C2C2A;
+}
+.date-note { font-size: 12px; color: #888780; margin-top: 8px; }
+
+/* ---- 歌手搜索 ---- */
+.artist-search-input {
+  width: 100%; padding: 12px 14px; font-size: 15px;
+  border: 1px solid #D3D1C7; border-radius: 10px; background: #fff; color: #2C2C2A;
+  outline: none;
+}
+.artist-search-input:focus { border-color: #BA7517; }
+.artist-list {
+  margin-top: 10px; border: 1px solid #E5E2D8; border-radius: 12px;
+  background: #fff; max-height: 264px; overflow-y: auto;
+}
+.artist-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 11px 14px; border-bottom: 1px solid #F1EFE8; cursor: pointer;
+}
+.artist-item:last-child { border-bottom: none; }
+.artist-item.supported:hover { background: #FAF8F2; }
+.artist-item.selected { background: #FAEEDA; }
+.artist-item-name { font-size: 15px; font-weight: 500; color: #2C2C2A; }
+.artist-item-sub { font-size: 11px; color: #888780; margin-top: 2px; }
+.artist-item.disabled { cursor: default; }
+.artist-item.disabled .artist-item-name,
+.artist-item.disabled .artist-item-sub { color: #B4B2A9; }
+.artist-tag {
+  font-size: 10px; color: #888780; border: 1px solid #E5E2D8;
+  border-radius: 10px; padding: 2px 8px; flex-shrink: 0; margin-left: 10px;
+}
+.artist-tag.live { color: #854F0B; border-color: #FAC775; background: #FAEEDA; }
+.artist-empty { padding: 18px 14px; font-size: 13px; color: #B4B2A9; text-align: center; }
+.btn-primary {
+  width: 100%; margin-top: 28px; padding: 15px; font-size: 16px; border: none;
+  border-radius: 12px; background: #2C2C2A; color: #F7F5F0; cursor: pointer; font-weight: 500;
+}
+.btn-primary:active { opacity: .85; }
+.btn-ghost {
+  width: 100%; margin-top: 12px; padding: 10px; font-size: 13px; border: 1px solid #D3D1C7;
+  border-radius: 10px; background: transparent; color: #888780; cursor: pointer;
+}
+.demo-note { font-size: 11px; color: #B4B2A9; margin-top: 16px; line-height: 1.6; }
+
+/* ---- QQ音乐 登录卡片 ---- */
+.login-card {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  background: #F2FBF6; border: 1px solid #CBE9D9; border-radius: 14px;
+  padding: 14px 16px; margin-bottom: 22px;
+}
+.login-brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+.login-logo { width: 40px; height: 40px; flex: none; }
+.login-brand-text { min-width: 0; }
+.login-brand-name { font-size: 15px; font-weight: 700; color: #2B2620; letter-spacing: .02em; }
+.login-brand-sub { font-size: 11.5px; color: #5A544C; margin-top: 2px; }
+.btn-login {
+  flex: none; border: none; cursor: pointer;
+  background: #31C27C; color: #fff; font-size: 13px; font-weight: 600;
+  padding: 10px 18px; border-radius: 999px; letter-spacing: .04em;
+  transition: opacity .2s;
+}
+.btn-login:disabled { opacity: .6; cursor: default; }
+.login-done { display: flex; align-items: center; gap: 8px; flex: none; }
+.login-avatar {
+  width: 28px; height: 28px; border-radius: 50%; background: #31C27C;
+  color: #fff; font-size: 13px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.login-nick { font-size: 12.5px; color: #2B2620; font-weight: 500; }
+.login-status {
+  font-size: 11px; color: #1FA36B; background: #DDF5E9;
+  padding: 3px 10px; border-radius: 999px; font-weight: 600;
+}
+
+/* ---- 真实歌单连接卡片 ---- */
+.pl-link-card {
+  background: #FBF8F1; border: 1px solid #E5E2D8; border-radius: 14px;
+  padding: 14px 16px; margin-bottom: 22px;
+}
+.pl-link-card .label { margin-bottom: 10px; }
+.pl-link-row { display: flex; gap: 10px; }
+.pl-link-row input {
+  flex: 1; min-width: 0; padding: 11px 12px; font-size: 13px;
+  border: 1px solid #D3D1C7; border-radius: 10px; background: #fff; color: #2C2C2A;
+  outline: none;
+}
+.pl-link-row input:focus { border-color: #8C6239; }
+.pl-link-row input.err { border-color: #C25B3A; }
+.btn-pl-link {
+  flex: none; border: 1px solid #8C6239; background: #8C6239; color: #FFFDF6;
+  font-size: 13px; font-weight: 600; padding: 11px 18px; border-radius: 10px; cursor: pointer;
+  letter-spacing: .06em;
+}
+.btn-pl-link:disabled { opacity: .6; cursor: default; }
+.pl-link-card .date-note { margin-top: 10px; }
+.pl-link-done {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  background: #F2FBF6; border: 1px solid #CBE9D9; border-radius: 10px;
+  padding: 10px 12px; margin-top: 10px;
+}
+.pl-link-title { font-size: 13px; color: #1FA36B; font-weight: 600; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pl-link-change {
+  flex: none; border: none; background: transparent; color: #8C6239;
+  font-size: 12px; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+}
+
+/* 搜索结果列表 */
+.pl-search-results { margin-top: 10px; }
+.pl-hit {
+  display: block; width: 100%; text-align: left; cursor: pointer;
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 10px;
+  padding: 10px 12px; margin-top: 8px;
+  transition: border-color .15s;
+}
+.pl-hit:hover { border-color: #8C6239; }
+.pl-hit-name { display: block; font-size: 13.5px; font-weight: 600; color: #2B2620; }
+.pl-hit-meta { display: block; font-size: 11px; color: #8C8378; margin-top: 3px; }
+
+/* ---- 等待页 ---- */
+.loading-wrap { text-align: center; padding-top: 30vh; }
+.loading-ring {
+  width: 120px; height: 120px; margin: 0 auto; border-radius: 50%;
+  border: 3px solid #E5E2D8; border-top-color: #BA7517;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { margin-top: 24px; color: #888780; }
+
+/* ---- 叙事页（v3）基础 ---- */
+.ring-box { background: #fff; border: 1px solid #E5E2D8; border-radius: 16px; padding: 8px; }
+.ring-svg { width: 100%; height: auto; display: block; }
+/* ---- 年轮生长动画（v2） ---- */
+.ring-yr { opacity: 0; transition: opacity .55s ease; }
+.ring-yr.grown { opacity: 1; }
+.ring-node circle { transition: r .15s; }
+.ring-node:hover circle { fill: #854F0B; }
+
+/* ---- 黑胶唱片 ---- */
+.album-disc { width: 96px; height: 96px; display: block; filter: drop-shadow(0 2px 4px rgba(44,44,42,.18)); }
+.album-disc.spin { animation: discspin 9s linear infinite; }
+@keyframes discspin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .album-disc.spin { animation: none; } }
+
+/* ---- 叙事页（v3 布局：双轨时间轴 · 我的音乐人生 × 他的音乐人生） ---- */
+.link-ghost {
+  display: block; width: 100%; margin-top: 10px; padding: 0; font-size: 12px;
+  border: none; background: none; color: #888780; cursor: pointer;
+  text-decoration: underline; text-underline-offset: 3px;
+}
+.tl-header {
+  display: flex; align-items: center; gap: 18px;
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 16px; padding: 14px 18px;
+}
+.tl-header-ring { width: 132px; flex-shrink: 0; }
+.tl-header-side { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.tl-badge {
+  font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 8px;
+}
+.tl-badge.me { background: #FAEEDA; color: #854F0B; border: 1px solid #FAC775; }
+.tl-badge.him { background: #E8F0FA; color: #185FA5; border: 1px solid #B7D3F0; }
+.tl-hint { font-size: 11px; color: #B4B2A9; }
+
+.timeline { margin-top: 16px; display: flex; flex-direction: column; }
+.tl-row {
+  display: grid; grid-template-columns: 56px 1fr 1fr; gap: 10px;
+  padding: 14px 0; border-bottom: 1px dashed #E5E2D8;
+  opacity: 0; transform: translateY(14px); transition: all .45s ease;
+}
+.tl-row.vis { opacity: 1; transform: none; }
+.tl-row.now .tl-spine .tl-year { color: #BA7517; }
+.tl-spine { text-align: center; padding-top: 4px; }
+.tl-year { font-weight: 700; color: #5F5E5A; font-size: 15px; line-height: 1.2; }
+.tl-age { font-size: 11px; color: #888780; margin-top: 2px; }
+.tl-cell {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 12px;
+  padding: 12px 14px; font-size: 14px; line-height: 1.7; min-width: 0;
+}
+.tl-cell.me { border-top: 3px solid #BA7517; background: #FFFDF6; }
+.tl-cell.milestone { border-top: 3px solid #993C1D; background: #FFF9F4; }
+.tl-cell.milestone .tl-chip { background: #FBEDE6; color: #993C1D; }
+.tl-cell.him { border-top: 3px solid #185FA5; background: #F8FAFD; }
+.tl-cell.him.gap { border-top-color: #9AA0A6; background: #F7F7F5; }
+.tl-cell.only { grid-column: 2 / -1; }
+.tl-cell.band { grid-column: 2 / -1; background: #F1EFE8; border-style: dashed; }
+.tl-chip {
+  display: inline-block; font-size: 10px; font-weight: 600; border-radius: 5px;
+  padding: 2px 7px; margin-bottom: 8px; background: rgba(0,0,0,.05); color: #888780;
+}
+.tl-cell.me .tl-chip { background: #FAEEDA; color: #854F0B; }
+.tl-cell.him .tl-chip { background: #E8F0FA; color: #185FA5; }
+.tl-join-flag {
+  font-size: 11px; color: #993C1D; background: #FBEDE6; border-radius: 6px;
+  padding: 3px 8px; display: inline-block; margin-bottom: 6px;
+}
+.tl-song { font-size: 16px; font-weight: 700; color: #2C2C2A; }
+.tl-plays { font-size: 12px; color: #888780; font-weight: 400; margin-left: 8px; }
+.tl-lyric { color: #993C1D; font-size: 13px; margin-top: 6px; line-height: 1.6; }
+.tl-insight {
+  color: #5F5E5A; font-size: 13px; margin-top: 8px; line-height: 1.65;
+  border-top: 1px dashed #EDEBE4; padding-top: 8px;
+}
+.tl-him-text { color: #2C2C2A; }
+.tl-me-text { color: #2C2C2A; }
+#btn-tl-done { margin-top: 24px; }
+
+@media (max-width: 560px) {
+  .tl-row { grid-template-columns: 46px 1fr; }
+  .tl-cell.only, .tl-cell.band { grid-column: 2 / -1; }
+  .tl-cell:not(.only):not(.band) { grid-column: 2; }
+  .tl-header { flex-direction: column; text-align: center; }
+  .tl-header-side { align-items: center; }
+}
+
+/* ---- 结尾页 ---- */
+.ending-wrap { text-align: center; }
+.ending-title { font-size: 28px; margin-top: 16px; letter-spacing: .06em; }
+.ending-sub { margin-top: 14px; }
+.sub-line { font-size: 13px; color: #8C6239; letter-spacing: .06em; line-height: 2.1; }
+.sub-line.sub-dim { font-size: 11px; color: #B4B2A9; letter-spacing: .18em; }
+.ending-quote {
+  font-size: 21px; line-height: 2; margin: 34px auto 30px; max-width: 520px; color: #2C2C2A;
+}
+.ending-quote .lyric-hand {
+  font-family: "STKaiti", "Kaiti SC", "KaiTi", "楷体", cursive;
+  font-weight: 700;
+  color: #8C6239;
+}
+.ring-box.small { max-width: 420px; margin: 0 auto; }
+.ring-caption {
+  margin-top: 18px; font-size: 13px; line-height: 2.1; color: #8C6239; letter-spacing: .05em;
+}
+.ring-legend {
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 18px;
+  margin: 14px auto 0; max-width: 460px;
+}
+.ring-legend span {
+  display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; color: #5A544C;
+}
+.ring-legend i {
+  width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0;
+}
+.ending-cards { display: flex; flex-direction: column; gap: 18px; max-width: 500px; margin: 34px auto; }
+.card {
+  background: #fff; border: 1px solid #E5E2D8; border-radius: 14px;
+  padding: 20px 24px; text-align: left;
+}
+.card-title { font-size: 15px; font-weight: 600; color: #185FA5; }
+.card-body { font-size: 14px; color: #5F5E5A; margin-top: 8px; line-height: 1.95; }
+.ending-actions { max-width: 480px; margin: 16px auto 0; }
+.ai-label { font-size: 11px; color: #B4B2A9; margin-top: 24px; }
+
+/* ---- 弹窗 ---- */
+.modal {
+  display: none; position: fixed; inset: 0; background: rgba(44,44,42,.4);
+  align-items: center; justify-content: center; z-index: 10; padding: 20px;
+}
+.modal.show { display: flex; }
+.modal-box {
+  background: #fff; border-radius: 16px; padding: 24px; width: 100%; max-width: 420px;
+}
+.modal-box h3 { font-size: 16px; margin-bottom: 6px; }
+.modal-note { font-size: 12px; color: #888780; margin-bottom: 16px; }
+.modal-box label { display: block; font-size: 12px; color: #5F5E5A; margin-bottom: 12px; }
+.modal-box input {
+  display: block; width: 100%; margin-top: 6px; padding: 10px; font-size: 14px;
+  border: 1px solid #D3D1C7; border-radius: 8px;
+}
+.modal-actions { display: flex; gap: 12px; margin-top: 8px; }
+.modal-actions .btn-primary, .modal-actions .btn-ghost { margin-top: 0; width: auto; flex: 1; }
+
+@media (min-width: 768px) {
+  .screen { padding: 32px 28px 60px; }
+}
+
+/* ---- Screen 0: 视觉导览（从1开始 · v2 art direction tokens） ---- */
+.intro { text-align: center; padding: 20px 0 0; }
+/* 首屏：一屏完整呈现并垂直居中 */
+#screen-intro.active { display: flex; flex-direction: column; justify-content: center; min-height: 100vh; box-sizing: border-box; }
+#screen-intro .btn-primary { max-width: 320px; }
+.intro-hero { position: relative; min-height: 320px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.intro-rings { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 300px; height: 300px; pointer-events: none; }
+.intro-rings circle { fill: none; stroke: #2B2620; stroke-width: 1; opacity: .38; }
+.intro-rings .ir1 { stroke: #31C27C; stroke-width: 1.6; opacity: 1; }
+.intro-one { font-family: "Noto Serif SC", "Songti SC", "STSong", serif; font-weight: 900; font-size: 104px; line-height: 1; color: #2B2620; }
+.intro-kicker { font-size: 12px; letter-spacing: .5em; text-indent: .5em; color: #8C6239; margin-top: 24px; }
+.intro-title { font-family: "Noto Serif SC", "Songti SC", "STSong", serif; font-weight: 900; font-size: 42px; letter-spacing: .08em; color: #2B2620; margin-top: 8px; }
+.intro-sub { font-size: 13px; letter-spacing: .18em; color: #8C6239; margin-top: 14px; }
+.intro-sec { margin-top: 46px; }
+.intro-tag { font-size: 11px; letter-spacing: .42em; text-indent: .42em; color: #8C6239; }
+.intro-evo { display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 16px; flex-wrap: wrap;
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif; font-size: 21px; font-weight: 600; }
+.intro-evo span { color: rgba(43, 38, 32, .5); }
+.intro-evo span.on { color: #2B2620; }
+.intro-evo .d { width: 5px; height: 5px; border-radius: 50%; background: #2B2620; opacity: .32; }
+.intro-evo .d.first { background: #31C27C; opacity: 1; }
+.intro-cap { font-size: 12px; color: #8C6239; margin-top: 12px; letter-spacing: .04em; }
+.intro-venn { width: 205px; display: block; margin: 16px auto 0; }
+.intro-venn circle { fill: none; stroke: #2B2620; stroke-width: 1; opacity: .55; }
+.intro-venn text { font-size: 15px; fill: #2B2620; font-weight: 600; }
+.intro-insight { font-family: "Noto Serif SC", "Songti SC", "STSong", serif; font-size: 23px; font-weight: 600; line-height: 1.75; color: #2B2620; margin-top: 52px; }
+.intro-insight .g { color: #31C27C; }
+.intro-sol { font-size: 14px; color: #8C6239; margin: 14px 0 30px; }
+
+/* ---- Screen 3: 结绳记事（13个结） ---- */
+#screen-narrative { max-width: 760px; padding-bottom: 48px; }
+.knots-header { text-align: center; padding: 26px 0 6px; }
+.knots-kicker {
+  font-size: 11px; letter-spacing: .32em; text-indent: .32em; color: #8C6239;
+}
+.knots-title {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+  font-weight: 900; font-size: clamp(28px, 5vw, 38px);
+  line-height: 1.45; color: #2B2620; margin-top: 14px; letter-spacing: .06em;
+}
+.knots-sub { font-size: 13px; color: #8C6239; line-height: 1.9; margin-top: 14px; }
+.knots-rope { position: relative; margin-top: 30px; padding: 6px 0 2px; }
+.knots-rope::before {
+  content: ''; position: absolute; left: 50%; top: 0; bottom: 0;
+  width: 3px; margin-left: -1.5px;
+  background: repeating-linear-gradient(180deg, rgba(140, 98, 57, .6) 0 6px, rgba(140, 98, 57, .28) 6px 12px);
+}
+.knot-row {
+  position: relative; display: flex; align-items: center; gap: 0;
+  padding: 12px 0; opacity: 0; transform: translateY(14px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.knot-row.vis { opacity: 1; transform: none; }
+.knot-row.rev { flex-direction: row-reverse; }
+.knot-card {
+  flex: 1 1 45%; min-width: 0; max-width: 46%; background: #FFFDF6; border: 1px solid rgba(43, 38, 32, .1);
+  border-radius: 14px; padding: 16px 18px; position: relative; z-index: 2;
+}
+.knot-card.green { border-top: 3px solid #31C27C; }
+.knot-card.brown { border-top: 3px solid #8C6239; }
+.knot-card.ink { border-top: 3px solid rgba(43, 38, 32, .5); }
+.knot-top { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.knot-no {
+  font-family: "Noto Serif SC", serif; font-size: 22px; font-weight: 900;
+  color: rgba(43, 38, 32, .26); line-height: 1;
+}
+.knot-chip {
+  font-size: 11px; letter-spacing: .12em; color: #8C6239;
+  border: 1px solid rgba(140, 98, 57, .35); border-radius: 10px; padding: 2px 10px;
+}
+.knot-card.green .knot-chip {
+  color: #1E8A57; border-color: rgba(49, 194, 124, .45); background: rgba(49, 194, 124, .07);
+}
+.knot-card.brown .knot-chip { background: rgba(140, 98, 57, .07); }
+.knot-year { margin-left: auto; font-size: 12px; letter-spacing: .14em; color: #8C6239; }
+.knot-text { margin-top: 10px; font-size: 14px; line-height: 1.85; color: #2B2620; }
+.knot-detail {
+  margin-top: 10px; font-size: 12px; color: #5A544C;
+  border-top: 1px dashed rgba(43, 38, 32, .14); padding-top: 8px; letter-spacing: .02em;
+}
+.knot-mark {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 64px; display: flex; justify-content: center; z-index: 2;
+}
+.knot-svg {
+  width: 56px; height: 56px; background: #FFFDF6; border-radius: 50%;
+  transition: transform .25s ease;
+}
+.knot-svg.green { border: 2.5px solid rgba(49, 194, 124, .8); background: rgba(49, 194, 124, .07); }
+.knot-svg.brown { border: 2.5px solid rgba(140, 98, 57, .75); background: rgba(140, 98, 57, .07); }
+.knot-svg.ink { border: 2.5px solid rgba(43, 38, 32, .55); }
+/* 进场时绳圈像被系上一样描边成形 */
+.knot-svg .knot-rope {
+  stroke-dasharray: 170; stroke-dashoffset: 170;
+  transition: stroke-dashoffset 1s ease .2s;
+}
+.knot-svg .knot-core { opacity: 0; transition: opacity .3s ease .9s; }
+.knot-row.vis .knot-rope { stroke-dashoffset: 0; }
+.knot-row.vis .knot-core { opacity: 1; }
+.knot-row:hover .knot-svg { transform: scale(1.1); }
+.knot-spacer { flex: 1 1 45%; min-width: 0; max-width: 46%; }
+.knot-row.mini .knot-svg { width: 26px; height: 26px; border-width: 1.5px; }
+.knot-row.mini .knot-svg .knot-tie { display: none; }
+.knot-card-mini {
+  flex: 1 1 48%; min-width: 0; max-width: 52%; display: flex; align-items: baseline; gap: 10px;
+  background: #FFFDF6; border: 1px solid rgba(43, 38, 32, .1);
+  border-radius: 6px; padding: 10px 14px; position: relative; z-index: 2;
+}
+.knot-row.mini .knot-year {
+  font-size: 12px; font-weight: 700; color: #5A544C; letter-spacing: .08em; margin: 0;
+}
+.mini-song { font-size: 13px; color: #2B2620; }
+.mini-plays { font-size: 11px; color: #B4B2A9; }
+.knots-footer {
+  text-align: center; margin-top: 26px; font-size: 12px;
+  letter-spacing: .18em; color: #8C6239;
+}
+@media (max-width: 640px) {
+  .knots-rope::before { left: 24px; }
+  .knot-row, .knot-row.rev { flex-direction: row; }
+  .knot-spacer { display: none; }
+  .knot-mark { position: static; transform: none; flex: 0 0 64px; justify-content: flex-start; }
+  .knot-card, .knot-card-mini { flex: 1 1 auto; max-width: none; }
+}
+
+.intersect-wrap {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  position: relative;
+}
+.intersect-left {
+  flex: 0 0 22%;
+  min-width: 180px;
+  padding-top: 18px;
+}
+.intersect-center {
+  flex: 1 1 52%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 12px;
+}
+.intersect-right {
+  flex: 0 0 24%;
+  min-width: 240px;
+  position: sticky;
+  top: 28px;
+  padding-top: 8px;
+}
+.intersect-tag {
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: .2em;
+  color: #8C6239;
+  border: 1px solid rgba(140, 98, 57, .35);
+  border-radius: 14px;
+  padding: 5px 14px;
+  margin-bottom: 30px;
+}
+.intersect-title {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+  font-weight: 900;
+  font-size: clamp(30px, 3.2vw, 44px);
+  line-height: 1.38;
+  letter-spacing: .05em;
+  color: #2B2620;
+}
+.intersect-sub {
+  font-size: 14px;
+  color: #8C6239;
+  line-height: 1.9;
+  margin-top: 22px;
+}
+.intersect-note {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-top: 48px;
+  font-size: 12px;
+  color: #8C6239;
+  line-height: 1.7;
+}
+.intersect-note i {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #8C6239;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-style: normal;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.ix-avatars {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 18px;
+}
+.avatar {
+  text-align: center;
+}
+.avatar-name {
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: #2B2620;
+  line-height: 1;
+}
+.avatar-meta {
+  font-size: 11px;
+  color: #8C6239;
+  letter-spacing: .1em;
+  margin-top: 6px;
+}
+.avatar.me .avatar-name { color: #E07B3A; }
+.avatar.him .avatar-name { color: #5A8BC4; }
+
+.ix-timeline {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  height: 680px;
+}
+.ix-waves {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  z-index: 1;
+}
+.ix-waves path { opacity: .9; }
+.ix-dots, .ix-labels, .ix-cards {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+.ix-label { position: absolute; width: 130px; font-size: 12px; line-height: 1.55; color: #2B2620; }
+.ix-label.left { left: 0; text-align: right; padding-right: 16px; transform: translateY(-50%); }
+.ix-label.right { right: 0; text-align: left; padding-left: 16px; transform: translateY(-50%); }
+.ix-label .y { font-size: 14px; font-weight: 700; display: block; margin-bottom: 4px; }
+.ix-label.left .y { color: #E07B3A; }
+.ix-label.right .y { color: #5A8BC4; }
+.ix-label .t { color: #5A544C; }
+.ix-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #E07B3A;
+  border: 2px solid #FFFDF6;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ix-dot.him { background: #5A8BC4; }
+.ix-card {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 230px;
+  background: #FFFDF6;
+  border: 1px solid rgba(43, 38, 32, .12);
+  border-radius: 14px;
+  padding: 14px 16px;
+  text-align: center;
+  pointer-events: auto;
+}
+.ix-card .badge {
+  font-size: 11px;
+  color: #8C6239;
+  letter-spacing: .12em;
+  margin-bottom: 6px;
+}
+.ix-card .year {
+  font-family: "Noto Serif SC", serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #2B2620;
+}
+.ix-card .song {
+  font-size: 15px;
+  color: #2B2620;
+  margin-top: 2px;
+}
+.ix-card .hint {
+  font-size: 12px;
+  color: #8C6239;
+  margin-top: 8px;
+}
+
+.right-card {
+  background: #FFFDF6;
+  border: 1px solid rgba(43, 38, 32, .12);
+  border-radius: 18px;
+  padding: 22px;
+  margin-bottom: 16px;
+}
+.right-title {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 900;
+  font-size: 18px;
+  color: #2B2620;
+}
+.right-year {
+  font-size: 12px;
+  color: #8C6239;
+  letter-spacing: .15em;
+  margin: 10px 0 14px;
+}
+.right-cover {
+  width: 96px;
+  height: 96px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #E8E3DC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.cover-plate {
+  font-size: 14px;
+  color: #5A544C;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+}
+.right-song {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2B2620;
+}
+.right-artist {
+  font-size: 12px;
+  color: #8C6239;
+  letter-spacing: .08em;
+  margin-top: 4px;
+}
+.right-quote {
+  font-family: "Noto Serif SC", serif;
+  font-size: 13px;
+  color: #5A544C;
+  line-height: 1.75;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(43, 38, 32, .1);
+}
+.keywords {
+  background: #FFFDF6;
+  border: 1px solid rgba(43, 38, 32, .12);
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+.kw-title {
+  font-size: 12px;
+  color: #8C6239;
+  letter-spacing: .15em;
+  margin-bottom: 10px;
+}
+.kw-list { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.kw-list span {
+  font-size: 13px;
+  color: #2B2620;
+  background: rgba(49, 194, 124, .08);
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.kw-list .kw-year { background: rgba(43, 38, 32, .08); font-weight: 600; }
+.handwrite {
+  font-family: "Noto Serif SC", "Songti SC", cursive;
+  font-size: 24px;
+  color: #2B2620;
+  line-height: 1.55;
+  margin-top: 12px;
+  opacity: .9;
+  transform: rotate(-2deg);
+}
+.intersect-done {
+  width: calc(100% - 48px);
+  max-width: 600px;
+  margin: 36px auto 0;
+  border-radius: 50px;
+  padding: 16px 24px;
+}
+@media (max-width: 900px) {
+  .intersect-wrap { flex-direction: column; align-items: center; }
+  .intersect-left, .intersect-center, .intersect-right {
+    flex: 1 1 auto; width: 100%; min-width: 0; max-width: 560px;
+  }
+  .intersect-left { text-align: center; }
+  .intersect-note { justify-content: center; margin-top: 20px; }
+  .intersect-right { position: static; margin-top: 28px; }
+  .intersect-title { font-size: 32px; }
+  .ix-timeline { height: 560px; }
+  .ix-card { width: 200px; padding: 12px 14px; }
+  .ix-label { width: 110px; font-size: 11px; }
+}
+
+/* ---- 输入页：出生日期必填校验 ---- */
+.date-error { font-size: 12px; color: #B3541E; margin-top: 8px; }
+.btn-primary:disabled { opacity: .4; cursor: not-allowed; }
+.btn-primary:disabled:active { opacity: .4; }
+
+/* ---- Screen 3: 音乐汇总歌单 ---- */
+#screen-narrative { max-width: 760px; padding-bottom: 48px; }
+.pl-header { display: flex; gap: 22px; align-items: center; padding: 30px 4px 20px; }
+.pl-cover { flex: 0 0 104px; }
+.pl-cover svg { width: 104px; height: 104px; display: block; border-radius: 16px; }
+.pl-meta { flex: 1; min-width: 0; }
+.pl-kicker { font-size: 11px; letter-spacing: .3em; color: #8C6239; }
+.pl-title {
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-size: clamp(24px, 4vw, 30px); font-weight: 900; color: #2B2620;
+  margin-top: 10px; letter-spacing: .04em; line-height: 1.4;
+}
+.pl-sub { font-size: 12.5px; color: #8C6239; margin-top: 10px; letter-spacing: .06em; }
+.pl-list { border-top: 1px solid rgba(43, 38, 32, .12); }
+.pl-row {
+  display: flex; align-items: center; gap: 14px; padding: 15px 4px;
+  border-bottom: 1px solid rgba(43, 38, 32, .08);
+  opacity: 0; transform: translateY(10px);
+  transition: opacity .5s ease, transform .5s ease;
+}
+.pl-row.vis { opacity: 1; transform: none; }
+.pl-no {
+  font-family: "Noto Serif SC", serif; font-size: 15px; font-weight: 700;
+  color: rgba(43, 38, 32, .32); width: 26px; flex-shrink: 0;
+}
+.pl-info { flex: 1; min-width: 0; }
+.pl-name { font-size: 15.5px; font-weight: 700; color: #2B2620; }
+.pl-chip {
+  display: inline-block; font-size: 10.5px; letter-spacing: .1em; color: #8C6239;
+  border: 1px solid rgba(140, 98, 57, .35); border-radius: 9px;
+  padding: 1px 9px; margin-top: 6px;
+}
+.pl-sub-line { font-size: 12px; color: #5A544C; margin-top: 8px; line-height: 2; letter-spacing: .02em; }
+.pl-side { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; flex-shrink: 0; }
+.pl-plays { font-size: 11px; color: #B4B2A9; }
+.pl-year { font-size: 13px; font-weight: 700; color: #5A544C; letter-spacing: .08em; }
+.pl-footer { text-align: center; margin: 22px 0 26px; font-size: 12px; letter-spacing: .18em; color: #8C6239; }
+
+/* ---- Screen 4: 推荐音乐小组 ---- */
+.group-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 14px;
+  max-width: 560px; margin: 30px auto;
+}
+.group-card {
+  background: #FFFDF6; border: 1px solid rgba(43, 38, 32, .1);
+  border-radius: 14px; padding: 18px; text-align: left;
+}
+.group-head { display: flex; gap: 12px; align-items: center; }
+.group-avatar {
+  width: 42px; height: 42px; border-radius: 50%;
+  background: rgba(140, 98, 57, .1); border: 1px solid rgba(140, 98, 57, .35);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 19px; color: #8C6239; flex-shrink: 0;
+}
+.group-meta { min-width: 0; }
+.group-name { font-size: 15px; font-weight: 700; color: #2B2620; }
+.group-tag { font-size: 10.5px; color: #8C6239; letter-spacing: .12em; margin-top: 3px; }
+.group-desc { font-size: 12.5px; color: #5A544C; line-height: 1.8; margin-top: 12px; }
+.group-join {
+  margin-top: 14px; width: 100%; padding: 9px 0; border-radius: 10px;
+  border: 1px solid rgba(140, 98, 57, .45); background: transparent;
+  color: #8C6239; font-size: 13px; cursor: pointer; transition: all .2s;
+}
+.group-join:hover { background: rgba(140, 98, 57, .08); }
+.group-join.joined { background: #8C6239; color: #FFFDF6; border-color: #8C6239; }
+@media (max-width: 560px) {
+  .group-grid { grid-template-columns: 1fr; }
+  .pl-header { flex-direction: column; align-items: flex-start; gap: 16px; }
+}
