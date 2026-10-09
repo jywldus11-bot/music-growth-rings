@@ -1,0 +1,186 @@
+{
+  "artist_id": "jay_chou",
+  "artist_name": "周杰伦",
+  "type": "solo",
+  "version": "0.3.0-demo",
+  "note": "Demo预核对版：公开硬事实已置verified=true（供体验），演唱会条目待官方核实仍为false。正式提交前团队须按TASKS.md Phase 0复核。",
+  "milestones": [
+    {
+      "year": 2000,
+      "month": 11,
+      "event": "首张专辑《Jay》发行",
+      "detail": "2000年11月7日发行；次年获第12届金曲奖最佳流行音乐演唱专辑奖",
+      "song": "星晴",
+      "weight": "high",
+      "verified": true,
+      "lyric": "手牵手，一步两步三步四步望着天"
+    },
+    {
+      "year": 2001,
+      "month": 9,
+      "event": "专辑《范特西》发行",
+      "detail": "2001年9月14日发行",
+      "song": "双截棍",
+      "weight": "high",
+      "verified": true,
+      "lyric": "快使用双截棍，哼哼哈兮"
+    },
+    {
+      "year": 2002,
+      "month": 7,
+      "event": "专辑《八度空间》发行",
+      "detail": "2002年7月18日发行",
+      "song": "半岛铁盒",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "为什么这样子，你拉着我说你已有些犹豫"
+    },
+    {
+      "year": 2003,
+      "month": 7,
+      "event": "专辑《叶惠美》发行",
+      "detail": "2003年7月31日发行，收录《晴天》",
+      "song": "晴天",
+      "weight": "high",
+      "verified": true,
+      "lyric": "故事的小黄花，从出生那年就飘着"
+    },
+    {
+      "year": 2004,
+      "month": 8,
+      "event": "专辑《七里香》发行",
+      "detail": "2004年8月3日发行；同年10月启动无与伦比世界巡演（非生涯首次巡演）",
+      "song": "七里香",
+      "weight": "high",
+      "verified": true,
+      "lyric": "窗外的麻雀，在电线杆上多嘴"
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "event": "专辑《十一月的萧邦》发行",
+      "detail": "2005年11月1日发行；同年主演电影《头文字D》上映",
+      "song": "夜曲",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "为你弹奏萧邦的夜曲，纪念我死去的爱情"
+    },
+    {
+      "year": 2006,
+      "month": 9,
+      "event": "专辑《依然范特西》发行",
+      "detail": "2006年9月5日发行",
+      "song": "千里之外",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "我送你离开，千里之外，你无声黑白"
+    },
+    {
+      "year": 2007,
+      "month": 7,
+      "event": "创立杰威尔音乐·电影《不能说的秘密》上映",
+      "detail": "杰威尔音乐2007年4月1日成立；电影于2007年7月31日起在两岸等地陆续上映，自导自演",
+      "song": "不能说的秘密",
+      "weight": "high",
+      "verified": true,
+      "lyric": "最美的不是下雨天，是曾与你躲过雨的屋檐"
+    },
+    {
+      "year": 2008,
+      "month": 10,
+      "event": "专辑《魔杰座》发行",
+      "detail": "2008年10月14日发行，收录《稻香》",
+      "song": "稻香",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "回家吧，回到最初的美好"
+    },
+    {
+      "year": 2010,
+      "month": 5,
+      "event": "专辑《跨时代》发行",
+      "detail": "2010年5月18日发行",
+      "song": "烟花易冷",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "雨纷纷，旧故里草木深"
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "event": "专辑《惊叹号》发行",
+      "detail": "2011年11月11日发行",
+      "song": "水手怕水",
+      "weight": "low",
+      "verified": true
+    },
+    {
+      "year": 2012,
+      "month": 12,
+      "event": "专辑《十二新作》发行",
+      "detail": "2012年12月28日发行。魔天伦巡演于2013年启动，不记入本年",
+      "song": "红尘客栈",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "剑出鞘，恩怨了"
+    },
+    {
+      "year": 2013,
+      "month": 5,
+      "event": "魔天伦世界巡演启动",
+      "detail": "2013年5月17日上海揭幕，至2015年",
+      "song": null,
+      "weight": "medium",
+      "verified": true
+    },
+    {
+      "year": 2014,
+      "month": 12,
+      "event": "专辑《哎呦，不错哦》发行",
+      "detail": "2014年12月26日发行",
+      "song": "手写的从前",
+      "weight": "low",
+      "verified": true
+    },
+    {
+      "year": 2016,
+      "month": 6,
+      "event": "专辑《周杰伦的床边故事》发行·地表最强世界巡演启动",
+      "detail": "专辑2016年6月24日发行；地表最强巡演2016年6月30日上海揭幕（并非2017年）",
+      "song": "告白气球",
+      "weight": "high",
+      "verified": true,
+      "lyric": "亲爱的，爱上你，从那天起"
+    },
+    {
+      "year": 2019,
+      "month": 9,
+      "event": "单曲《说好不哭》发行·嘉年华世界巡演启动",
+      "detail": "单曲2019年9月16日发行；嘉年华巡演2019年10月17日上海揭幕",
+      "song": "说好不哭",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "你什么都没有，却还为我的梦加油"
+    },
+    {
+      "year": 2020,
+      "month": 6,
+      "event": "单曲《Mojito》发行",
+      "detail": "2020年6月12日发行",
+      "song": "Mojito",
+      "weight": "medium",
+      "verified": true,
+      "lyric": "麻烦给我的爱人来一杯Mojito"
+    },
+    {
+      "year": 2022,
+      "month": 7,
+      "event": "专辑《最伟大的作品》发行",
+      "detail": "2022年7月15日发行，距上一张录音室专辑六年",
+      "song": "最伟大的作品",
+      "weight": "high",
+      "verified": true,
+      "lyric": "世代的狂，音乐的王"
+    }
+  ]
+}
