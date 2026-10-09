@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>音乐歌单 · QQ音乐</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Screen 0: 视觉导览（从1开始） -->
+<section class="screen active" id="screen-intro">
+  <div class="intro">
+    <div class="intro-hero">
+      <svg class="intro-rings" viewBox="0 0 600 600" aria-hidden="true">
+        <circle class="ir1" cx="300" cy="300" r="105"/>
+        <circle cx="300" cy="300" r="165" stroke-dasharray="820 220"/>
+        <circle cx="300" cy="300" r="225" stroke-dasharray="500 912"/>
+        <circle cx="300" cy="300" r="282" stroke-dasharray="1100 674"/>
+      </svg>
+      <div class="intro-one">1</div>
+      <div class="intro-kicker">音乐年轮</div>
+      <h1 class="intro-title">从1开始</h1>
+      <p class="intro-sub">每一首歌，都留下时间的痕迹。</p>
+    </div>
+
+    <button class="btn-primary" id="btn-to-input">生成我的音乐歌单</button>
+  </div>
+</section>
+
+<!-- Screen 1: 输入 -->
+<section class="screen" id="screen-input">
+  <header class="hero">
+    <h1 id="app_title">音乐人生歌单</h1>
+    <p class="subtitle" id="app_subtitle">你的这些年，都在歌里</p>
+  </header>
+
+  <div class="panel">
+    <!-- QQ音乐 账号连接 -->
+    <div class="login-card" id="login-card">
+      <div class="login-brand">
+        <svg class="login-logo" viewBox="0 0 40 40" aria-hidden="true">
+          <circle cx="20" cy="20" r="19" fill="#31C27C"/>
+          <path d="M18 9.5a7.5 7.5 0 0 0-2.2 14.66V27l3.4-1.9a9.4 9.4 0 0 0 3-.5" fill="#31C27C"/>
+          <text x="24" y="26" text-anchor="middle" font-size="16" fill="#31C27C" font-weight="800">Q</text>
+          <path d="M15.8 21.5v6.2a1.8 1.8 0 1 0 3.6 0v-6.2" fill="none" stroke="#FFFDF6" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="17.5" cy="16.5" r="5.2" fill="none" stroke="#FFFDF6" stroke-width="1.6"/>
+          <path d="M22.5 13.5c1.8 0 3.4 1.6 3.4 3.6M22.5 10.5c3.6 0 6.4 3 6.4 6.6" fill="none" stroke="#FFFDF6" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <div class="login-brand-text">
+          <div class="login-brand-name">QQ音乐</div>
+          <div class="login-brand-sub" id="login-brand-sub">连接账号，读取你的听歌年轮</div>
+        </div>
+      </div>
+      <button class="btn-login" id="btn-login">登录 / 注册</button>
+      <div class="login-done" id="login-done" hidden>
+        <span class="login-avatar" id="login-avatar">乐</span>
+        <span class="login-nick" id="login-nick">QQ音乐用户</span>
+        <span class="login-status">已连接</span>
+      </div>
+    </div>
+
+    <!-- 真实歌单连接 -->
+    <div class="pl-link-card" id="pl-link-card">
+      <label class="label">连你的真实歌单（推荐）</label>
+      <div class="pl-link-row">
+        <input type="text" id="pl-link-input" placeholder="搜索你常听的歌单，如：周杰伦" autocomplete="off">
+        <button class="btn-pl-link" id="btn-pl-link">搜索</button>
+      </div>
+      <div class="pl-search-results" id="pl-search-results"></div>
+      <p class="date-note" id="pl-link-note">输入歌单名搜索QQ音乐公开歌单，选一个你常听的；也支持粘贴分享链接或歌单ID。</p>
+      <div class="pl-link-done" id="pl-link-done" hidden>
+        <span class="pl-link-title" id="pl-link-title"></span>
+        <button class="pl-link-change" id="btn-pl-unlink">换一个</button>
+      </div>
+    </div>
+
+    <label class="label">我的音乐人生 · 你出生在哪一天？</label>
+    <div class="birth-row">
+      <select id="year-select" class="year-select"></select>
+      <select id="month-select" class="date-select"><option value="">月</option></select>
+      <select id="day-select" class="date-select"><option value="">日</option></select>
+    </div>
+    <p class="date-note">出生那天的歌，是你歌单的第一首。年、月、日都需要选择。</p>
+    <p class="date-error" id="birth-error" hidden>请先选好出生年月日，再生成你的音乐歌单。</p>
+
+    <button class="btn-primary" id="btn-start">生成我的音乐歌单</button>
+    <p class="demo-note" id="demo-note">Demo 说明：连接歌单后由你的真实歌单数据驱动；未连接时使用预置听歌画像演示。</p>
+  </div>
+</section>
+
+<!-- Screen 2: 生成等待 -->
+<section class="screen" id="screen-loading">
+  <div class="loading-wrap">
+    <div class="loading-ring"></div>
+    <p class="loading-text">歌单生成中……</p>
+  </div>
+</section>
+
+<!-- Screen 3: 音乐汇总歌单（你的这些年） -->
+<section class="screen" id="screen-narrative">
+  <div class="pl-header">
+    <div class="pl-cover">
+      <svg viewBox="0 0 120 120" aria-hidden="true">
+        <circle cx="60" cy="60" r="58" fill="#8C6239"/>
+        <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,253,246,.5)" stroke-width="1" stroke-dasharray="3 5"/>
+        <text x="60" y="62" text-anchor="middle" font-size="26" fill="#FFFDF6" font-weight="700" id="pl-cover-year">2001</text>
+        <text x="60" y="82" text-anchor="middle" font-size="10" fill="#EFE6D2">出生那年</text>
+      </svg>
+    </div>
+    <div class="pl-meta">
+      <div class="pl-kicker">音乐汇总 · 歌单</div>
+      <h2 class="pl-title" id="pl-title">你的这些年，都在歌里</h2>
+      <div class="pl-sub" id="pl-sub"></div>
+    </div>
+  </div>
+  <div class="pl-list" id="pl-list"></div>
+  <div class="pl-footer" id="pl-footer"></div>
+  <button class="btn-primary" id="btn-tl-done">看看QQ音乐为我推荐的小组 ›</button>
+</section>
+
+<!-- Screen 4: QQ音乐 · 推荐音乐小组 -->
+<section class="screen" id="screen-ending">
+  <div class="ending-wrap">
+    <h2 class="ending-title">可能感兴趣的音乐小组</h2>
+    <div class="ending-sub" id="ending-sub"></div>
+    <div class="ending-quote" id="ending-quote"></div>
+    <div class="group-grid" id="group-grid"></div>
+    <div class="ending-actions">
+      <button class="btn-primary" id="btn-share">保存分享卡片</button>
+      <button class="btn-ghost" id="btn-restart">重新生成</button>
+    </div>
+    <p class="ai-label">内容由 AI 生成</p>
+  </div>
+</section>
+
+<script type="module" src="ui/app.js"></script>
+</body>
+</html>
