@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>音乐年轮 · 从1开始</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600;900&display=swap" rel="stylesheet">
+<style>
+/* ============ 토큰 ============ */
+:root{
+  --paper:#F7F3EC;   /* 아이보리 70% */
+  --ink:#2B2620;     /* 검정 20% */
+  --brown:#8C6239;   /* 브라운 8% */
+  --green:#31C27C;   /* QQ绿 2% */
+  --hair:rgba(43,38,32,.22);
+  --serif:"Noto Serif SC","Songti SC","STSong",serif;
+  --sans:"Noto Sans SC","PingFang SC","Helvetica Neue",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-weight:400;line-height:1.8;overflow-x:hidden}
+::selection{background:var(--green);color:#fff}
+a{color:inherit}
+
+/* ============ 커서 링 (인터랙션 ③) ============ */
+.cursor-ring{position:fixed;width:34px;height:34px;border:1px solid var(--green);border-radius:50%;
+  pointer-events:none;z-index:999;transform:translate(-50%,-50%);opacity:.85;
+  transition:width .35s ease,height .35s ease,opacity .35s ease;mix-blend-mode:multiply}
+.cursor-ring.hovered{width:56px;height:56px;opacity:.6}
+@media (hover:none){.cursor-ring{display:none}}
+
+/* ============ 우측 고정 연륜 인디케이터 (인터랙션 ①) ============ */
+.rail{position:fixed;right:28px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;gap:14px;align-items:center;pointer-events:none}
+.rail .dot{width:5px;height:5px;border-radius:50%;background:var(--hair);transition:all .5s}
+.rail .dot.on{background:var(--ink)}
+.rail .dot.on.first{background:var(--green);width:8px;height:8px}
+.rail-ring{position:fixed;right:-140px;top:50%;transform:translateY(-50%);z-index:0;pointer-events:none;opacity:.9}
+
+/* ============ 공통 섹션 ============ */
+section,header.hero{position:relative;max-width:1180px;margin:0 auto;padding:22vh 6vw}
+.sec-num{font-family:var(--serif);font-weight:900;font-size:clamp(64px,10vw,150px);line-height:1;color:transparent;
+  -webkit-text-stroke:1px var(--hair);letter-spacing:.02em;user-select:none}
+.sec-tag{font-size:12px;letter-spacing:.45em;color:var(--brown);margin:18px 0 8px;text-transform:uppercase}
+.sec-title{font-family:var(--serif);font-weight:900;font-size:clamp(30px,4.6vw,62px);line-height:1.25;letter-spacing:.04em}
+.sec-body{max-width:560px;font-size:clamp(15px,1.4vw,18px);color:var(--ink);margin-top:28px}
+.sec-body em{font-style:normal;color:var(--brown)}
+.rule{border:none;border-top:1px solid var(--hair);margin:34px 0}
+.caption{font-size:12px;color:var(--brown);letter-spacing:.14em}
+.center{text-align:center}
+.center .sec-body{margin-left:auto;margin-right:auto}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ============ HERO ============ */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;overflow:visible;padding-top:16vh}
+.hero-rings{position:absolute;right:-8vw;top:50%;transform:translateY(-50%);width:min(78vw,900px);height:auto;pointer-events:none}
+.hero-rings circle{fill:none;stroke:var(--ink);stroke-width:1;opacity:.5}
+.hero-rings .r1{stroke:var(--green);stroke-width:1.6;opacity:1}
+.hero-rings .grow{transform-origin:center;animation:breathe 9s ease-in-out infinite}
+@keyframes breathe{0%,100%{transform:scale(1)}50%{transform:scale(1.035)}}
+.hero-kicker{font-size:14px;letter-spacing:.55em;color:var(--brown);font-weight:500}
+.hero-title{font-family:var(--serif);font-weight:900;font-size:clamp(58px,9vw,132px);line-height:1.1;letter-spacing:.06em;margin-top:22px}
+.hero-one{position:absolute;right:6vw;top:50%;transform:translateY(-50%);font-family:var(--serif);font-weight:900;
+  font-size:clamp(200px,32vw,460px);line-height:1;color:var(--ink);z-index:2;pointer-events:none;user-select:none}
+.hero-sub{font-size:clamp(13px,1.3vw,16px);color:var(--brown);letter-spacing:.28em;margin-top:30px}
+.hero-scroll{position:absolute;bottom:6vh;left:6vw;font-size:11px;letter-spacing:.4em;color:var(--brown)}
+.hero-scroll::after{content:"";display:block;width:1px;height:44px;background:var(--brown);margin:14px auto 0;animation:drop 2.2s ease infinite}
+@keyframes drop{0%{transform:scaleY(0);transform-origin:top}55%{transform:scaleY(1);transform-origin:top}56%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ============ 02 TIME · 기록의 진화 ============ */
+.evo{margin-top:9vh;position:relative;padding-left:74px}
+.evo::before{content:"";position:absolute;left:23px;top:8px;bottom:8px;width:1px;background:var(--hair)}
+.evo-step{position:relative;padding:52px 0;border-bottom:1px solid transparent}
+.evo-step::before{content:"";position:absolute;left:-56.5px;top:70px;width:9px;height:9px;border-radius:50%;
+  background:var(--paper);border:1px solid var(--ink);opacity:0;transform:scale(.4);transition:all .8s cubic-bezier(.2,.7,.2,1)}
+.evo-step.in::before{opacity:1;transform:scale(1)}
+.evo-step.first.in::before{background:var(--green);border-color:var(--green)}
+.evo-era{font-size:12px;letter-spacing:.3em;color:var(--brown)}
+.evo-name{font-family:var(--serif);font-weight:900;font-size:clamp(40px,6vw,86px);line-height:1.15;margin-top:6px}
+.evo-desc{max-width:460px;font-size:15px;margin-top:14px;color:var(--ink)}
+.evo-desc em{font-style:normal;color:var(--brown)}
+
+/* ============ 03 MEMORY · 세 개의 원 ============ */
+.venn-wrap{display:grid;grid-template-columns:minmax(300px,1fr) minmax(260px,1fr);gap:6vw;align-items:center;margin-top:7vh}
+.venn{position:relative;width:100%;max-width:520px}
+.venn svg{width:100%;height:auto;display:block}
+.venn circle{fill:none;stroke:var(--ink);stroke-width:1;opacity:.55;cursor:pointer;transition:all .6s cubic-bezier(.2,.7,.2,1)}
+.venn circle:hover{opacity:1;stroke-width:1.8}
+.venn circle.hot{opacity:1;stroke-width:1.8}
+.venn .lab{font-family:var(--serif);font-weight:900;font-size:22px;fill:var(--ink);pointer-events:none}
+.venn circle.hot + .lab{}
+.venn-detail .d-title{font-family:var(--serif);font-weight:900;font-size:clamp(26px,3vw,40px);transition:opacity .4s}
+.venn-detail .d-sub{font-size:12px;letter-spacing:.4em;color:var(--brown);margin-bottom:14px}
+.venn-detail .d-body{font-size:16px;margin-top:16px;min-height:110px;transition:opacity .4s}
+
+/* ============ 04 ONE · signature ============ */
+.one-stage{height:420vh;position:relative}
+.one-sticky{position:sticky;top:0;height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden}
+.one-word{position:absolute;font-family:var(--serif);font-weight:900;letter-spacing:.05em;opacity:0;transform:scale(.92);transition:opacity .7s ease,transform .7s ease;text-align:center}
+.one-word.on{opacity:1;transform:scale(1)}
+.ow-1{font-size:clamp(180px,30vw,430px);line-height:1}
+.ow-01{font-size:clamp(120px,20vw,300px);line-height:1}
+.ow-ring{font-size:clamp(54px,8vw,120px);line-height:1.2}
+.ow-begin{font-size:clamp(40px,6vw,90px);line-height:1.2}
+.one-quote{position:absolute;bottom:14vh;font-size:clamp(14px,1.6vw,19px);letter-spacing:.22em;color:var(--brown);opacity:0;transition:opacity 1.2s ease .2s;text-align:center;padding:0 8vw}
+.one-quote.on{opacity:1}
+.one-rings{position:absolute;width:min(88vw,860px);opacity:.9;pointer-events:none}
+.one-rings circle{fill:none;stroke:var(--ink);stroke-width:1;opacity:.35}
+.one-rings .r1{stroke:var(--green);stroke-width:1.5;opacity:1}
+
+/* ============ 05 NOW · 사진 크롭 ============ */
+.crop-row{display:grid;grid-template-columns:1fr 1fr;gap:5vw;margin-top:8vh;align-items:center}
+.crop{position:relative;height:min(58vh,480px);overflow:hidden;border:1px solid var(--hair)}
+.crop .word{position:absolute;font-family:var(--serif);font-weight:900;font-size:clamp(60px,9vw,130px);line-height:1;color:var(--ink);opacity:.92;z-index:2}
+.crop .ring-pass{position:absolute;left:-20%;width:140%;height:auto;z-index:3;pointer-events:none}
+.crop .ring-pass circle{fill:none;stroke:var(--green);stroke-width:1.2;opacity:.85}
+.crop .meta{position:absolute;right:18px;bottom:14px;font-size:11px;letter-spacing:.3em;color:var(--brown);z-index:4}
+.now-stats{margin-top:9vh;display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+.now-stat{padding:34px 28px 30px;border-top:1px solid var(--hair)}
+.now-stat .n{font-family:var(--serif);font-weight:900;font-size:clamp(34px,4vw,58px);line-height:1}
+.now-stat .n i{font-style:normal;color:var(--green)}
+.now-stat .t{font-size:13px;color:var(--brown);margin-top:12px;letter-spacing:.12em}
+
+/* ============ 06 COMPETITION · 원형 좌표계 ============ */
+.polar-wrap{display:grid;grid-template-columns:minmax(300px,1.1fr) minmax(240px,1fr);gap:5vw;align-items:center;margin-top:6vh}
+.polar{position:relative;width:100%;max-width:560px;margin:0 auto}
+.polar svg{width:100%;height:auto;display:block}
+.polar .axis{fill:none;stroke:var(--hair);stroke-width:1}
+.polar .axis.main{stroke:var(--ink);opacity:.5}
+.polar .pl-dot{fill:var(--ink);cursor:pointer;transition:r .4s}
+.polar .pl-dot:hover{r:9}
+.polar .pl-dot.qq{fill:var(--green)}
+.polar .pl-name{font-size:12px;fill:var(--ink);letter-spacing:.08em}
+.polar-info .i-name{font-family:var(--serif);font-weight:900;font-size:clamp(28px,3.4vw,44px);line-height:1.2}
+.polar-info .i-row{display:flex;gap:18px;padding:16px 0;border-top:1px solid var(--hair);font-size:14px}
+.polar-info .i-row b{font-weight:500;color:var(--brown);min-width:5.5em;letter-spacing:.1em}
+.polar-info .qq-tag{display:inline-block;font-size:11px;letter-spacing:.3em;color:var(--green);border:1px solid var(--green);padding:3px 10px;margin-bottom:16px}
+
+/* ============ 07 INSIGHT ============ */
+.insight-q{font-family:var(--serif);font-weight:900;font-size:clamp(30px,5.2vw,72px);line-height:1.5;letter-spacing:.04em;max-width:20em}
+.insight-q .g{color:var(--green)}
+
+/* ============ 08 SOLUTION ============ */
+.sol-grid{display:grid;grid-template-columns:1fr 1fr;gap:5vw;margin-top:7vh;align-items:center}
+.sol-rings{width:100%;max-width:460px}
+.sol-rings circle{fill:none;stroke:var(--ink);stroke-width:1;opacity:.4}
+.sol-rings .r1{stroke:var(--green);stroke-width:1.6;opacity:1}
+.sol-item{padding:30px 0;border-top:1px solid var(--hair)}
+.sol-item .k{font-size:12px;letter-spacing:.35em;color:var(--brown)}
+.sol-item .v{font-family:var(--serif);font-weight:900;font-size:clamp(22px,2.6vw,34px);margin-top:8px}
+.sol-item .d{font-size:14px;margin-top:10px;max-width:30em}
+
+/* ============ 09 EXPERIENCE ============ */
+.exp-note{display:flex;flex-wrap:wrap;gap:26px;justify-content:space-between;align-items:flex-end;margin-top:5vh}
+.exp-open{font-size:13px;letter-spacing:.2em;color:var(--brown);text-decoration:none;border-bottom:1px solid var(--brown);padding-bottom:4px}
+.exp-open:hover{color:var(--green);border-color:var(--green)}
+.demo-frame{margin-top:5vh;border:1px solid var(--hair);background:#fff}
+.demo-frame iframe{display:block;width:100%;height:min(86vh,760px);border:0}
+
+/* ============ 10 ENDING ============ */
+.ending{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;position:relative}
+.end-rings{width:min(70vw,520px);margin-bottom:8vh}
+.end-rings circle{fill:none;stroke:var(--ink);stroke-width:1;opacity:.4}
+.end-rings .r1{stroke:var(--green);stroke-width:1.8;opacity:1}
+.end-word{font-family:var(--serif);font-weight:900;font-size:clamp(44px,8vw,110px);letter-spacing:.1em}
+.end-sub{font-size:13px;letter-spacing:.5em;color:var(--brown);margin-top:26px}
+
+footer{border-top:1px solid var(--hair);padding:34px 6vw;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:11px;letter-spacing:.2em;color:var(--brown)}
+
+/* ============ 반응형 ============ */
+@media (max-width:860px){
+  .rail{display:none}
+  .hero-one{font-size:52vw;right:2vw;opacity:.9}
+  .hero-rings{right:-30vw;opacity:.6}
+  .venn-wrap,.polar-wrap,.sol-grid,.crop-row{grid-template-columns:1fr}
+  .now-stats{grid-template-columns:1fr}
+  .crop{height:44vh}
+  .demo-frame iframe{height:640px}
+}
+</style>
+</head>
+<body>
+
+<!-- 인터랙션 ③: 커서 첫 번째 원 -->
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- 인터랙션 ①: 섹션 진행 연륜 인디케이터 -->
+<nav class="rail" id="rail" aria-hidden="true"></nav>
+
+<!-- ================= 01 OPENING / HERO ================= -->
+<header class="hero" id="s01" data-sec="1">
+  <svg class="hero-rings" viewBox="0 0 900 900" aria-hidden="true">
+    <circle class="r1 grow" cx="450" cy="450" r="150"/>
+    <circle class="grow" cx="450" cy="450" r="230" stroke-dasharray="1200 245" style="animation-delay:-2s"/>
+    <circle class="grow" cx="450" cy="450" r="315" stroke-dasharray="900 1080" style="animation-delay:-4s"/>
+    <circle cx="450" cy="450" r="398" stroke-dasharray="1500 1000"/>
+    <circle class="grow" cx="450" cy="450" r="470" stroke-dasharray="700 2250" style="animation-delay:-6s"/>
+  </svg>
+  <div class="hero-one" aria-hidden="true">1</div>
+
+  <div class="hero-kicker">音乐年轮</div>
+  <h1 class="hero-title">从1开始</h1>
+  <p class="hero-sub">每一首歌，都留下时间的痕迹。</p>
+  <div class="hero-scroll">SCROLL</div>
+</header>
+
+<!-- ================= 02 TIME ================= -->
+<section id="s02" data-sec="2">
+  <div class="sec-num reveal">01</div>
+  <div class="sec-tag reveal">TIME · 时间</div>
+  <h2 class="sec-title reveal">人类如何记录声音？</h2>
+  <p class="sec-body reveal">在没有录音的年代，声音是最容易消失的东西。<em>于是人类发明了记录</em>——只是每一次，记录的都是声音的影子。</p>
+
+  <div class="evo">
+    <div class="evo-step first">
+      <div class="evo-era">STAGE 01 · 远古</div>
+      <div class="evo-name">结绳</div>
+      <p class="evo-desc">绳子上的每一个结，都是一次<em>「这件事发生过」</em>。人类第一次尝试留住时间。</p>
+    </div>
+    <div class="evo-step">
+      <div class="evo-era">STAGE 02 · 文明</div>
+      <div class="evo-name">文字</div>
+      <p class="evo-desc">我们无法保存声音，于是开始保存<em>关于声音的记忆</em>——乐谱、诗、歌词。</p>
+    </div>
+    <div class="evo-step">
+      <div class="evo-era">STAGE 03 · 近代</div>
+      <div class="evo-name">照片</div>
+      <p class="evo-desc">演出可以被看见了。但照片是静默的，<em>声音还留在现场</em>。</p>
+    </div>
+    <div class="evo-step">
+      <div class="evo-era">STAGE 04 · 现代</div>
+      <div class="evo-name">影像</div>
+      <p class="evo-desc">画面与声音终于同时被留住。可是录像里的音乐，<em>仍然是别人的时刻</em>。</p>
+    </div>
+    <div class="evo-step">
+      <div class="evo-era">STAGE 05 · 现在</div>
+      <div class="evo-name">音乐</div>
+      <p class="evo-desc">流媒体让每一次收听都被记录。<em>你的音乐史，正在自动书写。</em></p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 03 MEMORY · 三个"最" ================= -->
+<section id="s03" data-sec="3">
+  <div class="sec-num reveal">02</div>
+  <div class="sec-tag reveal">MEMORY · 记忆</div>
+  <h2 class="sec-title reveal">音乐为什么值得被记录？</h2>
+  <p class="sec-body reveal">因为它同时占据了三个极端——<em>把光标放到圆上。</em></p>
+
+  <div class="venn-wrap">
+    <div class="venn reveal" id="venn">
+      <svg viewBox="0 0 520 460" id="vennSvg">
+        <circle id="vc-early" data-k="early" cx="260" cy="150" r="118"/>
+        <circle id="vc-exact" data-k="exact" cx="182" cy="292" r="118"/>
+        <circle id="vc-dense" data-k="dense" cx="338" cy="292" r="118"/>
+        <text class="lab" x="260" y="66" text-anchor="middle">最早</text>
+        <text class="lab" x="96" y="400" text-anchor="middle">最精确</text>
+        <text class="lab" x="424" y="400" text-anchor="middle">最浓</text>
+      </svg>
+    </div>
+    <div class="venn-detail reveal" id="vennDetail">
+      <div class="d-sub" id="vd-sub">ORIGIN</div>
+      <div class="d-title" id="vd-title">最早</div>
+      <p class="d-body" id="vd-body">记录的起点。音乐是人类最早的表达——比文字更早，比语言更接近情绪本身。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 04 ONE · signature ================= -->
+<section id="s04" data-sec="4" style="padding:0;max-width:none">
+  <div class="one-stage" id="oneStage">
+    <div class="one-sticky">
+      <svg class="one-rings" viewBox="0 0 900 900" aria-hidden="true">
+        <circle class="r1" cx="450" cy="450" r="120"/>
+        <circle cx="450" cy="450" r="205" stroke-dasharray="1100 185"/>
+        <circle cx="450" cy="450" r="290" stroke-dasharray="700 1120"/>
+        <circle cx="450" cy="450" r="375" stroke-dasharray="1600 760"/>
+        <circle cx="450" cy="450" r="445" stroke-dasharray="500 2295"/>
+      </svg>
+      <div class="one-word ow-1" data-stage="0">1</div>
+      <div class="one-word ow-01" data-stage="1">01</div>
+      <div class="one-word ow-ring" data-stage="2">第一圈</div>
+      <div class="one-word ow-begin" data-stage="3">从1开始</div>
+      <p class="one-quote" id="oneQuote">每一个时代，都有属于它的第一首歌。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 05 NOW ================= -->
+<section id="s05" data-sec="5">
+  <div class="sec-num reveal">03</div>
+  <div class="sec-tag reveal">NOW · 现在</div>
+  <h2 class="sec-title reveal">我们在听什么？</h2>
+  <p class="sec-body reveal">流媒体时代，音乐第一次成为<em>可以被完整记录的日常</em>。播放、收藏、分享、循环——每一个动作都在为你的年轮添一圈。</p>
+
+  <div class="crop-row">
+    <div class="crop reveal">
+      <div class="word">MUSIC</div>
+      <svg class="ring-pass" viewBox="0 0 800 500" aria-hidden="true">
+        <circle cx="400" cy="250" r="200"/>
+        <circle cx="400" cy="250" r="290" stroke-dasharray="900 920"/>
+      </svg>
+      <div class="meta">PLAY · EVERYDAY</div>
+    </div>
+    <div class="crop reveal">
+      <div class="word">PHOTO</div>
+      <svg class="ring-pass" viewBox="0 0 800 500" aria-hidden="true">
+        <circle cx="400" cy="250" r="150"/>
+        <circle cx="400" cy="250" r="240" stroke-dasharray="600 910"/>
+      </svg>
+      <div class="meta">LIVE · MEMORY</div>
+    </div>
+  </div>
+
+  <div class="now-stats">
+    <div class="now-stat reveal">
+      <div class="n"><i>∞</i></div>
+      <div class="t">曲库 — 听不完的歌，才需要被记住的选择</div>
+    </div>
+    <div class="now-stat reveal">
+      <div class="n">24<i>h</i></div>
+      <div class="t">场景 — 通勤、深夜、考试周，音乐记录生活节律</div>
+    </div>
+    <div class="now-stat reveal">
+      <div class="n">1<i>人</i></div>
+      <div class="t">个体 — 每个人的听歌史，都是一部私人编年史</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 06 COMPETITION ================= -->
+<section id="s06" data-sec="6">
+  <div class="sec-num reveal">04</div>
+  <div class="sec-tag reveal">LANDSCAPE · 坐标</div>
+  <h2 class="sec-title reveal">音乐平台的位置</h2>
+  <p class="sec-body reveal">每一个平台，都是记录方式谱系上的一个点。<em>把光标放到点上。</em></p>
+
+  <div class="polar-wrap">
+    <div class="polar reveal" id="polar">
+      <svg viewBox="0 0 560 560" id="polarSvg">
+        <circle class="axis" cx="280" cy="280" r="250"/>
+        <circle class="axis" cx="280" cy="280" r="165"/>
+        <circle class="axis" cx="280" cy="280" r="80"/>
+        <line class="axis main" x1="30" y1="280" x2="530" y2="280"/>
+        <line class="axis main" x1="280" y1="30" x2="280" y2="530"/>
+        <text class="pl-name" x="540" y="272" text-anchor="end" font-size="10" fill="#8C6239">内容记录 →</text>
+        <text class="pl-name" x="292" y="44" font-size="10" fill="#8C6239">↑ 情绪浓度</text>
+      </svg>
+    </div>
+    <div class="polar-info reveal">
+      <div class="qq-tag" id="pi-tag" hidden>QQ MUSIC</div>
+      <div class="i-name" id="pi-name">把光标放到圆点上</div>
+      <div class="i-row"><b>用户规模</b><span id="pi-scale">—</span></div>
+      <div class="i-row"><b>内容特征</b><span id="pi-content">—</span></div>
+      <div class="i-row"><b>音乐关系</b><span id="pi-rel">—</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 07 INSIGHT ================= -->
+<section id="s07" data-sec="7">
+  <div class="sec-num reveal">05</div>
+  <div class="sec-tag reveal">INSIGHT · 洞察</div>
+  <h2 class="insight-q reveal">我们真正要记录的，<br>不是音乐，<br>而是<span class="g">人与音乐的关系</span>。</h2>
+  <hr class="rule">
+  <p class="sec-body reveal">歌单会过期，年度报告会被遗忘。但「那一年你单曲循环的那首歌」——是只有你自己知道的<em>时间坐标</em>。</p>
+</section>
+
+<!-- ================= 08 SOLUTION ================= -->
+<section id="s08" data-sec="8">
+  <div class="sec-num reveal">06</div>
+  <div class="sec-tag reveal">SOLUTION · 方案</div>
+  <h2 class="sec-title reveal">音乐年轮</h2>
+  <p class="sec-body reveal">你的出生日期 × 你的本命歌手 —— 两条时间线交织成一片年轮。<em>每一年，长一圈。</em></p>
+
+  <div class="sol-grid">
+    <svg class="sol-rings reveal" viewBox="0 0 460 460" aria-hidden="true">
+      <circle class="r1" cx="230" cy="230" r="52"/>
+      <circle cx="230" cy="230" r="92" stroke-dasharray="420 158"/>
+      <circle cx="230" cy="230" r="132" stroke-dasharray="260 570"/>
+      <circle cx="230" cy="230" r="172"/>
+      <circle cx="230" cy="230" r="210" stroke-dasharray="900 422"/>
+    </svg>
+    <div>
+      <div class="sol-item reveal">
+        <div class="k">INPUT · 输入</div>
+        <div class="v">生日 + 本命歌手</div>
+        <p class="d">两件人人都记得住的事，生成一段私人编年史。</p>
+      </div>
+      <div class="sol-item reveal">
+        <div class="k">ENGINE · 引擎</div>
+        <div class="v">双轨叙事 × 13 个「第一次」</div>
+        <p class="d">出生那天的歌、注册那天、第一支单曲循环、18岁的歌、本命年的歌……</p>
+      </div>
+      <div class="sol-item reveal">
+        <div class="k">OUTPUT · 承接</div>
+        <div class="v">分享卡 + 小组 + 一起听</div>
+        <p class="d">个人的年轮，长成一代人的共鸣。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 09 EXPERIENCE ================= -->
+<section id="s09" data-sec="9">
+  <div class="sec-num reveal">07</div>
+  <div class="sec-tag reveal">EXPERIENCE · 体验</div>
+  <h2 class="sec-title reveal">生成你的第一圈年轮</h2>
+  <div class="exp-note reveal">
+    <p class="sec-body" style="margin-top:0">输入生日，搜索你的本命歌手。<br>Demo 使用预置听歌画像模拟个人数据。</p>
+    <a class="exp-open" href="index.html" target="_blank" rel="noopener">全屏打开 DEMO →</a>
+  </div>
+  <div class="demo-frame reveal">
+    <iframe src="index.html" title="音乐年轮 Demo" loading="lazy"></iframe>
+  </div>
+</section>
+
+<!-- ================= 10 ENDING ================= -->
+<section id="s10" data-sec="10">
+  <div class="ending">
+    <svg class="end-rings" viewBox="0 0 520 520" aria-hidden="true">
+      <circle class="r1" cx="260" cy="260" r="60"/>
+      <circle cx="260" cy="260" r="105" stroke-dasharray="480 180"/>
+      <circle cx="260" cy="260" r="150" stroke-dasharray="300 642"/>
+      <circle cx="260" cy="260" r="195" stroke-dasharray="1000 224"/>
+      <circle cx="260" cy="260" r="240" stroke-dasharray="500 1006"/>
+    </svg>
+    <div class="end-word">从1开始</div>
+    <div class="end-sub">音乐年轮 · 每一圈，都是你</div>
+  </div>
+</section>
+
+<footer>
+  <span>音乐年轮 GROWTH RINGS</span>
+  <span>每一首歌，都留下时间的痕迹。</span>
+</footer>
+
+<script>
+/* ================= 유틸 ================= */
+const $ = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+
+/* ---------- 인터랙션 ① Scroll → Ring (섹션 인디케이터) ---------- */
+const rail = $('#rail');
+const secs = $$('[data-sec]');
+secs.forEach((_, i) => {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' first' : '');
+  rail.appendChild(d);
+});
+const dots = $$('.rail .dot');
+const secIO = new IntersectionObserver(entries => {
+  entries.forEach(en => {
+    if (en.isIntersecting) {
+      const idx = secs.indexOf(en.target);
+      dots.forEach((d, i) => d.classList.toggle('on', i <= idx));
+    }
+  });
+}, { threshold: 0.25 });
+secs.forEach(s => secIO.observe(s));
+
+/* ---------- reveal 공통 ---------- */
+const revealIO = new IntersectionObserver(entries => {
+  entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add('in'); revealIO.unobserve(en.target); } });
+}, { threshold: 0.2 });
+$$('.reveal, .evo-step').forEach(el => revealIO.observe(el));
+
+/* ---------- 인터랙션 ① 연계: evo 스텝 원 ---------- */
+/* evo-step은 reveal와 동시에 .in 부여 (CSS에서 원 확장) */
+
+/* ---------- 04 ONE 스테이지 스크롤 모프 ---------- */
+const oneStage = $('#oneStage');
+const oneWords = $$('.one-word');
+const oneQuote = $('#oneQuote');
+const stageCount = oneWords.length;
+function updateOne() {
+  const rect = oneStage.getBoundingClientRect();
+  const total = rect.height - innerHeight;
+  const p = Math.min(1, Math.max(0, -rect.top / total));
+  const stage = Math.min(stageCount - 1, Math.floor(p * stageCount * 0.999));
+  oneWords.forEach((w, i) => w.classList.toggle('on', i === stage));
+  oneQuote.classList.toggle('on', p > 0.86);
+}
+addEventListener('scroll', updateOne, { passive: true });
+addEventListener('resize', updateOne);
+updateOne();
+
+/* ---------- 03 venn hover ---------- */
+const VENN = {
+  early: { sub: 'ORIGIN', t: '最早', b: '记录的起点。音乐是人类最早的表达——比文字更早，比语言更接近情绪本身。' },
+  exact: { sub: 'PRECISION', t: '最精确', b: '技术的记录。从乐谱到波形文件，音乐可以被精确复刻——每一次重放，分毫不差。' },
+  dense: { sub: 'DENSITY', t: '最浓', b: '情绪的记录。同一首歌，在不同的年份听起来是不同的歌——音乐记录的是听它时的你。' }
+};
+function setVenn(k) {
+  const d = VENN[k]; if (!d) return;
+  $('#vd-sub').textContent = d.sub;
+  $('#vd-title').textContent = d.t;
+  const body = $('#vd-body');
+  body.style.opacity = 0;
+  setTimeout(() => { body.textContent = d.b; body.style.opacity = 1; }, 180);
+}
+$$('#vennSvg circle').forEach(c => {
+  c.addEventListener('mouseenter', () => {
+    $$('#vennSvg circle').forEach(x => x.classList.toggle('hot', x === c));
+    setVenn(c.dataset.k);
+  });
+});
+
+/* ---------- 06 polar 플랫폼 좌표 ---------- */
+const PLATFORMS = [
+  { id: 'qq', name: 'QQ音乐', x: 430, y: 150, qq: true,
+    scale: '中国最大的在线音乐用户群之一', content: '正版曲库 + 听歌数据长期沉淀', rel: '年轮的核心土壤：数据×曲库双壁垒' },
+  { id: 'wy', name: '网易云音乐', x: 300, y: 90,
+    scale: '乐评社区型平台', content: '歌单与 UGC 评论驱动', rel: '记录的是「大家的话」，不是「你的时间」' },
+  { id: 'sp', name: 'Spotify', x: 130, y: 210,
+    scale: '全球流媒体', content: '算法推荐 + 年度总结', rel: '有 Wrapped 的年度，缺一生的编年' },
+  { id: 'am', name: 'Apple Music', x: 210, y: 420,
+    scale: '全球订阅制', content: '人工策划 + 无损音质', rel: '重内容品质，轻关系沉淀' },
+  { id: 'dy', name: '抖音', x: 390, y: 480,
+    scale: '短视频海量用户', content: '片段化、病毒化传播', rel: '音乐是背景，记忆是碎片' }
+];
+const psvg = $('#polarSvg');
+PLATFORMS.forEach(p => {
+  const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+  dot.setAttribute('cx', p.x); dot.setAttribute('cy', p.y);
+  dot.setAttribute('r', p.qq ? 9 : 6);
+  dot.setAttribute('class', 'pl-dot' + (p.qq ? ' qq' : ''));
+  const lab = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+  lab.setAttribute('x', p.x); lab.setAttribute('y', p.y - 16);
+  lab.setAttribute('text-anchor', 'middle');
+  lab.setAttribute('class', 'pl-name');
+  if (p.qq) { lab.setAttribute('fill', '#31C27C'); lab.setAttribute('font-weight', '700'); }
+  lab.textContent = p.name;
+  g.appendChild(dot); g.appendChild(lab);
+  g.addEventListener('mouseenter', () => {
+    $('#pi-tag').hidden = !p.qq;
+    $('#pi-name').textContent = p.name;
+    $('#pi-scale').textContent = p.scale;
+    $('#pi-content').textContent = p.content;
+    $('#pi-rel').textContent = p.rel;
+  });
+  psvg.appendChild(g);
+});
+/* 첫 진입 시 QQ音乐 기본 표시 */
+const qq = PLATFORMS.find(p => p.qq);
+if (qq) {
+  $('#pi-tag').hidden = false;
+  $('#pi-name').textContent = qq.name;
+  $('#pi-scale').textContent = qq.scale;
+  $('#pi-content').textContent = qq.content;
+  $('#pi-rel').textContent = qq.rel;
+}
+
+/* ---------- 인터랙션 ③ Cursor → First Ring (0.15s lerp) ---------- */
+const ring = $('#cursorRing');
+let mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my;
+addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; }, { passive: true });
+(function loop() {
+  rx += (mx - rx) * 0.12;   /* 지연 추종 */
+  ry += (my - ry) * 0.12;
+  ring.style.left = rx + 'px';
+  ring.style.top = ry + 'px';
+  requestAnimationFrame(loop);
+})();
+/* 인터랙션 ② Hover → Memory: 커서 링 확장 대상 */
+$$('.evo-step, .crop, .sol-item, .now-stat, a, .pl-dot, #vennSvg circle').forEach(el => {
+  el.addEventListener('mouseenter', () => ring.classList.add('hovered'));
+  el.addEventListener('mouseleave', () => ring.classList.remove('hovered'));
+});
+
+/* ---------- 인터랙션 ② Hover → Memory: evo/crop 상세 ---------- */
+$$('.evo-step').forEach(step => {
+  step.style.cursor = 'default';
+  step.addEventListener('mouseenter', () => {
+    step.querySelectorAll('.evo-desc em').forEach(em => em.style.color = '#31C27C');
+  });
+  step.addEventListener('mouseleave', () => {
+    step.querySelectorAll('.evo-desc em').forEach(em => em.style.color = '');
+  });
+});
+</script>
+</body>
+</html>
